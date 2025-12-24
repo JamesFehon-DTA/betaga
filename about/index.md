@@ -1,7 +1,7 @@
 ---
 layout: content
-title: Prepare your digital proposal
-lead: Understand the requirements of the investment process, meet your policy obligations and find information to support your proposal and business case.
+title: About the AGA
+lead: The Australian Government Architecture (AGA) is a collection of ...
 toc: '<div class="container">
     <div class="row">
       <div class="col-xxs-12">
@@ -11,13 +11,16 @@ toc: '<div class="container">
           <h2 class="ct-table-of-contents__title">On this page</h2>
           <ul class="ct-table-of-contents__links">
             <li class="ct-table-of-contents__link-item">
-              <a class="ct-table-of-contents__link" href="/">Understand your obligations within the investment process</a>
+              <a class="ct-table-of-contents__link" href="/">Agency benefits</a>
             </li>
             <li class="ct-table-of-contents__link-item">
-              <a class="ct-table-of-contents__link" href="/">Understand the mandatory policies that apply to your project</a>
+              <a class="ct-table-of-contents__link" href="/">Strategic purpose</a>
             </li>
             <li class="ct-table-of-contents__link-item">
-              <a class="ct-table-of-contents__link" href="/">Find guidance to support your proposal</a>
+              <a class="ct-table-of-contents__link" href="/">Content structure</a>
+            </li>
+            <li class="ct-table-of-contents__link-item">
+              <a class="ct-table-of-contents__link" href="/">Governance</a>
             </li>
           </ul>
         </div>
@@ -28,14 +31,14 @@ toc: '<div class="container">
 
           
 
-## Understand your obligations within the investment process
+## Agency benefits
 If you are bringing forward a digital or ICT-enabled proposal for consideration through the budget process, you need to meet certain requirements under the Whole-of-government digital and ICT investment oversight framework (IOF).
 The IOF helps ensure that government’s digital investments are well-planned, aligned with strategic priorities and delivering value for money.
 * Find out your obligations under the IOF
 * Learn how you can use the AGA to complete IOF processes
 * Get more information on IOF applicability
 
-## Understand the mandatory policies that apply to your proposal
+## Strategic purpose
 There are several whole-of-government policies that apply to all digital and ICT investments. These are mandatory for government agencies depending on:
 * whether your agency is a corporate or non-corporate Commonwealth entity
 * the total cost of your investment

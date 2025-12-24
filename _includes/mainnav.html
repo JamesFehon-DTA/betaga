@@ -108,37 +108,32 @@
   </div>
 </div>
 
-<div
-  class="ct-navigation ct-theme-light ct-navigation--drawer ct-primary-navigation ct-flex-justify-content-end"
->
-  <nav class="ct-navigation__items">
-    <ul
-      class="ct-menu ct-menu--level-0 ct-theme-light ct-navigation__menu"
-      data-component-name="ct-menu"
-    >
 
+
+
+  <div class="ct-navigation ct-theme-light ct-navigation--drawer ct-navigation--primary ct-flex-justify-content-end">
+    
+    <nav class="ct-navigation__items" aria-label="primary">
       
-    {% for item in site.data.navs.mainnav %}
-
-        <li class="ct-menu__item ct-menu__item--level-0">
-          <a
-            class="ct-link ct-theme-light ct-menu__item__link"
-            href="{{ item.url }}"
-            title="{{ item.title }}"
-          >
+      <ul class="ct-menu ct-menu--level-0 ct-theme-light ct-navigation__menu" data-component-name="ct-menu">
+        
+     {% for item in site.data.navs.mainnav %}
+       
+        <li class="ct-menu__item ct-menu__item--level-0   ">
+          <a class="ct-link ct-theme-light     ct-menu__item__link" href="{{ item.url }}"
+            title="{{ item.title }}" ><span class="ct-text-icon__text">
+          
+          
             {{ item.title }}
-          </a>
+          </span></a>
         </li>
     {% endfor %}
+        
+      </ul>
       
+    </nav>
+  </div>
 
-      <!-- <li
-        class="ct-menu__item ct-menu__item--level-0 ct-menu__item--active-trail"
-      > -->
-
-    </ul>
-  </nav>
-</div>
 
 <div
   class="ct-search hide-xxs show-m-flex ct-theme-light"

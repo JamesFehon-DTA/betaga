@@ -1,47 +1,34 @@
 ---
 layout: main
+title: Explore the AGA
+lead: Browse or search for topics and resources relevant to your digital solution.
+
 ---
 
-        <main   class="ct-layout ct-layout--no-top-right ct-layout--no-bottom-right ct-vertical-spacing--top" role="main">
+<main   class="ct-layout ct-layout--no-top-right ct-layout--no-bottom-right ct-layout--no-top-left ct-layout--no-bottom-left ct-vertical-spacing--top" role="main">
           <!--  CONTENT_TOP  -->
           {% if page.content_top %}  <div>{{ content_top }}</div> {% endif %} 
           <div class="ct-layout__inner container" data-masonry="true">
             <section class="ct-layout__main">
               <h1> {{page.title}}</h1>
               <p class="ct-text-large"> {{page.lead}}</p>
-
               {{page.toc}}
-
               <div class="ct-basic-content ct-theme-light">
                 <div class="container">
                   <div class="row">
                     <div class="col-xxs-12">
-                      {{ content }}
+                      {% include explore-cards.html %}
                     </div>
                   </div>
                 </div>
               </div>
-              
-              
             </section>
-
-            <aside class="ct-layout__sidebar_top_left">
-              {{ SIDEBAR_TOP_LEFT }}
-            </aside>
-
-<!--             <aside class="ct-layout__sidebar_top_right">
-              {{ SIDEBAR_TOP_RIGHT }}
-            </aside>
- -->
-            <aside class="ct-layout__sidebar_bottom_left">
-              {{ SIDEBAR_BOTTOM_LEFT }}
-            </aside>
-
-<!--             <aside class="ct-layout__sidebar_bottom_right">
-              {{ SIDEBAR_BOTTOM_RIGHT }}
-            </aside> -->
           </div>
-
           <!-- <div >{{ content_bottom }}</div> -->
-
         </main>
+
+
+
+
+
+
