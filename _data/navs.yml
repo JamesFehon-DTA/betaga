@@ -1,0 +1,39 @@
+mainnav:
+  - title: 'Use the AGA'
+    url: /use/
+    subfolderitems:
+      - title: 'Prepare your digital proposal'
+        url: /
+      - title: 'Plan your digital project'
+        url: /
+  - title: 'Explore resources'
+    url: /explore/
+  - title: 'About'
+    url: /about/
+    subfolderitems:
+      - title: 'Content types'
+        url: /
+      - title: 'Help'
+        url: /
+      - title: 'Contact us'
+        url: /
+
+legalfooternav:
+  - title: 'Accessibility'
+    url: /
+  - title: 'Privacy'
+    url: /
+  - title: 'Copyright and disclaimers'
+    url: /
+  - title: 'Sitemap'
+    url: /
+
+crosssitenav:
+  - title: 'digital.gov.au'
+    url: https://www.digital.gov.au/
+  - title: 'BuyICT'
+    url: https://buyict.gov.au/
+    external: true
+  - title: 'Data and Digital'
+    url: https://www.dataanddigital.gov.au/
+    external: true
