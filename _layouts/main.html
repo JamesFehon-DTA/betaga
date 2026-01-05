@@ -12,14 +12,15 @@
     <!-- <link rel="icon" href=" " type="image/vnd.microsoft.icon" />-->
 
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" media="all" href=" " />
+    <!-- <link rel="stylesheet" media="all" href=" " /> -->
 
 
 
-    <link rel="stylesheet" media="all" href="/civictheme.base.css">
+    <!-- <link rel="stylesheet" media="all" href="/civictheme.base.css"> -->
     <link rel="stylesheet" media="all" href="/civictheme.css">
-    <link rel="stylesheet" media="all" href="/civictheme.stories.css">
+    <!-- <link rel="stylesheet" media="all" href="/civictheme.stories.css"> -->
     <link rel="stylesheet" media="all" href="/civictheme.variables.css">
+
 
     
     
@@ -225,10 +226,21 @@
         </div>
       </div>
     </div>
-    <script src="/civictheme.storybook.js"></script>
-    <script src="/drupal.js?v=10.3.2"></script>
-    <script src="/drupal.init.js"></script>
-    <script src="/civictheme.base.js"></script>
-    <script src="/civictheme.drupal.base.js"></script> 
+
+    <script src="{{ '/assets/js/government.civictheme.io.js' | relative_url }}"></script>
+    <script src="{{ '/civictheme.base.js' | relative_url }}"></script>
+  <!-- 2. Drupal API Shim (must load before CivicTheme) -->
+  <!-- <script src="{{ '/assets/js/drupal-shim.js' | relative_url }}"></script> -->
+  
+  <!-- 3. CivicTheme bundle -->
+  <!-- <script src="{{ '/assets/js/civictheme.min.js' | relative_url }}"></script> -->
+
+  <!-- <script src="{{ '/assets/js/civictheme-wrapped.js' | relative_url }}"></script> -->
+<script src="{{ '/assets/js/flyout-init.js' | relative_url }}"></script>
+
+  
+  <!-- 4. CivicTheme initialization -->
+  <!-- <script src="{{ '/assets/js/civictheme-init.js' | relative_url }}"></script> -->
+  
   </body>
 </html>

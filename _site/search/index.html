@@ -12,14 +12,15 @@
     <!-- <link rel="icon" href=" " type="image/vnd.microsoft.icon" />-->
 
     <title>Search</title>
-    <link rel="stylesheet" media="all" href=" " />
+    <!-- <link rel="stylesheet" media="all" href=" " /> -->
 
 
 
-    <link rel="stylesheet" media="all" href="/civictheme.base.css">
+    <!-- <link rel="stylesheet" media="all" href="/civictheme.base.css"> -->
     <link rel="stylesheet" media="all" href="/civictheme.css">
-    <link rel="stylesheet" media="all" href="/civictheme.stories.css">
+    <!-- <link rel="stylesheet" media="all" href="/civictheme.stories.css"> -->
     <link rel="stylesheet" media="all" href="/civictheme.variables.css">
+
 
     
     
@@ -168,14 +169,11 @@
                   <div class="ct-header__content-middle3">
                       <!-- _includes/mainnav.html -->
 
+
 <button
-  class="ct-button ct-theme-light ct-button--button ct-button--small ct-mobile-navigation-trigger"
+  class="ct-button ct-theme-light ct-button--button ct-button--small ct-mobile-navigation-trigger "
   data-component-name="button"
-  data-flyout-open-trigger=""
-  data-flyout-target=".ct-mobile-navigation"
-  aria-expanded="false"
-  data-button="true"
->
+        data-flyout-open-trigger data-flyout-target=".ct-mobile-navigation" aria-expanded="false" >
   <span class="ct-text-icon__group"
     >Menu
 
@@ -196,19 +194,15 @@
 </button>
 
 <div
-  class="ct-mobile-navigation ct-theme-light"
-  data-flyout="true"
-  data-flyout-direction="right"
-  data-flyout-focus=".ct-link"
+  class="ct-mobile-navigation ct-theme-light" 
+  data-flyout  data-flyout-direction="right"  data-flyout-focus=".ct-link"
 >
-  <div data-flyout-panel="" class="ct-mobile-navigation__panel">
+  <div data-flyout-panel class="ct-mobile-navigation__panel">
     <div class="ct-mobile-navigation-close ct-theme-light">
       <button
         class="ct-button ct-theme-light ct-button--tertiary ct-button--button ct-button--small ct-mobile-navigation-close__button"
         data-component-name="button"
-        data-flyout-close-all-trigger=""
-        data-button="true"
-      >
+         data-flyout-close-all-trigger >
         <span class="ct-text-icon__group"
           >Close
 
@@ -540,10 +534,21 @@
         </div>
       </div>
     </div>
-    <script src="/civictheme.storybook.js"></script>
-    <script src="/drupal.js?v=10.3.2"></script>
-    <script src="/drupal.init.js"></script>
+
+    <script src="/assets/js/government.civictheme.io.js"></script>
     <script src="/civictheme.base.js"></script>
-    <script src="/civictheme.drupal.base.js"></script> 
+  <!-- 2. Drupal API Shim (must load before CivicTheme) -->
+  <!-- <script src="/assets/js/drupal-shim.js"></script> -->
+  
+  <!-- 3. CivicTheme bundle -->
+  <!-- <script src="/assets/js/civictheme.min.js"></script> -->
+
+  <!-- <script src="/assets/js/civictheme-wrapped.js"></script> -->
+<script src="/assets/js/flyout-init.js"></script>
+
+  
+  <!-- 4. CivicTheme initialization -->
+  <!-- <script src="/assets/js/civictheme-init.js"></script> -->
+  
   </body>
 </html>
