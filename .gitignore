@@ -1,3 +1,5 @@
 .DS_Store
 _site/variables.base.scss
 variables.base.scss
+_site/robots.txt
+robots.txt
