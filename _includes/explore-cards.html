@@ -3,14 +3,22 @@
 <div class="ct-list ct-theme-light ct-vertical-spacing-inset--top">
   <div class="ct-list__inner">
 
-{% for domain in site.data.capabilities.architecture %}
+
+{% assign capabilities_by_domain = site.capabilities | group_by: "domain" %}
+
+{% for domain in site.data.domains_order | where %}
+
+
+{% assign current_domain = capabilities_by_domain | where: 'name', domain | first %}
+
+  {% if current_domain %}
 
     <div class="ct-list__header">
       <div class="container">
         <div class="row">
           <div class="col-xxs-12 col-m-9">
             <h2 class="ct-heading ct-theme-light ct-list__title">
-              {{ domain.domain }}
+              {{ domain }}
             </h2>
           </div>
           <div class="col-xxs-12 col-m-3"></div>
@@ -30,18 +38,15 @@
       </div>
     </div> -->
 
- 	
+  
     <div class="ct-list__rows ct-vertical-spacing-inset--bottom">
       <div class="container" aria-live="polite">
 
       <div class="row row--equal-heights-content row--vertically-spaced" >
-          <!-- <div class="col-xxs-12">
-            <h2 class="ct-heading ct-theme-light">
-              {{ domain.domain }}
-            </h2>
-        </div> -->
+         
 
-    {% for capability in domain.capabilities %}
+      {% for capability in current_domain.items %}
+
 
           <div class="col-xxs-12 col-m-4">
             <div
@@ -65,13 +70,16 @@
               </div>
           </div>
       </div>
-                            {% endfor %}
+
+    {% endfor %}
+  
 
     </div>
           
 
 
 </div></div>
+{% endif %}
               {% endfor %}
 
 </div></div>

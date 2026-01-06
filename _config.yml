@@ -25,6 +25,11 @@ baseurl: "/betaga" # the subpath of your site, e.g. /blog
 url: "https://jamesfehon-dta.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 
+collections:
+  capabilities:
+    output: true
+    permalink: /capability/:path/
+
 # Build settings
 # theme: minima
 # plugins:
