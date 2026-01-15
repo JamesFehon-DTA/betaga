@@ -11,19 +11,19 @@ toc: '<div class="container">
           <h2 class="ct-table-of-contents__title">On this page</h2>
           <ul class="ct-table-of-contents__links">
             <li class="ct-table-of-contents__link-item">
-              <a class="ct-table-of-contents__link" href="/">Our strategic purpose</a>
+              <a class="ct-table-of-contents__link" href="#our-strategic-purpose">Our strategic purpose</a>
             </li>
             <li class="ct-table-of-contents__link-item">
-              <a class="ct-table-of-contents__link" href="/">Benefits for agencies</a>
+              <a class="ct-table-of-contents__link" href="#benefits-for-agencies">Benefits for agencies</a>
             </li>
             <li class="ct-table-of-contents__link-item">
-              <a class="ct-table-of-contents__link" href="/">Inside the AGA</a>
+              <a class="ct-table-of-contents__link" href="#inside-the-aga">Inside the AGA</a>
             </li>
             <li class="ct-table-of-contents__link-item">
-              <a class="ct-table-of-contents__link" href="/">Governance of the AGA </a>
+              <a class="ct-table-of-contents__link" href="#governance-of-the-aga">Governance of the AGA </a>
             </li>
             <!-- <li class="ct-table-of-contents__link-item">
-              <a class="ct-table-of-contents__link" href="/">Contribute and connect </a>
+              <a class="ct-table-of-contents__link" href="#contribute-and-connect">Contribute and connect </a>
             </li> -->
             </ul>
         </div>
@@ -78,6 +78,6 @@ It is managed by the AGA and Policy Branch within the Digital Transformation Age
 [View the AGA governance framework]({% link about/governance.md %})
 
  
-## Contribute and connect 
+## Contribute and connect
 
 The AGA is continually being expanded and updated to reflect the needs of agencies and the directions of government. To provide feedback or contribute contact the AGA team. 
