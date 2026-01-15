@@ -1,5 +1,6 @@
 ---
 layout: content
+style: 'ct-vertical-spacing--bottom ct-basic-content'
 title: Content types
 lead: Understand how the AGA is structured so that you can find the right content to inform your planning or project.
 permalink: :path/:basename/
@@ -21,7 +22,7 @@ Capabilities also help you access whole of government policies, rules and framew
 ## Apply better practices with policies and standards 
 Read a capability’s policy and standard to get advice on how to build the capability within your agency.
 
-AGA policies and standards are authored by the Digital Transformation Agency. AGA policies and standards are not enforced by legislation or Cabinet, unlike whole of government policies, rules, standards and frameworks, but provide informed advice curated through a [system wide governance process](). 
+AGA policies and standards are authored by the Digital Transformation Agency. AGA policies and standards are not enforced by legislation or Cabinet, unlike whole of government policies, rules, standards and frameworks, but provide informed advice curated through a [system wide governance process]({{'/about/governance/' | relative_url}}). 
 
 ## Explore our content for specific resources 
 Search and filter our catalogue of designs if you need specific resources, such as the Australian Government’s: 
@@ -31,7 +32,7 @@ Search and filter our catalogue of designs if you need specific resources, such 
 - reusable platforms and technologies 
 - examples and case studies of digital done well. 
 
-[Explore resources]()
+[Explore resources]({{'/explore/' | relative_url}})
 
 ## Narrow your search with content tags 
 Use these metadata tags, available across most content, to find current information that’s relevant to you. 

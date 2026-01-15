@@ -1,6 +1,6 @@
 ---
 layout: content
-style: 'ct-vertical-spacing--bottom'
+style: 'ct-vertical-spacing--bottom ct-basic-content'
 title: About the AGA
 lead: The Australian Government Architecture (AGA) is a collection of policies and guidance for digital and ICT solutions. Agencies can use it to make informed decisions about digital services and align with the government’s vision for modern, connected public services.  
 toc: '<div class="container">
