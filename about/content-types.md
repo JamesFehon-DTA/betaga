@@ -1,7 +1,7 @@
 ---
 layout: content
 title: Content types
-lead: Understand how the AGA is structured so that you can find the right content to inform your planning or project.  
+lead: Understand how the AGA is structured so that you can find the right content to inform your planning or project.
 permalink: :path/:basename/
 ---
 
