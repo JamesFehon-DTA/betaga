@@ -11,7 +11,7 @@ style: 'ct-vertical-spacing--bottom'
     <div class="ct-list__rows">
       <div class="container" aria-live="polite">
         <div class="row row--vertically-spaced">
-        {% assign subpages = site.pages | where_exp: "item", "item.url contains page.dir" %}
+        {% assign subpages = site.pages | sort: "order" | where_exp: "item", "item.url contains page.dir" %}
         {% include list-child-pages.html content=subpages %}
         {% include components/card.html 
         headingLevel="h2"
