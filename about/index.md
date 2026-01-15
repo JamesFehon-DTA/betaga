@@ -64,8 +64,8 @@ Each capability includes:
 
 - obligatory [policies, rules and frameworks]()
 - useful [advice and guides](), including vendor and open-source resources 
-- [reusable platforms] and technologies 
-- [examples and case studies] of digital done well. 
+- [reusable platforms]() and technologies 
+- [examples and case studies]() of digital done well. 
 
 [Learn more about AGA content]({{'about/content-types.md' | relative_url}})
 
