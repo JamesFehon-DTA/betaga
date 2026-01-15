@@ -11,13 +11,13 @@ toc: '<div class="container">
           <h2 class="ct-table-of-contents__title">On this page</h2>
           <ul class="ct-table-of-contents__links">
             <li class="ct-table-of-contents__link-item">
-              <a class="ct-table-of-contents__link" href="/">Understand your obligations within the investment process</a>
+              <a class="ct-table-of-contents__link" href="#understand-your-obligations-within-the-investment-process">Understand your obligations within the investment process</a>
             </li>
             <li class="ct-table-of-contents__link-item">
-              <a class="ct-table-of-contents__link" href="/">Understand the mandatory policies that apply to your project</a>
+              <a class="ct-table-of-contents__link" href="#understand-the-mandatory-policies-that-apply-to-your-proposal">Understand the mandatory policies that apply to your project</a>
             </li>
             <li class="ct-table-of-contents__link-item">
-              <a class="ct-table-of-contents__link" href="/">Find guidance to support your proposal</a>
+              <a class="ct-table-of-contents__link" href="#find-guidance-to-support-your-proposal">Find guidance to support your proposal</a>
             </li>
           </ul>
         </div>
