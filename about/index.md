@@ -44,7 +44,7 @@ The AGA supports this vision by helping agencies:
 
 The AGA also provides guidance to help agencies meet the requirements of the investment process and the Whole of Government Digital and ICT Investment Oversight Framework (IOF). The IOF ensures digital investments are well planned, aligned with strategic priorities and deliver value for money.  
 
-[Learn more about the IOF and the AGA]({{about/iof.md | relative_url}})
+[Learn more about the IOF and the AGA]({{'about/iof.md' | relative_url}})
 
 ## Benefits for agencies 
 
@@ -67,7 +67,7 @@ Each capability includes:
 - [reusable platforms] and technologies 
 - [examples and case studies] of digital done well. 
 
-[Learn more about AGA content]({{about/content-types.md | relative_url}})
+[Learn more about AGA content]({{'about/content-types.md' | relative_url}})
 
 ## Governance of the AGA 
 
@@ -75,7 +75,7 @@ Content in the AGA is developed in collaboration with government agencies and ex
 
 It is managed by the AGA and Policy Branch within the Digital Transformation Agency (DTA). 
 
-[View the AGA governance framework]({{about/governance.md | relative_url}})
+[View the AGA governance framework]({{'about/governance.md' | relative_url}})
 
  
 ## Contribute and connect
