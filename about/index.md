@@ -1,7 +1,7 @@
 ---
 layout: content
 title: About the AGA
-lead: The Australian Government Architecture (AGA) is a collection of ...
+lead: The Australian Government Architecture (AGA) is a collection of policies and guidance for digital and ICT solutions. Agencies can use it to make informed decisions about digital services and align with the government’s vision for modern, connected public services.  
 toc: '<div class="container">
     <div class="row">
       <div class="col-xxs-12">
@@ -11,44 +11,73 @@ toc: '<div class="container">
           <h2 class="ct-table-of-contents__title">On this page</h2>
           <ul class="ct-table-of-contents__links">
             <li class="ct-table-of-contents__link-item">
-              <a class="ct-table-of-contents__link" href="/">Agency benefits</a>
+              <a class="ct-table-of-contents__link" href="/">Our strategic purpose</a>
             </li>
             <li class="ct-table-of-contents__link-item">
-              <a class="ct-table-of-contents__link" href="/">Strategic purpose</a>
+              <a class="ct-table-of-contents__link" href="/">Benefits for agencies</a>
             </li>
             <li class="ct-table-of-contents__link-item">
-              <a class="ct-table-of-contents__link" href="/">Content structure</a>
+              <a class="ct-table-of-contents__link" href="/">Inside the AGA</a>
             </li>
             <li class="ct-table-of-contents__link-item">
-              <a class="ct-table-of-contents__link" href="/">Governance</a>
+              <a class="ct-table-of-contents__link" href="/">Governance of the AGA </a>
             </li>
-          </ul>
+            <!-- <li class="ct-table-of-contents__link-item">
+              <a class="ct-table-of-contents__link" href="/">Contribute and connect </a>
+            </li> -->
+            </ul>
         </div>
       </div>
     </div>
   </div>'
 ---
 
-          
 
-## Agency benefits
-If you are bringing forward a digital or ICT-enabled proposal for consideration through the budget process, you need to meet certain requirements under the Whole-of-government digital and ICT investment oversight framework (IOF).
-The IOF helps ensure that government’s digital investments are well-planned, aligned with strategic priorities and delivering value for money.
-* Find out your obligations under the IOF
-* Learn how you can use the AGA to complete IOF processes
-* Get more information on IOF applicability
+## Our strategic purpose 
 
-## Strategic purpose
-There are several whole-of-government policies that apply to all digital and ICT investments. These are mandatory for government agencies depending on:
-* whether your agency is a corporate or non-corporate Commonwealth entity
-* the total cost of your investment
-* the cost of the digital component of your project. 
-* Find out which mandatory policies apply to your investment
+The Australian Government is committed to delivering simple, secure and connected services through world-class digital capabilities, as outlined in the Data and Digital Government Strategy. 
+ 
+The AGA supports this vision by helping agencies: 
+- develop high-quality digital solutions and services 
+- reuse existing solutions and reduce duplication 
+- align with government priorities.  
 
-## Find guidance to support your proposal
-The Australian Government Architecture (AGA) contains policies, standards, guides and resources to support your project planning.
-Use the guidance within the AGA to inform your investment and complete your proposal and business case.
-Explore AGA guidance
+The AGA also provides guidance to help agencies meet the requirements of the investment process and the Whole of Government Digital and ICT Investment Oversight Framework (IOF). The IOF ensures digital investments are well planned, aligned with strategic priorities and deliver value for money.  
 
-## Get in touch
-If you’re not already in contact with the Digital Transformation Agency (DTA) about your digital proposal, reach out via: investment@dta.gov.au
+[Learn more about the IOF and the AGA]()
+
+## Benefits for agencies 
+
+AGA resources support every stage of digital project development by outlining mandatory requirements – including reuse – and explaining the government standard for digital delivery. 
+
+You can use AGA resources to:  
+- prepare digital investment proposals and business cases 
+- check mandatory policies and obligations 
+- find solution-specific guidance 
+- discover reusable assets. 
+
+## Inside the AGA 
+
+The guidance in the AGA is organised by distinct topics known as capabilities.   
+
+Each capability includes: 
+
+- obligatory [policies, rules and frameworks]()
+- useful [advice and guides](), including vendor and open-source resources 
+- [reusable platforms] and technologies 
+- [examples and case studies] of digital done well. 
+
+[Learn more about AGA content](/about/content-types)
+
+## Governance of the AGA 
+
+Content in the AGA is developed in collaboration with government agencies and experts from both public and private sectors. 
+
+It is managed by the AGA and Policy Branch within the Digital Transformation Agency (DTA). 
+
+[View the AGA governance framework]()
+
+ 
+## Contribute and connect 
+
+The AGA is continually being expanded and updated to reflect the needs of agencies and the directions of government. To provide feedback or contribute contact the AGA team. 
