@@ -1,0 +1,15 @@
+
+
+{% for subpage in subpages %}
+  {% if subpage.url != page.url %}
+
+    {% include components/card.html 
+    headingLevel='h2'
+    url=subpage.url 
+    title=subpage.title
+    summary="Understand the requirements of the investment process, meet your policy obligations and find information to support your proposal and business case." 
+    widths="col-xxs-12 col-m-12"
+    %}
+
+  {% endif %}
+{% endfor %}          

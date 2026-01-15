@@ -6,7 +6,7 @@
 
               <div class="ct-navigation-card__content">
                 <{{ include.headingLevel }} class="ct-navigation-card__title">
-                  <a class="ct-navigation-card__title-link" href="{{ include.url }}">
+                  <a class="ct-navigation-card__title-link" href="{{ include.url | relative_url}}">
                      {{ include.title }}
                   </a>
                 </{{ include.headingLevel }}>

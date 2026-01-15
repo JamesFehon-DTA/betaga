@@ -24,6 +24,7 @@ toc: '<div class="container">
       </div>
     </div>
   </div>'
+style: 'ct-basic-content'
 ---
 
           
