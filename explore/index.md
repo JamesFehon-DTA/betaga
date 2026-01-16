@@ -13,7 +13,7 @@ lead: Browse or search for topics and resources relevant to your digital solutio
               <h1> {{page.title}}</h1>
               <p class="ct-text-large"> {{page.lead}}</p>
               {{page.toc}}
-              <div class="ct-basic-content ct-theme-light">
+              <div class="ct-theme-light">
                 <div class="container">
                   <div class="row">
                     <div class="col-xxs-12">
