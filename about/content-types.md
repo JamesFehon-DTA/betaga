@@ -39,25 +39,25 @@ Use these metadata tags, available across most content, to find current informat
 
 ### Content status 
 This tag clarifies whether the advice on the page is current, forthcoming or no longer relevant. 
-**In development:** Government agencies should familiarise with it. 
-**Current:** Government agencies should follow its advice. 
-**Archived:** Government agencies should only use it for reference. 
+- **In development:** Government agencies should familiarise with it. 
+- **Current:** Government agencies should follow its advice. 
+- **Archived:** Government agencies should only use it for reference. 
 
  
 ### Compliance 
 This tag clarifies whether your agency must follow a policy or standard. 
-**Mandatory:** Government agencies must follow some or all this advice. 
-**Recommended:** Government agencies should follow this advice. 
+- **Mandatory:** Government agencies must follow some or all this advice. 
+- **Recommended:** Government agencies should follow this advice. 
 
 ### Technology lifecycle 
 This tag clarifies whether your agency should adopt the technology discussed in a design. 
-**Emerging:** This technology is new and likely to become core to the government's digital capability. 
-**Core:** This technology is central to the government's digital capability. 
-**Contain:** This technology is phasing out. Existing systems may continue to use it. New systems should adopt alternative technologies. 
-**Retire:** This technology is end-of-life. Existing systems should retire it and adopt alternative technologies 
+- **Emerging:** This technology is new and likely to become core to the government's digital capability. 
+- **Core:** This technology is central to the government's digital capability. 
+- **Contain:** This technology is phasing out. Existing systems may continue to use it. New systems should adopt alternative technologies. 
+- **Retire:** This technology is end-of-life. Existing systems should retire it and adopt alternative technologies 
 
 ### Other tags 
-**Type**: Whether you are viewing a domain, policy, standard, design or strategy. 
-**Applies from**: The date which the policy, standard or instrument came into effect. 
-**Archived on:** The date which the instrument was no longer in effect. 
-**Lead agency**: the Australian Government agency responsible for the instrument. 
+- **Type**: Whether you are viewing a domain, policy, standard, design or strategy. 
+- **Applies from**: The date which the policy, standard or instrument came into effect. 
+- **Archived on:** The date which the instrument was no longer in effect. 
+- **Lead agency**: the Australian Government agency responsible for the instrument. 
