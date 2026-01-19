@@ -1,0 +1,20 @@
+---
+layout: null
+permalink: '/search_data.json'
+---
+
+{% assign search_items = site.capabilities | concat: site.pages | sort: "title" %}
+
+
+[
+  {% for item in search_items %}
+    {
+      "title"   : "{{ item.title | escape }}",
+      "title"   : "{{ item.url | escape }}",
+      "domain"   : "{{ item.domain | escape }}",
+      "content" : "{{ item.description | strip_html | strip_newlines | jsonify | replace: '\"', '' | escape }}"
+
+
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
