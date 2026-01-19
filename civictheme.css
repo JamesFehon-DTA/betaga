@@ -10473,8 +10473,16 @@ ol ol ol {
   }
 }
 @media (min-width: 768px) {
+  .ct-footer__bottom__content-bottom2 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) {
   .ct-footer .copyright {
     text-align: right;
+    margin-top: auto;
   }
 }
 @media (min-width: 768px) {
@@ -12436,6 +12444,13 @@ ol ol ol {
 }
 .ct-page.ct-theme-dga-global {
   background-color: var(--ct-page-dga-global-background-color);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%; /* Often useful */
+  height: 100%; /* Often useful */
 }
 
 html {
