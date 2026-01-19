@@ -5,5 +5,3 @@ description: 'A set of processes to manage the identification and authentication
 url: '/'
 domain: 'Cyber security'
 ---
-
-{{ page.description }}

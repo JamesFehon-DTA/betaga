@@ -6,4 +6,3 @@ url: '/'
 domain: 'Business reference'
 ---
 
-{{ page.description }}

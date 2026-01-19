@@ -5,5 +5,3 @@ description: 'Generative artificial intelligence (GenAI) refers to algorithms th
 url: '/'
 domain: 'Artificial intelligence'
 ---
-
-{{ page.description }}

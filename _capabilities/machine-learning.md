@@ -5,5 +5,3 @@ description: 'Machine learning (ML) is a field within artificial intelligence (A
 url: '/'
 domain: 'Artificial intelligence'
 ---
-
-{{ page.description }}

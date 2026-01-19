@@ -6,5 +6,3 @@ url: '/'
 
 domain: 'Cyber security'
 ---
-
-{{ page.description }}

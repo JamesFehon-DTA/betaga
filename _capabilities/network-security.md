@@ -5,5 +5,3 @@ description: 'Securing network infrastructure and data in motion from cyber thre
 url: '/'	
 domain: 'Cyber security'
 ---
-
-{{ page.description }}

@@ -5,5 +5,3 @@ description: 'Deep learning is an artificial intelligence (AI) approach that tra
 url: '/'
 domain: 'Artificial intelligence'
 ---
-
-<p>{{ page.description }}</p>
