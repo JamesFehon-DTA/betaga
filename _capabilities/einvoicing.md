@@ -34,7 +34,7 @@ Before starting any digital project, make sure you:
 ### Patterns and templates
 - [Peppol international specifications for Australia and New Zealand](#)
 
-[View more resources]((resources/ "eInvoicing resources"))
+[View more resources]((resources/ "eInvoicing resources")
 
 ## Connect with peers
 Connect with practitioners and experts across the Australian Public Service to share experience and ask questions.

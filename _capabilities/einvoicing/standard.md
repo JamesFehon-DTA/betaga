@@ -6,7 +6,21 @@ parent_path: 'einvoicing'
 title: 'eInvoicing'
 url: '/'
 domain: ''
-toc: ''
+toc: '
+        <div
+          class="ct-table-of-contents ct-theme-light ct-table-of-contents--position-before ct-vertical-spacing--top"
+        style="max-width:100%">
+          <h2 class="ct-table-of-contents__title">In this standard</h2>
+          <ul class="ct-table-of-contents__links">
+            <li class="ct-table-of-contents__link-item">
+              <a class="ct-table-of-contents__link" href="#applicability">Meet legal, regulatory, and policy requirements</a>
+            </li>
+            <li class="ct-table-of-contents__link-item">
+              <a class="ct-table-of-contents__link" href="#requirements">Promote supplier take-up of eInvoicing</a>
+            </li>
+            </ul>
+        </div>
+'
 content_top: true
 aga_code: 'STA58'
 type: 'AGA Standard'
