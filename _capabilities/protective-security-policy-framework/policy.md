@@ -2,7 +2,7 @@
 layout: capability-content
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 description_from_parent: true
-parent_path: 'protective-security-framework'
+parent_path: 'protective-security-policy-framework'
 title: 'Protective security policy framework (PSPF)'
 url: '/'
 domain: ''
