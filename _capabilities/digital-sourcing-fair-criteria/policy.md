@@ -3,7 +3,7 @@ layout: capability-content
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 description_from_parent: true
 parent_path: 'digital-sourcing-fair-criteria'
-title: 'Digital Sourcing Fair Criteria Policy'
+title: 'Digital Sourcing Fair Criteria'
 url: '/'
 domain: ''
 toc: '

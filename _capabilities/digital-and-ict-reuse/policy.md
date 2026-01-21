@@ -3,7 +3,7 @@ layout: capability-content
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 description_from_parent: true
 parent_path: 'digital-and-ict-reuse'
-title: 'Digital and ICT Reuse Policy'
+title: 'Digital and ICT Reuse'
 url: '/'
 domain: ''
 toc: '

@@ -3,7 +3,7 @@ layout: capability-content
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 description_from_parent: true
 parent_path: 'debt-management'
-title: 'Debt Management Policy'
+title: 'Debt Management'
 url: '/'
 domain: ''
 toc: '

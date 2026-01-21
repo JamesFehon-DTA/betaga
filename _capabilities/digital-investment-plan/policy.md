@@ -3,7 +3,7 @@ layout: capability-content
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 description_from_parent: true
 parent_path: 'digital-investment-plan'
-title: 'Digital Investment Plan Policy'
+title: 'Digital Investment Plan'
 url: '/'
 domain: ''
 toc: '

@@ -3,7 +3,7 @@ layout: capability-content
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 description_from_parent: true
 parent_path: 'customer-relationship-management'
-title: 'Customer Relationship Management Policy'
+title: 'Customer Relationship Management'
 url: '/'
 domain: ''
 toc: '

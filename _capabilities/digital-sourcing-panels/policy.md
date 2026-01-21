@@ -3,7 +3,7 @@ layout: capability-content
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 description_from_parent: true
 parent_path: 'digital-sourcing-panels'
-title: 'Digital Sourcing Panels Policy'
+title: 'Digital Sourcing Panels'
 url: '/'
 domain: ''
 toc: '
