@@ -1,0 +1,130 @@
+---
+layout: main
+---
+
+        <main   class="ct-layout ct-layout--no-top-right ct-layout--no-bottom-right ct-vertical-spacing--top" role="main">
+          <!--  CONTENT_TOP  -->
+          {% if page.content_top %}  
+            <div class="ct-theme-light ct-vertical-spacing--top">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xxs-12">
+                    <h1 class="ct-heading"> {{page.title}}</h1>
+{% if page.description_from_parent %}
+  
+  {% assign parent_path = "_capabilities/" | append: page.parent_path |append: '.md'%}
+  {% assign parent_page = site.capabilities | where: "path", parent_path | first %}
+  
+  {% if parent_page %}
+    <p class="ct-text-large"> {{ parent_page.description }}</p>
+  {% else %}
+    <!-- Fallback -->
+  {% endif %}
+  
+{% endif %}
+
+
+                      <p class="ct-text-large"> {{page.lead}} {{page.description}} </p>
+                        <div class="ct-tabs ct-theme-light" data-tabs-panel="">
+                          <ul
+                            class="ct-item-list ct-item-list--horizontal ct-item-list--regular ct-item-list--no-gap ct-tabs__links"
+                          >
+                            <li class="ct-item-list__item">
+                              <a
+                                class="ct-link ct-theme-light"
+                                href="../"
+                                id="panel-1-tab"
+                                data-tabs-tab=""
+                                aria-selected="false"
+                              >
+                                <span class="ct-text-icon__text">Overview</span>
+                              </a>
+                            </li>
+                            <li class="ct-item-list__item">
+{% case page.type %}
+  {% when 'AGA Policy' %}
+    {% assign policy_tab_style = "ct-tabs__tab--selected" %}
+  {% when 'AGA Standard', 'guide' %}
+    {% assign standard_tab_style = "ct-tabs__tab--selected" %}
+  {% else %}
+{% endcase %}
+
+                              <a
+                                class="ct-link ct-theme-light {{policy_tab_style}}"
+                                href="../policy/"
+                                id="panel-2-tab"
+                                data-tabs-tab=""
+                                aria-selected="true"
+                              >
+                                <span class="ct-text-icon__text">Policy</span>
+                              </a>
+                            </li>
+                            <li class="ct-item-list__item">
+                              <a
+                                class="ct-link ct-theme-light {{standard_tab_style}}"
+                                href="../standard/"
+                                id="panel-2-tab"
+                                data-tabs-tab=""
+                                aria-selected="false"
+                              >
+                                <span class="ct-text-icon__text">Standard</span>
+                              </a>
+                            </li>
+                            <li class="ct-item-list__item">
+                              <a
+                                class="ct-link ct-theme-light"
+                                href="../resources"
+                                id="panel-2-tab"
+                                data-tabs-tab=""
+                                aria-selected="false"
+                              >
+                                <span class="ct-text-icon__text">Resources</span>
+                              </a>
+                            </li>
+                          </ul>
+
+                        </div>
+                  </div> 
+                </div>
+              </div>
+            </div>
+          {% endif %} 
+
+          <div class="ct-layout__inner container" data-masonry="true">
+            <section class="ct-layout__main">
+              <h1> {{page.title}} {{page.type | downcase | replace: "aga ", ""}}</h1>
+
+
+              <div class="ct-theme-light {{page.style}}">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xxs-12">
+                      {{ content }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              
+            </section>
+
+            <aside class="ct-layout__sidebar_top_left">
+              {{page.toc}}
+            </aside>
+
+<!--             <aside class="ct-layout__sidebar_top_right">
+              {{ SIDEBAR_TOP_RIGHT }}
+            </aside>
+ -->
+            <aside class="ct-layout__sidebar_bottom_left">
+              {{ SIDEBAR_BOTTOM_LEFT }}
+            </aside>
+
+<!--             <aside class="ct-layout__sidebar_bottom_right">
+              {{ SIDEBAR_BOTTOM_RIGHT }}
+            </aside> -->
+          </div>
+
+          <!-- <div >{{ content_bottom }}</div> -->
+
+        </main>

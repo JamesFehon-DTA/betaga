@@ -1,0 +1,113 @@
+---
+layout: main
+---
+
+        <main   class="ct-layout ct-layout--no-top-left ct-layout--no-top-right ct-layout--no-bottom-left ct-layout--no-bottom-right ct-vertical-spacing--top" role="main">
+          <!--  CONTENT_TOP  -->
+          {% if page.content_top %}  <div>{{ content_top }}</div> {% endif %} 
+          <div class="ct-layout__inner container" data-masonry="true">
+            <section class="ct-layout__main">
+              <h1 class="ct-heading"> {{page.title}}</h1>
+              <p class="ct-text-large"> {{page.lead}} {{page.description}}</p>
+
+              <div class="ct-tabs ct-theme-light ct-vertical-spacing--bottom" data-tabs-panel="">
+                <ul
+                  class="ct-item-list ct-item-list--horizontal ct-item-list--regular ct-item-list--no-gap ct-tabs__links"
+                >
+                  <li class="ct-item-list__item">
+                    <a
+                      class="ct-link ct-theme-light ct-tabs__tab--selected"
+                      href="#"
+                      id="panel-1-tab"
+                      data-tabs-tab=""
+                      aria-selected="true"
+                    >
+                      <span class="ct-text-icon__text">Overview</span>
+                    </a>
+                  </li>
+                  <li class="ct-item-list__item">
+                    <a
+                      class="ct-link ct-theme-light"
+                      href="{{page.url}}policy/"
+                      id="panel-2-tab"
+                      data-tabs-tab=""
+                      aria-selected="false"
+                    >
+                      <span class="ct-text-icon__text">Policy</span>
+                    </a>
+                  </li>
+                  <li class="ct-item-list__item">
+                    <a
+                      class="ct-link ct-theme-light"
+                      href="{{page.url}}standard/"
+                      id="panel-2-tab"
+                      data-tabs-tab=""
+                      aria-selected="false"
+                    >
+                      <span class="ct-text-icon__text">Standard</span>
+                    </a>
+                  </li>
+                  <li class="ct-item-list__item">
+                    <a
+                      class="ct-link ct-theme-light"
+                      href="{{page.url}}resources/"
+                      id="panel-2-tab"
+                      data-tabs-tab=""
+                      aria-selected="false"
+                    >
+                      <span class="ct-text-icon__text">Resources</span>
+                    </a>
+                  </li>
+                </ul>
+
+              </div>
+
+              <div class="container">
+    <div class="row">
+      <div class="col-xxs-12">
+        <div
+          class="ct-table-of-contents ct-theme-light ct-table-of-contents--position-before"
+        >
+          <h2 class="ct-table-of-contents__title">On this page</h2>
+          <ul class="ct-table-of-contents__links">
+            <li class="ct-table-of-contents__link-item">
+              <a class="ct-table-of-contents__link" href="#access-aga-guidance">Access AGA guidance</a>
+            </li>
+            <li class="ct-table-of-contents__link-item">
+              <a class="ct-table-of-contents__link" href="#check-your-obligations">Check your obligations</a>
+            </li>
+            <li class="ct-table-of-contents__link-item">
+              <a class="ct-table-of-contents__link" href="#explore-einvoicing-resources">Explore {% if page.title contains "eInvoicing" or page.title contains "AI" %}
+
+              {{ page.title | slice: 0, 1 | downcase }}{{ page.title | slice: 1, page.title.size }}
+
+              {% else %}
+              {{page.title | downcase }}
+              {% endif %}
+
+               resources</a>
+            </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+              <div class="ct-theme-light {{page.style}}">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xxs-12">
+                      {{ content }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              
+            </section>
+
+          </div>
+
+          <!-- <div >{{ content_bottom }}</div> -->
+
+        </main>
