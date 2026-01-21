@@ -2,13 +2,14 @@
 layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
-title: 'Document management'
-description: 'Document Management is a set of policies, processes and technologies used to create, capture, manage the destruction or transfer of records within an agency.'
+title: 'Cloud computing'
+description: 'The Australian Government has adopted the US Government&#39;s National Institute of Standards and Technology&#39;s (NIST) definition of cloud.
+Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.'
 url: '/'
-domain: 'Business reference'
+domain: 'Technology reference'
 toc: ''
 content_top: true
-aga_code: 'CAP56'
+aga_code: 'CAP3'
 
 ---
 
@@ -28,7 +29,7 @@ Before starting any digital project, make sure you:
 - learn more about the [Investment Oversight Framework](/about/iof/)
 - [engage with the Digital Transformation Agency]() as early as possible.
 
-## Explore Document management resources
+## Explore Cloud computing resources
 ### Policies and instruments
 - 
 
@@ -46,5 +47,5 @@ Connect with practitioners and experts across the Australian Public Service to s
 - ### Digital community
 Start a new thread in this GovTEAMS Official community
 
-- ### Document management community
+- ### Cloud computing community
 Start a new thread in this GovTEAMS Official community

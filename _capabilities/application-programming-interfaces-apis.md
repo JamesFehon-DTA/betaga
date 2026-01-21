@@ -2,13 +2,13 @@
 layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
-title: 'Document management'
-description: 'Document Management is a set of policies, processes and technologies used to create, capture, manage the destruction or transfer of records within an agency.'
+title: 'Application programming interfaces (APIs)'
+description: 'An application programming interface (API) is a set of rules, protocols, and tools that allows different software applications to communicate with each other. It acts as an intermediary layer that allows the transfer of data between different systems, services, and libraries.'
 url: '/'
-domain: 'Business reference'
+domain: 'Integration and interoperability'
 toc: ''
 content_top: true
-aga_code: 'CAP56'
+aga_code: 'CAP6'
 
 ---
 
@@ -28,7 +28,7 @@ Before starting any digital project, make sure you:
 - learn more about the [Investment Oversight Framework](/about/iof/)
 - [engage with the Digital Transformation Agency]() as early as possible.
 
-## Explore Document management resources
+## Explore Application programming interfaces (APIs) resources
 ### Policies and instruments
 - 
 
@@ -46,5 +46,5 @@ Connect with practitioners and experts across the Australian Public Service to s
 - ### Digital community
 Start a new thread in this GovTEAMS Official community
 
-- ### Document management community
+- ### Application programming interfaces (APIs) community
 Start a new thread in this GovTEAMS Official community

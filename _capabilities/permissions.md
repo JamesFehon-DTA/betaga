@@ -2,13 +2,13 @@
 layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
-title: 'Document management'
-description: 'Document Management is a set of policies, processes and technologies used to create, capture, manage the destruction or transfer of records within an agency.'
+title: 'Permissions'
+description: 'Permissions provide the ability to evaluate, record, and access information identifying the right of an individual or entity to use, access, or do something, be something, or have something. Permissions are crucial for ensuring that government services and resources are allocated and accessed appropriately, transparently and securely. A permissions capability includes technology, people, processes, and enablers such a business design, service models, and governance.'
 url: '/'
-domain: 'Business reference'
+domain: 'Government service delivery'
 toc: ''
 content_top: true
-aga_code: 'CAP56'
+aga_code: 'CAP50'
 
 ---
 
@@ -28,7 +28,7 @@ Before starting any digital project, make sure you:
 - learn more about the [Investment Oversight Framework](/about/iof/)
 - [engage with the Digital Transformation Agency]() as early as possible.
 
-## Explore Document management resources
+## Explore Permissions resources
 ### Policies and instruments
 - 
 
@@ -46,5 +46,5 @@ Connect with practitioners and experts across the Australian Public Service to s
 - ### Digital community
 Start a new thread in this GovTEAMS Official community
 
-- ### Document management community
+- ### Permissions community
 Start a new thread in this GovTEAMS Official community

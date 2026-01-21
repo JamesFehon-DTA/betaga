@@ -2,13 +2,14 @@
 layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
-title: 'Document management'
-description: 'Document Management is a set of policies, processes and technologies used to create, capture, manage the destruction or transfer of records within an agency.'
+title: 'Business process and workflow'
+description: 'Business process and workflow is defined as the ability of government agencies to codify, automate, and standardise business processes and rules, including the orchestration of multiple workflows and management of extended business processes within a digital environment.
+Business process and workflow exist at various levels within an entity and are part of a broader operational practice.'
 url: '/'
-domain: 'Business reference'
+domain: 'Government service delivery'
 toc: ''
 content_top: true
-aga_code: 'CAP56'
+aga_code: 'CAP57'
 
 ---
 
@@ -28,7 +29,7 @@ Before starting any digital project, make sure you:
 - learn more about the [Investment Oversight Framework](/about/iof/)
 - [engage with the Digital Transformation Agency]() as early as possible.
 
-## Explore Document management resources
+## Explore Business process and workflow resources
 ### Policies and instruments
 - 
 
@@ -46,5 +47,5 @@ Connect with practitioners and experts across the Australian Public Service to s
 - ### Digital community
 Start a new thread in this GovTEAMS Official community
 
-- ### Document management community
+- ### Business process and workflow community
 Start a new thread in this GovTEAMS Official community

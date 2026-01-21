@@ -2,13 +2,13 @@
 layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
-title: 'Document management'
-description: 'Document Management is a set of policies, processes and technologies used to create, capture, manage the destruction or transfer of records within an agency.'
+title: 'Secure data exchange'
+description: 'Secure Data Exchange refers to providing secure data exchange between systems within an agency or between agencies and users. Secure Data Exchange application is the encryption technology which provides a secure transfer mechanism of data to support the data linkage activities. Secure Data Exchange principle includes user authentication and access control including files and folders.'
 url: '/'
-domain: 'Business reference'
+domain: 'Integration and interoperability'
 toc: ''
 content_top: true
-aga_code: 'CAP56'
+aga_code: 'CAP53'
 
 ---
 
@@ -28,7 +28,7 @@ Before starting any digital project, make sure you:
 - learn more about the [Investment Oversight Framework](/about/iof/)
 - [engage with the Digital Transformation Agency]() as early as possible.
 
-## Explore Document management resources
+## Explore Secure data exchange resources
 ### Policies and instruments
 - 
 
@@ -46,5 +46,5 @@ Connect with practitioners and experts across the Australian Public Service to s
 - ### Digital community
 Start a new thread in this GovTEAMS Official community
 
-- ### Document management community
+- ### Secure data exchange community
 Start a new thread in this GovTEAMS Official community

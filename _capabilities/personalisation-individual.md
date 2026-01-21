@@ -2,13 +2,13 @@
 layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
-title: 'Document management'
-description: 'Document Management is a set of policies, processes and technologies used to create, capture, manage the destruction or transfer of records within an agency.'
+title: 'Personalisation (individual)'
+description: 'Managing tailored experiences for individuals based on their credentials, preferences and needs.'
 url: '/'
-domain: 'Business reference'
+domain: 'Individual experience'
 toc: ''
 content_top: true
-aga_code: 'CAP56'
+aga_code: 'CAP46'
 
 ---
 
@@ -28,7 +28,7 @@ Before starting any digital project, make sure you:
 - learn more about the [Investment Oversight Framework](/about/iof/)
 - [engage with the Digital Transformation Agency]() as early as possible.
 
-## Explore Document management resources
+## Explore Personalisation (individual) resources
 ### Policies and instruments
 - 
 
@@ -46,5 +46,5 @@ Connect with practitioners and experts across the Australian Public Service to s
 - ### Digital community
 Start a new thread in this GovTEAMS Official community
 
-- ### Document management community
+- ### Personalisation (individual) community
 Start a new thread in this GovTEAMS Official community

@@ -1,0 +1,15 @@
+---
+layout: capability-content
+style: 'ct-vertical-spacing--bottom ct-basic-content'
+description_from_parent: true
+parent_path: 'hosting-certification-framework'
+title: 'Hosting certification framework'
+url: '/'
+domain: ''
+toc: ''
+content_top: true
+aga_code: 'STA26'
+type: 'AGA Standard'
+---
+
+<p>Direct link: <a href="https://hostingcertification.gov.au"><em>hostingcertification.gov.au</em></a><br>Responsible agency: <strong>Department of Home Affairs</strong>&nbsp;<br>Last updated: <strong>March 2021</strong></p><p>The <em>Hosting certification framework</em> provides guidance to Australian Government customers enabling them to identify and source hosting services that meet enhanced privacy, sovereignty and security requirements.&nbsp;</p><p>The framework will continue to be iterated to ensure the Government’s commitment to data security can be met, and so Australians can have trust in government systems and the information they hold.&nbsp;</p><p>Certification under the framework ensures service providers are offering secure services to their Australian Government customers.&nbsp;</p><p>The <em>Hosting certification framework</em> is for:&nbsp;</p><ul><li>Australian Government customers procuring hosting arrangements for sensitive government data, whole-of-government systems and systems rated at the classification level of PROTECTED</li><li>service providers that deliver hosting services to Australian Government customers, including the facilities that host government data, their systems and supply chains.</li></ul><p>There are three levels of certification:&nbsp;</p><ul><li><strong>Strategic&nbsp;</strong>– represents the highest level of assurance and is only available to service providers that allow the government to specify ownership and control conditions.</li><li><strong>Assured</strong> – provides safeguards against the change of ownership or control through financial penalties aimed at minimising the transition costs borne by the Commonwealth should a service alter their profile.</li><li><strong>Uncertified&nbsp;</strong>– offers minimal protections to government.&nbsp;</li></ul><p>The framework supports the&nbsp;<a href="https://www.protectivesecurity.gov.au/"><em>Protective security policy framework</em></a>&nbsp;and the&nbsp;<a href="https://www.cyber.gov.au/acsc/view-all-content/ism"><em>Information security manual</em></a>.&nbsp;</p><h2>Applicability</h2><p><em>Hosting certification framework</em> requirements apply to new contracts and extensions to existing contracts from 30 June 2022.</p><p>Extensions to contracts with service providers awaiting certification are restricted to a maximum of 1 year, with the option of a 1-year extension.</p><p>Where certification of a service provider is pending, entities may apply for an exemption by emailing <a href="mailto:hostingcertifications@homeaffairs.gov.au">hostingcertifications@homeaffairs.gov.au</a>.&nbsp;</p><h2>Access the framework</h2><p>The hostingcertification.gov.au website hosts the <a href="https://www.hostingcertification.gov.au/"><em>Hosting certification framework</em></a> (full text).&nbsp;</p>

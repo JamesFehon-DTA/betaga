@@ -2,13 +2,13 @@
 layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
-title: 'Document management'
-description: 'Document Management is a set of policies, processes and technologies used to create, capture, manage the destruction or transfer of records within an agency.'
+title: 'High performance computing'
+description: 'High Performance Computing (HPC) refers to the practice of employing advanced computing techniques, typically utilising parallel processing and supercomputers, to solve complex problems that require significant computational power and data storage capabilities. As with other types of computing, HPC access can be organised through an on-premises model, a shared data centre or via cloud services where leading public cloud and specialist providers are emerging.'
 url: '/'
-domain: 'Business reference'
+domain: 'Technology reference'
 toc: ''
 content_top: true
-aga_code: 'CAP56'
+aga_code: 'CAP70'
 
 ---
 
@@ -28,7 +28,7 @@ Before starting any digital project, make sure you:
 - learn more about the [Investment Oversight Framework](/about/iof/)
 - [engage with the Digital Transformation Agency]() as early as possible.
 
-## Explore Document management resources
+## Explore High performance computing resources
 ### Policies and instruments
 - 
 
@@ -46,5 +46,5 @@ Connect with practitioners and experts across the Australian Public Service to s
 - ### Digital community
 Start a new thread in this GovTEAMS Official community
 
-- ### Document management community
+- ### High performance computing community
 Start a new thread in this GovTEAMS Official community

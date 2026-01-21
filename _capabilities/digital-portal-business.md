@@ -2,13 +2,13 @@
 layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
-title: 'Document management'
-description: 'Document Management is a set of policies, processes and technologies used to create, capture, manage the destruction or transfer of records within an agency.'
+title: 'Digital portal (business)'
+description: 'A Digital Portal is a way to provide businesses with a single digital access point to government services (for example, through a web browser or mobile app).'
 url: '/'
-domain: 'Business reference'
+domain: 'Business experience'
 toc: ''
 content_top: true
-aga_code: 'CAP56'
+aga_code: 'CAP18'
 
 ---
 
@@ -28,7 +28,7 @@ Before starting any digital project, make sure you:
 - learn more about the [Investment Oversight Framework](/about/iof/)
 - [engage with the Digital Transformation Agency]() as early as possible.
 
-## Explore Document management resources
+## Explore Digital portal (business) resources
 ### Policies and instruments
 - 
 
@@ -46,5 +46,5 @@ Connect with practitioners and experts across the Australian Public Service to s
 - ### Digital community
 Start a new thread in this GovTEAMS Official community
 
-- ### Document management community
+- ### Digital portal (business) community
 Start a new thread in this GovTEAMS Official community

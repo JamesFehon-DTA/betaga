@@ -2,13 +2,13 @@
 layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
-title: 'Document management'
-description: 'Document Management is a set of policies, processes and technologies used to create, capture, manage the destruction or transfer of records within an agency.'
+title: 'Debt management'
+description: 'Debt management constitutes the strategies, systems, and processes used by entities to manage its receivables. This includes the collection of outstanding amounts owed, such as taxes, overpayments, and other receivables.'
 url: '/'
-domain: 'Business reference'
+domain: 'Government service delivery'
 toc: ''
 content_top: true
-aga_code: 'CAP56'
+aga_code: 'CAP38'
 
 ---
 
@@ -28,7 +28,7 @@ Before starting any digital project, make sure you:
 - learn more about the [Investment Oversight Framework](/about/iof/)
 - [engage with the Digital Transformation Agency]() as early as possible.
 
-## Explore Document management resources
+## Explore Debt management resources
 ### Policies and instruments
 - 
 
@@ -46,5 +46,5 @@ Connect with practitioners and experts across the Australian Public Service to s
 - ### Digital community
 Start a new thread in this GovTEAMS Official community
 
-- ### Document management community
+- ### Debt management community
 Start a new thread in this GovTEAMS Official community

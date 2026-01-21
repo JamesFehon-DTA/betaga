@@ -2,13 +2,13 @@
 layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
-title: 'Document management'
-description: 'Document Management is a set of policies, processes and technologies used to create, capture, manage the destruction or transfer of records within an agency.'
+title: 'Government branding (individual)'
+description: 'Government Branding is how the Australian Government presents itself, its agencies and its digital products. The role of Government Branding (and the brands that it includes) is to deliver an experience that builds trust, confidence and ease of use for our customers. Government Brands can assist with navigation, or orientation around government agencies, policies and services.'
 url: '/'
-domain: 'Business reference'
+domain: 'Individual experience'
 toc: ''
 content_top: true
-aga_code: 'CAP56'
+aga_code: 'CAP16'
 
 ---
 
@@ -28,7 +28,7 @@ Before starting any digital project, make sure you:
 - learn more about the [Investment Oversight Framework](/about/iof/)
 - [engage with the Digital Transformation Agency]() as early as possible.
 
-## Explore Document management resources
+## Explore Government branding (individual) resources
 ### Policies and instruments
 - 
 
@@ -46,5 +46,5 @@ Connect with practitioners and experts across the Australian Public Service to s
 - ### Digital community
 Start a new thread in this GovTEAMS Official community
 
-- ### Document management community
+- ### Government branding (individual) community
 Start a new thread in this GovTEAMS Official community

@@ -2,13 +2,13 @@
 layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
-title: 'Document management'
-description: 'Document Management is a set of policies, processes and technologies used to create, capture, manage the destruction or transfer of records within an agency.'
+title: 'Identity management (business)'
+description: 'Identity Management is a set of processes to manage the identification and authentication of Australian businesses and their authorised representatives. It includes identity proofing, verification of ABN, and login.'
 url: '/'
-domain: 'Business reference'
+domain: 'Business experience'
 toc: ''
 content_top: true
-aga_code: 'CAP56'
+aga_code: 'CAP61'
 
 ---
 
@@ -28,7 +28,7 @@ Before starting any digital project, make sure you:
 - learn more about the [Investment Oversight Framework](/about/iof/)
 - [engage with the Digital Transformation Agency]() as early as possible.
 
-## Explore Document management resources
+## Explore Identity management (business) resources
 ### Policies and instruments
 - 
 
@@ -46,5 +46,5 @@ Connect with practitioners and experts across the Australian Public Service to s
 - ### Digital community
 Start a new thread in this GovTEAMS Official community
 
-- ### Document management community
+- ### Identity management (business) community
 Start a new thread in this GovTEAMS Official community

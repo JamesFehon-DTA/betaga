@@ -2,13 +2,13 @@
 layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
-title: 'Document management'
-description: 'Document Management is a set of policies, processes and technologies used to create, capture, manage the destruction or transfer of records within an agency.'
+title: 'APS identity management'
+description: 'APS Identity Management is a set of processes to manage the identification and authentication of Australian Public Service staff to access government building, systems and information.'
 url: '/'
-domain: 'Business reference'
+domain: 'Staff experience'
 toc: ''
 content_top: true
-aga_code: 'CAP56'
+aga_code: 'CAP22'
 
 ---
 
@@ -28,7 +28,7 @@ Before starting any digital project, make sure you:
 - learn more about the [Investment Oversight Framework](/about/iof/)
 - [engage with the Digital Transformation Agency]() as early as possible.
 
-## Explore Document management resources
+## Explore APS identity management resources
 ### Policies and instruments
 - 
 
@@ -46,5 +46,5 @@ Connect with practitioners and experts across the Australian Public Service to s
 - ### Digital community
 Start a new thread in this GovTEAMS Official community
 
-- ### Document management community
+- ### APS identity management community
 Start a new thread in this GovTEAMS Official community

@@ -2,13 +2,13 @@
 layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
-title: 'Document management'
-description: 'Document Management is a set of policies, processes and technologies used to create, capture, manage the destruction or transfer of records within an agency.'
+title: 'E-markets'
+description: 'E-Markets are systems or platforms that digitally connect or link users to the provisioning of products or services. E-Markets involve the use of digital platforms, technologies, and services to avail products and services in a virtual marketplace.'
 url: '/'
-domain: 'Business reference'
+domain: 'Government service delivery'
 toc: ''
 content_top: true
-aga_code: 'CAP56'
+aga_code: 'CAP65'
 
 ---
 
@@ -28,7 +28,7 @@ Before starting any digital project, make sure you:
 - learn more about the [Investment Oversight Framework](/about/iof/)
 - [engage with the Digital Transformation Agency]() as early as possible.
 
-## Explore Document management resources
+## Explore E-markets resources
 ### Policies and instruments
 - 
 
@@ -46,5 +46,5 @@ Connect with practitioners and experts across the Australian Public Service to s
 - ### Digital community
 Start a new thread in this GovTEAMS Official community
 
-- ### Document management community
+- ### E-markets community
 Start a new thread in this GovTEAMS Official community
