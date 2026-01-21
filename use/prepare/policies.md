@@ -1,35 +1,16 @@
 ---
 layout: content
-title: Prepare your digital proposal
-lead: Understand the requirements of the investment process, meet your policy obligations and find information to support your proposal and business case.
-toc: '<div class="container">
-    <div class="row">
-      <div class="col-xxs-12">
-        <div
-          class="ct-table-of-contents ct-theme-light ct-table-of-contents--position-before"
-        >
-          <h2 class="ct-table-of-contents__title">On this page</h2>
-          <ul class="ct-table-of-contents__links">
-            <li class="ct-table-of-contents__link-item">
-              <a class="ct-table-of-contents__link" href="#understand-your-obligations-within-the-investment-process">Understand your obligations within the investment process</a>
-            </li>
-            <li class="ct-table-of-contents__link-item">
-              <a class="ct-table-of-contents__link" href="#understand-the-mandatory-policies-that-apply-to-your-proposal">Understand the mandatory policies that apply to your project</a>
-            </li>
-            <li class="ct-table-of-contents__link-item">
-              <a class="ct-table-of-contents__link" href="#find-guidance-to-support-your-proposal">Find guidance to support your proposal</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>'
+title: Policies that apply to all digital projects
+lead: The following whole-of-government policies ...
+toc: ''
 style: 'ct-basic-content'
-permalink: :path/:basename/
-order: 10
+order: 15
 ---
 
-          
+{{page.depth}}
+- DXP
+- BMP
+- DICTRP
 
 ## Understand your obligations within the investment process
 If you are bringing forward a digital or ICT-enabled proposal for consideration through the budget process, you need to meet certain requirements under the Whole-of-government digital and ICT investment oversight framework (IOF).

@@ -10,7 +10,7 @@ lead: Browse or search for topics and resources relevant to your digital solutio
           {% if page.content_top %}  <div>{{ content_top }}</div> {% endif %} 
           <div class="ct-layout__inner container" data-masonry="true">
             <section class="ct-layout__main">
-              <h1> {{page.title}}</h1>
+              <h1 class="ct-heading"> {{page.title}}</h1>
               <p class="ct-text-large"> {{page.lead}}</p>
               {{page.toc}}
               <div class="ct-theme-light">

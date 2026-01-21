@@ -1,7 +1,8 @@
 
-
 {% for subpage in subpages %}
   {% if subpage.url != page.url %}
+  {% assign levels = subpage.url | remove_first: page.dir | split: '/' %}
+  {% if levels.size <= include.levels %}
 
     {% include components/card.html 
     headingLevel='h2'
@@ -10,6 +11,6 @@
     summary="Understand the requirements of the investment process, meet your policy obligations and find information to support your proposal and business case." 
     widths="col-xxs-12 col-m-12"
     %}
-
+  {% endif %}
   {% endif %}
 {% endfor %}          
