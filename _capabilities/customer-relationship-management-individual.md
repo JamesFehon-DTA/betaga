@@ -15,22 +15,6 @@ aga_code: 'CAP54'
 
 
 
-## Access AGA guidance
-Use the Customer relationship management (individual) policy and standard to build and manage this capability in your agency.
-
-- View the [policy](policy/ "Customer relationship management (individual) policy")
-- View the [standard](standard/ "Customer relationship management (individual) standard")
-
-
-## Check your obligations 
-Before starting any digital project, make sure you:
-
-- understand the [mandatory obligations for digital investments]({{'/use/prepare/policies/' | relative_url }})
-- learn more about the [Investment Oversight Framework]({{'/about/iof/' | relative_url }})
-- [engage with the Digital Transformation Agency]({{'/about/iof#contact' | relative_url }}) as early as possible.
-
-
-
 ## Explore Customer relationship management (individual) resources
 
 ### Policies and instruments

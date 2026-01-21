@@ -15,22 +15,6 @@ aga_code: 'CAP58'
 
 
 
-## Access AGA guidance
-Use the Metadata and semantics policy and standard to build and manage this capability in your agency.
-
-- View the [policy](policy/ "Metadata and semantics policy")
-- View the [standard](standard/ "Metadata and semantics standard")
-
-
-## Check your obligations 
-Before starting any digital project, make sure you:
-
-- understand the [mandatory obligations for digital investments]({{'/use/prepare/policies/' | relative_url }})
-- learn more about the [Investment Oversight Framework]({{'/about/iof/' | relative_url }})
-- [engage with the Digital Transformation Agency]({{'/about/iof#contact' | relative_url }}) as early as possible.
-
-
-
 ## Explore Metadata and semantics resources
 
 ### Policies and instruments

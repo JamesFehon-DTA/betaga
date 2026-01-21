@@ -15,22 +15,6 @@ aga_code: 'CAP24'
 
 
 
-## Access AGA guidance
-Use the Enterprise resource planning (ERP) policy and standard to build and manage this capability in your agency.
-
-- View the [policy](policy/ "Enterprise resource planning (ERP) policy")
-- View the [standard](standard/ "Enterprise resource planning (ERP) standard")
-
-
-## Check your obligations 
-Before starting any digital project, make sure you:
-
-- understand the [mandatory obligations for digital investments]({{'/use/prepare/policies/' | relative_url }})
-- learn more about the [Investment Oversight Framework]({{'/about/iof/' | relative_url }})
-- [engage with the Digital Transformation Agency]({{'/about/iof#contact' | relative_url }}) as early as possible.
-
-
-
 ## Explore Enterprise resource planning (ERP) resources
 
 ### Policies and instruments

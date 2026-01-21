@@ -15,22 +15,6 @@ aga_code: 'CAP1'
 
 
 
-## Access AGA guidance
-Use the Digital portal (individual) policy and standard to build and manage this capability in your agency.
-
-- View the [policy](policy/ "Digital portal (individual) policy")
-- View the [standard](standard/ "Digital portal (individual) standard")
-
-
-## Check your obligations 
-Before starting any digital project, make sure you:
-
-- understand the [mandatory obligations for digital investments]({{'/use/prepare/policies/' | relative_url }})
-- learn more about the [Investment Oversight Framework]({{'/about/iof/' | relative_url }})
-- [engage with the Digital Transformation Agency]({{'/about/iof#contact' | relative_url }}) as early as possible.
-
-
-
 ## Explore Digital portal (individual) resources
 
 ### Policies and instruments

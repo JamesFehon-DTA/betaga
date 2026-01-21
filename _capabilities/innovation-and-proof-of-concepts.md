@@ -15,22 +15,6 @@ aga_code: 'CAP19'
 
 
 
-## Access AGA guidance
-Use the Innovation and proof of concepts policy and standard to build and manage this capability in your agency.
-
-- View the [policy](policy/ "Innovation and proof of concepts policy")
-- View the [standard](standard/ "Innovation and proof of concepts standard")
-
-
-## Check your obligations 
-Before starting any digital project, make sure you:
-
-- understand the [mandatory obligations for digital investments]({{'/use/prepare/policies/' | relative_url }})
-- learn more about the [Investment Oversight Framework]({{'/about/iof/' | relative_url }})
-- [engage with the Digital Transformation Agency]({{'/about/iof#contact' | relative_url }}) as early as possible.
-
-
-
 ## Explore Innovation and proof of concepts resources
 
 ### Policies and instruments

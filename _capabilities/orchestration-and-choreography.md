@@ -17,22 +17,6 @@ aga_code: 'CAP62'
 
 
 
-## Access AGA guidance
-Use the Orchestration and choreography policy and standard to build and manage this capability in your agency.
-
-- View the [policy](policy/ "Orchestration and choreography policy")
-- View the [standard](standard/ "Orchestration and choreography standard")
-
-
-## Check your obligations 
-Before starting any digital project, make sure you:
-
-- understand the [mandatory obligations for digital investments]({{'/use/prepare/policies/' | relative_url }})
-- learn more about the [Investment Oversight Framework]({{'/about/iof/' | relative_url }})
-- [engage with the Digital Transformation Agency]({{'/about/iof#contact' | relative_url }}) as early as possible.
-
-
-
 ## Explore Orchestration and choreography resources
 
 ### Policies and instruments
