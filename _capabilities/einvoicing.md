@@ -12,8 +12,8 @@ domain: 'Business reference'
 ## Access AGA guidance
 Use the eInvoicing policy and standard to build and manage this capability in your agency.
 
-- View the [policy](policy/)
-- View the [standard](standard/)
+- View the [policy](policy/ "eInvoicing policy")
+- View the [standard](standard/ "eInvoicing standard")
 
 ## Check your obligations 
 Before starting any digital project, make sure you:
@@ -24,17 +24,17 @@ Before starting any digital project, make sure you:
 
 ## Explore eInvoicing resources
 ### Policies and instruments
-- Supplier pay on-time or pay interest policy
+- [Supplier pay on-time or pay interest policy](#)
 
 ### Guides and advice
-- eInvoicing for government
-- Guide to receiving and processing eInvoices
-- Peppol
+- [eInvoicing for government](#)
+- [Guide to receiving and processing eInvoices](#)
+- [Connecting to the Peppol network](#)
 
 ### Patterns and templates
-- Peppol international specifications for Australia and New Zealand
+- [Peppol international specifications for Australia and New Zealand](#)
 
-[View more resources]()
+[View more resources]((resources/ "eInvoicing resources"))
 
 ## Connect with peers
 Connect with practitioners and experts across the Australian Public Service to share experience and ask questions.

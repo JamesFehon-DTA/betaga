@@ -37,12 +37,13 @@ type: 'Resources'
 
 # Other government directions
 You may need to meet specific requirements within these whole-of-government resources. Check each one for how it might apply to your proposal, project or agency.
-Supplier pay on-time or pay interest policy
 
-## Guides and advice
-eInvoicing for government
-Guide to receiving and processing eInvoices
-Connecting to the Peppol network 
+- [Supplier pay on-time or pay interest policy](#)
 
-## Patterns and templates
-Peppol international specifications for Australia and New Zealand
+### Guides and advice
+- [eInvoicing for government](#)
+- [Guide to receiving and processing eInvoices](#)
+- [Connecting to the Peppol network](#)
+
+### Patterns and templates
+- [Peppol international specifications for Australia and New Zealand](#)
