@@ -21,6 +21,7 @@ async function loadPrebuilt() {
 
 let searchEngine = null;
 
+
 async function runSearch(query) {
   if (!searchEngine) {
     searchEngine = await loadPrebuilt();
@@ -30,6 +31,9 @@ async function runSearch(query) {
 }
 
 document.addEventListener('DOMContentLoaded', async function () {
+  const onSearchPage = window.location.pathname.endsWith('/search/') ||
+                     window.location.pathname.endsWith('/search/index.html');
+
   const box = document.getElementById('search-form');
   const form = box.closest('form');
   const list = document.getElementById('resultslist');
@@ -95,6 +99,10 @@ function renderSnippet(r) {
 
 
   form.addEventListener('submit', function (e) {
+    if (!onSearchPage) { 
+      return; // allow default browser behaviour 
+    }
+
     e.preventDefault();
     const q = box.value.trim();
 

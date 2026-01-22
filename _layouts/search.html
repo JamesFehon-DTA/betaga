@@ -2,6 +2,41 @@
 layout: main
 ---
 
+<style>
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  border-top: 4px solid #FFF;
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  position: relative;
+}
+
+.loader::after {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border-left: 4px solid var(--ct-color-light-interaction-background);
+  border-bottom: 4px solid transparent;
+  animation: rotation 0.5s linear infinite reverse;
+}
+
+@keyframes rotation {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+</style>
+
 <main class="ct-layout ct-layout--no-top-left ct-layout--no-top-right ct-layout--no-bottom-left ct-layout--no-bottom-right" role="main">
   {% if page.content_top %}
     <div>{{ content_top }}</div>
@@ -14,7 +49,7 @@ layout: main
           <div class="row">
             <div class="col-xl-offset-1 col-xl-10 col-xxs-12">
 
-              <div id="spinner"><i class="fa fa-spinner fa-spin"></i></div>
+              <div id="spinner" class="loader ct-vertical-spacing--both "></div>
 
               <div class="ct-list ct-theme-light" id="search_results" style="display:none;">
                 <div class="ct-list__inner">
