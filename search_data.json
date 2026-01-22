@@ -1,20 +1,34 @@
 ---
 layout: null
 permalink: '/search_data.json'
+robots: noindex
 ---
 
 {% assign search_items = site.capabilities | concat: site.pages | sort: "title" %}
-
-
 [
   {% for item in search_items %}
+    {% unless item.robots contains 'noindex' or item.site-search == false %}
     {
-      "title"   : "{{ item.title | escape }}",
-      "title"   : "{{ item.url | escape }}",
-      "domain"   : "{{ item.domain | escape }}",
-      "content" : "{{ item.description | strip_html | strip_newlines | jsonify | replace: '\"', '' | escape }}"
-
-
+      "title": {{ item.title | jsonify }},
+      {% comment %}
+        Temporary replacement for poorly migrated content with html blocks
+      "excerpt": {{ item.excerpt | jsonify }},
+      {% endcomment %}
+      "excerpt": {{ item.excerpt
+                  | strip_html
+                  | truncatewords: 40, "…"
+                  | jsonify
+                }},      
+      "description": {{ item.description | jsonify }},
+      "url": {{ item.url | jsonify }},
+      "domain": {{ item.domain | jsonify }},
+      {% comment %}
+        Temporary replacement for default fallback
+        "type": {{ item.type | jsonify }},
+      {% endcomment %}
+      "type": {{ item.type | default: "Capability" | jsonify }},
+      "content": {{ item.content | strip_html | strip_newlines | normalize_whitespace | jsonify }}
     }{% unless forloop.last %},{% endunless %}
+    {% endunless %}
   {% endfor %}
 ]
