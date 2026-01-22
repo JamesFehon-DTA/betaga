@@ -3,26 +3,60 @@
     <div class="row">
       <div class="col-l-8">
         <h1 class="ct-heading ct-theme-light ct-banner__title">
-          Find advice and resources for your agency’s digital proposals and
-          projects
+        Find advice and resources for your agency’s digital proposals and
+        projects
         </h1>
-        <p>
+        <p class="ct-text-large">
           The Australian Government Architecture (AGA) is a collection of
           policies, advice and reusable resources for agencies' digital and ICT
           solutions.
         </p>
-
-        <form action="{{site.baseurl}}/search/" method="get" class="ct-form">
-          <input
-            type="search"
-            autocomplete="off"
-            class="ct-textfield ct-theme-light ct-field__control"
-            name="query"
-            id="home-search-bar"
-            placeholder="Search for a topic, technology or requirement" autofill=none
-          />
+        <form class="ct-inline-filter ct-form ct-theme-light" action="{{site.baseurl}}/search/" method="get">
+          <div class="ct-inline-filter__content">
+            <div class="ct-inline-filter__items">
+              <div class="ct-field ct-theme-light ct-field--textfield ct-field--vertical">
+                <div class="ct-field__wrapper">
+                  <input
+                  type="search"
+                  autocomplete="off"
+                  class="ct-textfield ct-theme-light ct-field__control"
+                  name="query"
+                  id="search-form"
+                  placeholder="Search for a topic, technology or requirement">
+                </div>
+              </div>
+              <div class="ct-inline-filter__actions">
+                <button
+                class="ct-button ct-theme-light ct-button--primary ct-button--button ct-button--regular ct-inline-filter__submit-button"
+                data-component-name="button"
+                type="submit"
+                data-button="true">
+                <span class="ct-text-icon__text">Search</span>
+                </button>
+              </div>
+            </div>
+          </div>
         </form>
-
+      </div>
+    </div>
+  </div>
+</div>
+<div class="ct-list ct-theme-light">
+  <div class="ct-list__inner">
+    <div class="ct-list__rows">
+      <div class="container" aria-live="polite">
+        <div class="row row--equal-heights-content row--vertically-spaced">
+        {% include components/card.html 
+        headingLevel="h2"
+        url="/explore/"
+        title="Explore the AGA"
+        summary="Browse or search for topics and resources relevant to your digital solution."
+        widths="col-xxs-12 col-m-4"
+        %}
+        {% assign subpages = site.pages | sort: "order" | where_exp: "item", "item.url contains page.dir" %}
+        {% assign parent_page = site.pages | where: "url", "/use/" | first %}
+        {% include list-child-pages.html content=subpages levels=1 parent=parent_page widths="col-xxs-12 col-m-4" shorterdescrips=true %}
+        </div>
       </div>
     </div>
   </div>

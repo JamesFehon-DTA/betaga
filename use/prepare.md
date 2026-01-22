@@ -2,6 +2,7 @@
 layout: content
 title: Prepare your digital proposal
 lead: Understand the requirements of the investment process, meet your policy obligations and find information to support your proposal and business case.
+shorter_lead: Check your mandatory policy obligations and navigate your proposal through the Budget process.
 toc: '<div class="container">
     <div class="row">
       <div class="col-xxs-12">

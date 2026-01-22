@@ -1,16 +1,28 @@
+{% assign parent = include.parent | default: page %}
+{% assign widths = include.widths | default: "col-xxs-12 col-m-12" %}
 
-{% for subpage in subpages %}
-  {% if subpage.url != page.url %}
-  {% assign levels = subpage.url | remove_first: page.dir | split: '/' %}
-  {% if levels.size <= include.levels %}
+{% for subpage in include.content %}
+  {% if subpage.url != parent.url
+        and subpage.path contains '.md'
+        and subpage.site-search != false %}
 
-    {% include components/card.html 
-    headingLevel='h2'
-    url=subpage.url 
-    title=subpage.title
-    summary="Understand the requirements of the investment process, meet your policy obligations and find information to support your proposal and business case." 
-    widths="col-xxs-12 col-m-12"
-    %}
+    {% assign levels = subpage.url | remove_first: parent.dir | split: '/' %}
+
+    {% assign summary = subpage.lead | default: "" %}
+    {% if include.shorterdescrips %}
+      {% assign summary = subpage.shorter_lead | default: summary %}
+    {% endif %}
+
+    {% if levels.size <= include.levels %}
+
+      {% include components/card.html
+        headingLevel='h2'
+        url=subpage.url
+        title=subpage.title
+        summary=summary
+        widths=widths
+      %}
+
+    {% endif %}
   {% endif %}
-  {% endif %}
-{% endfor %}          
+{% endfor %}
