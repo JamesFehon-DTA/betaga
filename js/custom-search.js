@@ -45,7 +45,7 @@ function renderSnippet(r) {
         <div class="ct-snippet__content">
 
           <div class="ct-snippet__title">
-            <a class="ct-snippet__title-link" href="${r.url}">
+            <a class="ct-snippet__title-link" href="{{site.baseurl}}${r.url}">
               ${r.title}
             </a>
           </div>
