@@ -34,6 +34,8 @@ document.addEventListener('DOMContentLoaded', async function () {
   const onSearchPage = window.location.pathname.endsWith('/search/') ||
                      window.location.pathname.endsWith('/search/index.html');
 
+  let userHasSearched = false;   // <-- required
+
   const box = document.getElementById('search-form');
   const form = box.closest('form');
   const list = document.getElementById('resultslist');
@@ -41,6 +43,7 @@ document.addEventListener('DOMContentLoaded', async function () {
   const wrapper = document.getElementById('search_results');
   const spinner = document.getElementById('spinner');
   const recommended = document.getElementById('recommended_links_block');
+
 
 function renderSnippet(r) {
   return `
