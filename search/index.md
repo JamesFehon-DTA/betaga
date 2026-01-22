@@ -33,26 +33,57 @@ Home</a>      </li>
 
 </div>
 
+
         <div class="row">
           <div class="col-xl-offset-1 col-xl-10 col-xxs-12">
+
+
+
+<div class="ct-banner__content"> 
+  <form class="ct-inline-filter ct-theme-light" action="/search/" method="get">
+
+    <div class="ct-inline-filter__content">
+      <div class="ct-inline-filter__items">
+
+        <div class="ct-field ct-theme-light ct-field--textfield ct-field--vertical">
+          <label class="ct-label ct-theme-light ct-label--extra-large ct-field__title" for="search-form">
             <h1 class="ct-heading ct-theme-light ct-banner__title">Search</h1>
+          </label>
+
+          <div class="ct-field__wrapper">
+            <input
+              type="search"
+              autocomplete="off"
+              class="ct-textfield ct-theme-light ct-field__control"
+              name="query"
+              id="search-form"
+              placeholder="Search for a topic, technology or requirement">
           </div>
         </div>
-        <div class="row">
-          <div class="col-xl-offset-1 col-xl-10 col-xxs-12">
-            <div class="ct-banner__content ct-vertical-spacing--top">
-            <p><input type="text" class="ct-textfield ct-theme-light ct-field__control" name="option_group_309" id="field_id_716" placeholder="Search for a topic, technology or requirement"/></p>
-            <p><input type="submit" class="ct-button ct-theme-light ct-button--primary ct-button--submit ct-button--regular   button js-form-submit form-submit" data-component-name="button" value="Search" data-drupal-selector="edit-submit-civictheme-search" id="edit-submit-civictheme-search" data-component-id="civictheme:button" data-button="true">
-            </p>
-			</div>
+
+        <div class="ct-inline-filter__actions">
+          <button
+            class="ct-button ct-theme-light ct-button--primary ct-button--button ct-button--regular ct-inline-filter__submit-button"
+            data-component-name="button"
+            type="submit"
+            data-button="true">
+            <span class="ct-text-icon__text">Search</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </form>
+</div>
+
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>'
+site-search: false
 ---
 
 {% include recommended-links.md %}
-
 
