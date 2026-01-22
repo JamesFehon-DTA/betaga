@@ -2,7 +2,7 @@
 layout: main
 title: Explore the AGA
 lead: Browse or search for topics and resources relevant to your digital solution.
-
+site-search: false
 ---
 
 <main   class="ct-layout ct-layout--no-top-right ct-layout--no-bottom-right ct-layout--no-top-left ct-layout--no-bottom-left ct-vertical-spacing--top" role="main">

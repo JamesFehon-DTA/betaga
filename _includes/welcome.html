@@ -11,13 +11,18 @@
           policies, advice and reusable resources for agencies' digital and ICT
           solutions.
         </p>
-        <input
-          type="text"
-          class="ct-textfield ct-theme-light ct-field__control"
-          name="option_group_309"
-          id="field_id_716"
-          placeholder="Search for a topic, technology or requirement"
-        />
+
+        <form action="/search/" method="get" class="ct-form">
+          <input
+            type="search"
+            autocomplete="off"
+            class="ct-textfield ct-theme-light ct-field__control"
+            name="query"
+            id="home-search-bar"
+            placeholder="Search for a topic, technology or requirement" autofill=none
+          />
+        </form>
+
       </div>
     </div>
   </div>

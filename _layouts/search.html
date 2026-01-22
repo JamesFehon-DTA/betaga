@@ -2,35 +2,53 @@
 layout: main
 ---
 
-        <main   class="ct-layout ct-layout--no-top-left ct-layout--no-top-right ct-layout--no-bottom-left ct-layout--no-bottom-right" role="main">
-          <!--  CONTENT_TOP  -->
-          {% if page.content_top %}  <div>{{ content_top }}</div> {% endif %} 
-          <div class="ct-layout__inner container" data-masonry="true">
-            <section class="ct-layout__main">
-          
-              <!-- <div class="ct-theme-light ct-vertical-spacing--top ct-basic-content">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-xl-offset-1 col-xl-10 col-xxs-12">
-                       <h1> {{page.title}}</h1>
-                      <p class="ct-text-large"> {{page.lead}}</p>
+<main class="ct-layout ct-layout--no-top-left ct-layout--no-top-right ct-layout--no-bottom-left ct-layout--no-bottom-right" role="main">
+  {% if page.content_top %}
+    <div>{{ content_top }}</div>
+  {% endif %}
 
+  <div class="ct-layout__inner container" data-masonry="true">
+    <section class="ct-layout__main">
+      <div class="ct-theme-light ct-vertical-spacing--both ct-basic-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-offset-1 col-xl-10 col-xxs-12">
+
+              <div id="spinner"><i class="fa fa-spinner fa-spin"></i></div>
+
+              <div class="ct-list ct-theme-light" id="search_results" style="display:none;">
+                <div class="ct-list__inner">
+
+                  <div class="ct-list__header">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-xxs-12 col-m-9">
+                          <h2 class="ct-heading ct-theme-light ct-list__title">Results</h2>
+                        </div>
+                        <div class="col-xxs-12 col-m-3">
+                          <div class="ct-list__link-above ct-flex-justify-content-center">
+                            <span class="ct-list__results-count" id="number_results"></span>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div> -->
-              <div class="ct-theme-light ct-vertical-spacing--both ct-basic-content">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-xl-offset-1 col-xl-10 col-xxs-12">
-                      {{ content }}
 
+                  <div class="ct-list__rows">
+                    <div class="container" aria-live="polite">
+                      <div class="row row--vertically-spaced" id="resultslist"></div>
                     </div>
                   </div>
+
                 </div>
               </div>
-              
-              
-            </section>
+
+              {{ content }}
+
+            </div>
           </div>
-        </main>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
