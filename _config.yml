@@ -24,16 +24,51 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/betaga" # the subpath of your site, e.g. /blog
 url: "https://jamesfehon-dta.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
-
 collections:
   capabilities:
     output: true
     permalink: /capability/:path/
 
-# Build settings
-# theme: minima
 # plugins:
-#   - jekyll-feed
+#   - jekyll-lunr-js-custom-search
+
+# lunr_settings:
+#   ref: url # or: id
+#   atozsortfield: title
+#   collections:
+#     - capabilities
+#   fields:
+#     - searchfield: title
+#       boost: 15
+#       jekyllfields:
+#         - title
+#     - searchfield: description
+#       boost: 5
+#       markdown: true
+#       jekyllfields:
+#         - description
+#     - searchfield: type
+#       boost: 0
+#       facetfield: true
+#       jekyllfields:
+#         - type
+#     - searchfield: content
+#       boost: 3
+#       markdown: true
+#       jekyllfields:
+#         - content
+#   displayfields:
+#     - field: title
+#       headerfield: true
+#     - field: content
+#       contentfield: true
+#       truncate: 50
+#     - field: description
+#       label: Description
+#     - field: type
+#       label: Type
+#   fuzzysearchfields: [title, description, content]
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -43,6 +78,12 @@ collections:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
+exclude:
+  - search-prebuild
+  - node_modules
+  - package.json
+  - package-lock.json
+
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
