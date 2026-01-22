@@ -4,8 +4,8 @@ robots: noindex
 ---
 async function loadPrebuilt() {
   const [idxRes, docsRes] = await Promise.all([
-    fetch('{{ site.baseurl }}/search_index.json'),
-    fetch('{{ site.baseurl }}/search_docs.json')
+  fetch('{{ "search_index.json" | relative_url }}'),
+  fetch('{{ "search_docs.json" | relative_url }}')
   ]);
 
   const idxJson = await idxRes.json();

@@ -40,7 +40,7 @@ Home</a>      </li>
 
 
 <div class="ct-banner__content"> 
-  <form class="ct-inline-filter ct-theme-light" action="/search/" method="get">
+  <form class="ct-inline-filter ct-theme-light" action="{{ "/search/" | relative_url }}"  method="get">
 
     <div class="ct-inline-filter__content">
       <div class="ct-inline-filter__items">
