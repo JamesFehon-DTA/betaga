@@ -76,15 +76,17 @@ function renderSnippet(r) {
 }
 
 
-  async function performSearch(q) {
-    if (!q) {
+async function performSearch(q) {
+  if (!q) {
       list.innerHTML = '';
       info.textContent = '';
       wrapper.style.display = 'none';
       return;
     }
 
-    spinner.style.display = 'block';
+    if (userHasSearched) {
+      spinner.style.display = 'block';
+    }
 
     const results = await runSearch(q);
 
@@ -98,13 +100,16 @@ function renderSnippet(r) {
   }
 
 
+
   form.addEventListener('submit', function (e) {
-    if (!onSearchPage) { 
-      return; // allow default browser behaviour 
+    if (!onSearchPage) {
+      return;
     }
 
     e.preventDefault();
     const q = box.value.trim();
+
+    userHasSearched = true; // mark that a real search has started
 
     const newUrl = `${window.location.pathname}?query=${encodeURIComponent(q)}`;
     window.history.pushState({}, '', newUrl);
@@ -112,19 +117,35 @@ function renderSnippet(r) {
     performSearch(q);
   });
 
+
   const params = new URLSearchParams(window.location.search);
-  const initial = params.get('query');
+  let initial = params.get('query');
+
+  // normalise ?query= to empty string
+  if (initial === null || initial.trim() === '') {
+    initial = '';
+  }
 
   if (initial) {
     box.value = initial;
     performSearch(initial);
+  } else {
+    // show “no search” state
+    list.innerHTML = '';
+    info.textContent = '';
+    wrapper.style.display = 'none';
   }
 
   window.addEventListener('popstate', function () {
     const params = new URLSearchParams(window.location.search);
-    const q = params.get('query') || '';
+    let q = params.get('query');
+
+    if (q === null || q.trim() === '') {
+      q = '';
+    }
 
     box.value = q;
     performSearch(q);
   });
+
 });
