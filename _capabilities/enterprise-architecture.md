@@ -9,7 +9,7 @@ domain: 'Governance'
 toc: ''
 content_top: true
 aga_code: 'CAP69'
-
+type: Capability
 ---
 
 

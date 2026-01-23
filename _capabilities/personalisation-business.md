@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Personalisation (business)'
-description: 'Personalisation refers to the managing of tailored experiences for businesses based on their credentials, preferences and needs.'
+description: 'Managing tailored experiences for businesses based on their credentials, preferences and needs.'
 url: '/'
 domain: 'Business experience'
 toc: ''
 content_top: true
 aga_code: 'CAP64'
-
+type: Capability
 ---
 
 

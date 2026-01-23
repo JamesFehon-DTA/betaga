@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'APS digital and ICT skills'
-description: 'APS Digital and ICT Skills refers to the advancement and management of APS Digital and ICT skills that promote a whole of APS Digital Profession which can be used efficiently to address fluctuating capability and capacity constraints across government.'
+description: 'The advancement and management of APS digital and ICT skills that promote a whole of APS Digital Profession which can be used efficiently to address fluctuating capability and capacity constraints across government.'
 url: '/'
 domain: 'Governance'
 toc: ''
 content_top: true
 aga_code: 'CAP9'
-
+type: Capability
 ---
 
 

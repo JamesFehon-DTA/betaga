@@ -3,14 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Cloud computing'
-description: 'The Australian Government has adopted the US Government&#39;s National Institute of Standards and Technology&#39;s (NIST) definition of cloud.
-Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.'
+description: 'Managing deployment of computing services into a shared pool of computing, network and storage resources accessed by multiple customers to reduce costs, improve quality of service, harness innovation and increase scalability. Cloud computing service models include Infrastructure as a Service, Platform as a Service, and Software as a Service. Cloud Services can be deployed as either Public or Private Cloud.'
 url: '/'
 domain: 'Technology reference'
 toc: ''
 content_top: true
 aga_code: 'CAP3'
-
+type: Capability
 ---
 
 

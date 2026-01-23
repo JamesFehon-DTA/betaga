@@ -3,15 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Software engineering and development'
-description: 'Software Engineering and Development refers to managing the development of software through its lifecycle.
-Objective
-An objective for this space will be finalised through the iterative development of the Australian Government Architecture.'
+description: 'Managing the development of software through its lifecycle.'
 url: '/'
 domain: 'Technology reference'
 toc: ''
 content_top: true
 aga_code: 'CAP7'
-
+type: Capability
 ---
 
 

@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Compliance and investigation'
-description: 'Compliance and investigation refers to the monitoring of compliance with policies, directions, regulation and legislation, including investigation of fraud.'
+description: 'Monitoring compliance with policies, directions, regulation and legislation, including investigation of fraud.'
 url: '/'
 domain: 'Government service delivery'
 toc: ''
 content_top: true
 aga_code: 'CAP40'
-
+type: Capability
 ---
 
 

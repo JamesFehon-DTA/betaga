@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Digital portal (business)'
-description: 'A Digital Portal is a way to provide businesses with a single digital access point to government services (for example, through a web browser or mobile app).'
+description: 'Providing individuals with access to government services digitally (eg: through a web browser or mobile application)'
 url: '/'
 domain: 'Business experience'
 toc: ''
 content_top: true
 aga_code: 'CAP18'
-
+type: Capability
 ---
 
 

@@ -9,7 +9,7 @@ domain: 'Individual experience'
 toc: ''
 content_top: true
 aga_code: 'CAP46'
-
+type: Capability
 ---
 
 

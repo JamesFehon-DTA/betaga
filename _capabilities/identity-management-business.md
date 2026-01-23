@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Identity management (business)'
-description: 'Identity Management is a set of processes to manage the identification and authentication of Australian businesses and their authorised representatives. It includes identity proofing, verification of ABN, and login.'
+description: 'A set of processes to manage the identification and authentication of Australian businesses and their authorised representatives. It includes identity proofing, verification of ABN, and login.'
 url: '/'
 domain: 'Business experience'
 toc: ''
 content_top: true
 aga_code: 'CAP61'
-
+type: Capability
 ---
 
 

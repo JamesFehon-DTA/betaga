@@ -9,7 +9,7 @@ domain: 'Technology reference'
 toc: ''
 content_top: true
 aga_code: 'CAP59'
-
+type: Capability
 ---
 
 

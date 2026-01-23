@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Complaints and issues resolution (individual)'
-description: 'Complaints and Issues Resolution refers to managing the collection of and effective resolution for complaints from individuals about government services and operations.'
+description: 'Managing the collection of and effective resolution for complaints from individuals about government services and operations.'
 url: '/'
 domain: 'Individual experience'
 toc: ''
 content_top: true
 aga_code: 'CAP41'
-
+type: Capability
 ---
 
 

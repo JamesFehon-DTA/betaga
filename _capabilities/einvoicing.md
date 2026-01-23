@@ -6,7 +6,7 @@ title: 'eInvoicing'
 description: 'eInvoicing is the digital exchange of standardised invoice information between sellers’ and buyers’ accounting systems, using a common agreed standard via a secure network. It enables government to receive and process eInvoices from individuals, businesses and authorised representatives'
 url: '/'
 domain: 'Business reference'
-
+type: Capability
 ---
 
 ## Access AGA guidance

@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Collaboration and sharing'
-description: 'Collaboration and Sharing relates to a set of systems and processes that allow government agency staff to effectively share information and collaborate on shared work tasks. It includes systems that support collaboration and sharing such as email, calendar, instant messaging, video conferencing, document sharing, and automated forms.'
+description: 'A set of systems and processes that allow government agency staff to effectively share information and collaborate on shared work tasks. It includes systems that support collaboration and sharing such as email, calendar, instant messaging, video conferencing, document sharing, and automated forms.'
 url: '/'
 domain: 'Staff experience'
 toc: ''
 content_top: true
 aga_code: 'CAP25'
-
+type: Capability
 ---
 
 

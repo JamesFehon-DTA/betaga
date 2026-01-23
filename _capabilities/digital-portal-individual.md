@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Digital portal (individual)'
-description: 'A Digital Portal is a way to provide individuals access to multiple government services through a single entry point. It means that individuals only have to remember one location and one login, and can easily access and discover many relevant government services in a single place.'
+description: 'A way to provide individuals access to multiple government services through a single entry point. It means that individuals only have to remember one location and one login, and can easily access and discover many relevant government services in a single place.'
 url: '/'
 domain: 'Individual experience'
 toc: ''
 content_top: true
 aga_code: 'CAP1'
-
+type: Capability
 ---
 
 

@@ -5,4 +5,5 @@ description: 'A set of policies, processes and technologies used to regulate, st
 url: '/'
 
 domain: 'Cyber security'
+type: Capability
 ---

@@ -3,15 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Hosting'
-description: 'Hosting refers to facilities that host systems and data either internally within agencies (&#39;on premises&#39;) or by providers to government. These providers may deliver a range of services to agencies, including cloud computing.
-Objective
-To enable agencies to identify and source hosting services that meet enhanced privacy, sovereignty and security requirements.'
+description: 'Facilities that host systems and data by providers to government. These providers may deliver a range of services to agencies, including cloud computing.'
 url: '/'
 domain: 'Technology reference'
 toc: ''
 content_top: true
 aga_code: 'CAP28'
-
+type: Capability
 ---
 
 

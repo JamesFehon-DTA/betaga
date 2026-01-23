@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Internet of Things'
-description: 'Internet of Things refers to the network of physical objects that are able to connect to the Internet.'
+description: 'The network of physical objects that are able to connect to the Internet.'
 url: '/'
 domain: 'Technology reference'
 toc: ''
 content_top: true
 aga_code: 'CAP60'
-
+type: Capability
 ---
 
 

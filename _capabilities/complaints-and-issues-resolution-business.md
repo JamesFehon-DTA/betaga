@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Complaints and issues resolution (business)'
-description: 'Complaints and Issues Resolution refers to managing the collection of and effective resolution for complaints from Australian Businesses about government services and operations.'
+description: 'Managing the collection of and effective resolution for complaints from Australian businesses about government services and operations.'
 url: '/'
 domain: 'Business experience'
 toc: ''
 content_top: true
 aga_code: 'CAP29'
-
+type: Capability
 ---
 
 

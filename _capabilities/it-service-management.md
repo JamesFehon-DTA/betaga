@@ -3,15 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'IT service management'
-description: 'IT Service Management refers to monitoring and managing the quality of IT products and services being delivered.
-Objective
-An objective for this space will be finalised through the iterative development of the Australian Government Architecture.'
+description: 'Monitoring and managing the quality of IT products and services being delivered.'
 url: '/'
 domain: 'Technology reference'
 toc: ''
 content_top: true
 aga_code: 'CAP47'
-
+type: Capability
 ---
 
 

@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Debt management'
-description: 'Debt management constitutes the strategies, systems, and processes used by entities to manage its receivables. This includes the collection of outstanding amounts owed, such as taxes, overpayments, and other receivables.'
+description: 'Managing and collecting debts owed to the government by individuals and businesses (including unpaid fees and overpayment of welfare and taxation benefits that must be repaid).'
 url: '/'
 domain: 'Government service delivery'
 toc: ''
 content_top: true
 aga_code: 'CAP38'
-
+type: Capability
 ---
 
 

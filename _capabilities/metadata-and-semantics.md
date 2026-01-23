@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Metadata and semantics'
-description: 'Metadata and Semantics is the process of managing standardised descriptions of the metadata of data to enable understanding of context of the data for future use and to enable data to be shared within and between agencies more effectively.'
+description: 'Managing standardised descriptions of the metadata of data to enable understanding of context of the data for future use and to enable data to be shared within and between agencies more effectively.'
 url: '/'
 domain: 'Data and analytics'
 toc: ''
 content_top: true
 aga_code: 'CAP58'
-
+type: Capability
 ---
 
 

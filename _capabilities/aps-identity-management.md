@@ -3,15 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'APS identity management'
-description: 'APS Identity Management is a set of processes to manage the identification and authentication of Australian Public Service staff to access government building, systems and information.
-Objective
-An objective for this space will be finalised through the iterative development of the Australian Government Architecture.'
+description: 'A set of processes to manage the identification and authentication of Australian Public Service staff to access government building, systems and information.'
 url: '/'
 domain: 'Staff experience'
 toc: ''
 content_top: true
 aga_code: 'CAP22'
-
+type: Capability
 ---
 
 

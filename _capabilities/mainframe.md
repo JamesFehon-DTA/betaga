@@ -3,14 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Mainframe'
-description: 'Mainframe computers are powerful, large-scale machines designed for high-volume, resource-intensive computing tasks, known for their high reliability, extensive input/output capabilities, robust security features, and ability to handle massive amounts of real-time transactions and concurrent users.
-Please note, the broader topic of High Performance Computing has been separated out as a distinct capability.'
+description: 'A specific type of technology that allows for high levels of data processing with a high volume of input and output operations, including its storage and other attached systems across geographically dispersed networks.'
 url: '/'
 domain: 'Technology reference'
 toc: ''
 content_top: true
 aga_code: 'CAP12'
-
+type: Capability
 ---
 
 

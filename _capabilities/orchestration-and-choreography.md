@@ -3,15 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Orchestration and choreography'
-description: 'Orchestration and Choreography refers to providing automated configuration, management, and coordination of computer systems, applications, and services to allow for seamless delivery of end-to-end services to users.
-Objective
-An objective for this space will be finalised through the iterative development of the Australian Government Architecture.'
+description: 'Providing automated configuration, management, and coordination of computer systems, applications, and services to allow for seamless delivery of end-to-end services to users.'
 url: '/'
 domain: 'Integration and interoperability'
 toc: ''
 content_top: true
 aga_code: 'CAP62'
-
+type: Capability
 ---
 
 

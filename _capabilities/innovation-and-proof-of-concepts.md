@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Innovation and proof of concepts'
-description: 'Innovation and Proof of Concepts refers to the identifying and prioritising of where digital and ICT technologies can fulfil or improve government capabilities through new research and proof of concept development to test viability before larger scaling and development is pursued.'
+description: 'Identifying and prioritising where digital and ICT technologies can fulfil or improve government capabilities through new research and proof of concept development to test viability before larger scaling and development is pursued.'
 url: '/'
 domain: 'Governance'
 toc: ''
 content_top: true
 aga_code: 'CAP19'
-
+type: Capability
 ---
 
 

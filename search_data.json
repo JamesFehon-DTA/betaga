@@ -22,11 +22,7 @@ robots: noindex
       "description": {{ item.description | jsonify }},
       "url": {{ item.url | jsonify }},
       "domain": {{ item.domain | jsonify }},
-      {% comment %}
-        Temporary replacement for default fallback
-        "type": {{ item.type | jsonify }},
-      {% endcomment %}
-      "type": {{ item.type | default: "Capability" | jsonify }},
+      "type": {{ item.type | default: "Page" | jsonify }},
       "content": {{ item.content | strip_html | strip_newlines | normalize_whitespace | jsonify }}
     }{% unless forloop.last %},{% endunless %}
     {% endunless %}

@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Business intelligence analytics'
-description: 'Business intelligence analytics is the process of collecting, processing, and analysing data to gain actionable insights and inform strategic decisions. It involves leveraging various tools and methodologies to identify trends, patterns and anomalies over time to guide future business strategies.'
+description: 'Analysing business data to improve strategic understanding and inform decision making.'
 url: '/'
 domain: 'Data and analytics'
 toc: ''
 content_top: true
 aga_code: 'CAP35'
-
+type: Capability
 ---
 
 

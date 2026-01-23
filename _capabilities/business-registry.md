@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Business registry'
-description: 'Business registry is a register for all government information pertinent to a specific Australian business for the purposes or streamlined service delivery.'
+description: 'A register for all government information pertinent to a specific Australian business for the purposes or streamlined service delivery.'
 url: '/'
 domain: 'Government service delivery'
 toc: ''
 content_top: true
 aga_code: 'CAP44'
-
+type: Capability
 ---
 
 

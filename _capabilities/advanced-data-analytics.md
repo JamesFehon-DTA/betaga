@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Advanced data analytics'
-description: 'Advanced Data Analytics is the analysis of raw datasets using specialised computers and software.'
+description: 'The analysis of raw datasets using specialised computers and software.'
 url: '/'
 domain: 'Data and analytics'
 toc: ''
 content_top: true
 aga_code: 'CAP42'
-
+type: Capability
 ---
 
 

@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Virtual servicing (individual)'
-description: 'Virtual Servicing is a set of policies, processes and technologies used to allow agencies to deliver services virtually to individuals, enabling more flexible and remote operations.'
+description: 'A set of policies, processes and technologies used to deliver services to businesses virtually, enabling more flexible and remote operations.'
 url: '/'
 domain: 'Individual experience'
 toc: ''
 content_top: true
 aga_code: 'CAP37'
-
+type: Capability
 ---
 
 

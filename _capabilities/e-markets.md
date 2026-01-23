@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'E-markets'
-description: 'E-Markets are systems or platforms that digitally connect or link users to the provisioning of products or services. E-Markets involve the use of digital platforms, technologies, and services to avail products and services in a virtual marketplace.'
+description: 'Systems or platforms that digitally connect or link users to the provisioning of products or services. E-Markets involve the use of digital platforms, technologies, and services to avail products and services in a virtual marketplace.'
 url: '/'
 domain: 'Government service delivery'
 toc: ''
 content_top: true
 aga_code: 'CAP65'
-
+type: Capability
 ---
 
 

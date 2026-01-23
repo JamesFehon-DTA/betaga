@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Digital twins'
-description: 'A digital twin is dynamic digital representation of a real-world object or system.'
+description: 'Digital Twins are dynamic digital representations of real-world objects or systems.'
 url: '/'
 domain: 'Technology reference'
 toc: ''
 content_top: true
 aga_code: 'CAP52'
-
+type: Capability
 ---
 
 

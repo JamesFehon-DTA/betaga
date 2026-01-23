@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Procurement and sourcing'
-description: 'Procurement and Sourcing are a set of processes that government buyers undertake to find and buy digital products and services.'
+description: 'A set of processes that government buyers undertake to find and buy digital products and services. This guidance replaces the Digital Sourcing Consider First and Fair Criteria policies.'
 url: '/'
 domain: 'Governance'
 toc: ''
 content_top: true
 aga_code: 'CAP43'
-
+type: Capability
 ---
 
 

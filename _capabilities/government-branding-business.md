@@ -3,15 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Government branding (business)'
-description: 'Government Branding refers to ensuring consistent Australian Government branding across digital services provided to businesses.
-Objective
-An objective for this space will be finalised through the iterative development of the Australian Government Architecture.'
+description: 'Ensuring consistent Australian Government branding across digital services provided to businesses.'
 url: '/'
 domain: 'Business experience'
 toc: ''
 content_top: true
 aga_code: 'CAP34'
-
+type: Capability
 ---
 
 

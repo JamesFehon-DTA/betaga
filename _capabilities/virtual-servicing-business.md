@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Virtual servicing (business)'
-description: 'Virtual Servicing describes a set of policies, processes and technologies used to deliver services to businesses virtually, enabling more flexible and remote operations.'
+description: 'A set of policies, processes and technologies used to deliver services to businesses virtually, enabling more flexible and remote operations.'
 url: '/'
 domain: 'Business experience'
 toc: ''
 content_top: true
 aga_code: 'CAP21'
-
+type: Capability
 ---
 
 

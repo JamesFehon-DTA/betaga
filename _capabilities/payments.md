@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Payments'
-description: 'Payments describes the process of transferring funds from one party to another, encompassing both outgoing and incoming transactions. This includes the disbursement of funds to individuals, businesses or other entities, as well as the receipt of funds into government accounts.'
+description: 'Managing government payments, it includes incoming and outgoing payments to individuals, businesses and authorised representatives.'
 url: '/'
 domain: 'Government service delivery'
 toc: ''
 content_top: true
 aga_code: 'CAP8'
-
+type: Capability
 ---
 
 

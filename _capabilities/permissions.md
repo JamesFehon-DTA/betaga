@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Permissions'
-description: 'Permissions provide the ability to evaluate, record, and access information identifying the right of an individual or entity to use, access, or do something, be something, or have something. Permissions are crucial for ensuring that government services and resources are allocated and accessed appropriately, transparently and securely. A permissions capability includes technology, people, processes, and enablers such a business design, service models, and governance.'
+description: 'Determining eligibility for entitlements or otherwise granting credentials, permissions, authorities or status to users.'
 url: '/'
 domain: 'Government service delivery'
 toc: ''
 content_top: true
 aga_code: 'CAP50'
-
+type: Capability
 ---
 
 

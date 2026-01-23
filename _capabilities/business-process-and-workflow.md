@@ -3,14 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Business process and workflow'
-description: 'Business process and workflow is defined as the ability of government agencies to codify, automate, and standardise business processes and rules, including the orchestration of multiple workflows and management of extended business processes within a digital environment.
-Business process and workflow exist at various levels within an entity and are part of a broader operational practice.'
+description: 'Automated and standardised business processes and their integration into more complex systems of systems.'
 url: '/'
 domain: 'Government service delivery'
 toc: ''
 content_top: true
 aga_code: 'CAP57'
-
+type: Capability
 ---
 
 

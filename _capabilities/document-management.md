@@ -3,15 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Document management'
-description: 'Document Management is a set of policies, processes and technologies used to create, capture, manage the destruction or transfer of records within an agency.
-Objective
-An objective for this space will be finalised through the iterative development of the Australian Government Architecture.'
+description: 'The process of organising, storing, and tracking documents. The goal of document management is to make it easier for agencies to access, share, and collaborate on their documents.'
 url: '/'
 domain: 'Business reference'
 toc: ''
 content_top: true
 aga_code: 'CAP56'
-
+type: Capability
 ---
 
 

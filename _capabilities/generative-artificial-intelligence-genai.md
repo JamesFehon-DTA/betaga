@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Generative artificial intelligence (GenAI)'
-description: 'While there are various definitions of what constitutes artificial intelligence, the AGA uses the OECD definition of an Artificial Intelligence (AI) system. This definition applies through all materials within this Domain.'
+description: 'Generative artificial intelligence (GenAI) refers to algorithms that are capable of producing new content such as audio, code, images, text, simulations, and videos.'
 url: '/'
 domain: 'Artificial intelligence'
 toc: ''
 content_top: true
 aga_code: 'CAP67'
-
+type: Capability
 ---
 
 

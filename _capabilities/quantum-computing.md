@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Quantum computing'
-description: 'Quantum computing refers to the storing and processing of information utilising quantum technologies. Quantum technologies take advantage of the way matter and light behave at atomic and subatomic scales. Quantum mechanical properties (like entanglement, superposition and tunnelling) can be used to build advanced technologies that would otherwise be impossible.'
+description: 'Storing and processing information by manipulating the behaviour of individual atoms, ions, electrons or photons.'
 url: '/'
 domain: 'Technology reference'
 toc: ''
 content_top: true
 aga_code: 'CAP63'
-
+type: Capability
 ---
 
 

@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Customer relationship management (business)'
-description: 'Customer Relationship Management (CRM) refers to the recording, managing, and optimising of interactions with people and businesses to create a seamless experience across channels. CRM systems can include case management workflow functionalities, as well as managing customer data, relationships, and interactions.'
+description: 'Recording and managing all interactions with users to create a seamless experience across channels.'
 url: '/'
 domain: 'Business experience'
 toc: ''
 content_top: true
 aga_code: 'CAP33'
-
+type: Capability
 ---
 
 

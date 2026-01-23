@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Cloud financial optimisation (Cloud FinOps)'
-description: 'Cloud Financial Optimisation or &#39;Cloud FinOps&#39; covers financial management processes and practices for cloud services. In the context of government operations, Cloud Financial Operations, or FinOps, is a strategic approach that aligns cloud spending with public sector objectives and accountability.'
+description: 'Financial management processes and practices for cloud services. A strategic approach that aligns cloud spending with public sector objectives and accountability.'
 url: '/'
 domain: 'Governance'
 toc: ''
 content_top: true
 aga_code: 'CAP71'
-
+type: Capability
 ---
 
 

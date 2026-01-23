@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Government branding (individual)'
-description: 'Government Branding is how the Australian Government presents itself, its agencies and its digital products. The role of Government Branding (and the brands that it includes) is to deliver an experience that builds trust, confidence and ease of use for our customers. Government Brands can assist with navigation, or orientation around government agencies, policies and services.'
+description: 'Ensuring consistent Australian Government branding across digital services provided to individuals.'
 url: '/'
 domain: 'Individual experience'
 toc: ''
 content_top: true
 aga_code: 'CAP16'
-
+type: Capability
 ---
 
 

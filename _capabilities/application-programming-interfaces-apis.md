@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Application programming interfaces (APIs)'
-description: 'An application programming interface (API) is a set of rules, protocols, and tools that allows different software applications to communicate with each other. It acts as an intermediary layer that allows the transfer of data between different systems, services, and libraries.'
+description: 'A set of rules, protocols, and tools that allows different software applications to communicate with each other. An intermediary layer that allows the transfer of data between different systems, services, and libraries.'
 url: '/'
 domain: 'Integration and interoperability'
 toc: ''
 content_top: true
 aga_code: 'CAP6'
-
+type: Capability
 ---
 
 

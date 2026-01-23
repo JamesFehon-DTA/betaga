@@ -3,15 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Operational analytics'
-description: 'Operational Analytics refers to the performing of real time analysis of business operations to improve strategic outcomes.
-Objective
-An objective for this space will be finalised through the iterative development of the Australian Government Architecture.'
+description: 'Performing real time analysis of business operations to improve strategic outcomes.'
 url: '/'
 domain: 'Data and analytics'
 toc: ''
 content_top: true
 aga_code: 'CAP39'
-
+type: Capability
 ---
 
 

@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Correspondence management (outgoing correspondence)'
-description: 'Correspondence management (outgoing correspondence) is defined by the capability to write and send messages from entities to individuals and businesses. Outgoing correspondence involves sharing information through postal letters, emails, and texts, and may include electronic notifications about those messages.'
+description: 'Managing the incoming and outgoing correspondence of an agency to individuals and businesses. Correspondence can include sending information via letters in the post, letters sent by email, letters made available in myGov Inbox, notifications sent by SMS or notifications that are pushed to government mobile applications.'
 url: '/'
 domain: 'Government service delivery'
 toc: ''
 content_top: true
 aga_code: 'CAP45'
-
+type: Capability
 ---
 
 

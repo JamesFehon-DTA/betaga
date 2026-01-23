@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'GovTech: government technology for the modern era'
-description: 'GovTech refers to the whole-of-government use of technology to improve the efficiency, transparency, and responsiveness of government operations and service delivery. It involves collaboration between governments, industries, academia, and internal innovators or ’intrapreneurs’ to co-create technology-driven solutions that address public sector challenges.'
+description: 'GovTech involves collaboration between governments, industries, academia, and internal innovators or ’intrapreneurs’ to co-create technology-driven solutions that address public sector challenges.'
 url: '/'
 domain: 'Governance'
 toc: ''
 content_top: true
 aga_code: 'CAP73'
-
+type: Capability
 ---
 
 

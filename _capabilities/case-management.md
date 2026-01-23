@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Case management'
-description: 'Case management capability refers to government agencies’ ability to manage the workflow of events to their resolution to meet the needs of individauals or business. This may involve engagement, assessment, planning, implementation, coordination, monitoring, and evaluation.'
+description: 'Managing the workflow of steps in a process to their resolution to meet the needs of individuals or business. This may involve engagement, assessment, planning, implementation, coordination, monitoring and evaluation.'
 url: '/'
 domain: 'Government service delivery'
 toc: ''
 content_top: true
 aga_code: 'CAP32'
-
+type: Capability
 ---
 
 

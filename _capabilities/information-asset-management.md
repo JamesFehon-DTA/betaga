@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Information asset management '
-description: 'Information asset management refers to the processes and procedures used to create and manage information assets to effectively deliver information, insights, and services to the public at the right time in the right format. Information assets need to be efficiently managed from creation and should be appropriately destroyed once their value has ceased.'
+description: 'Processes and procedures used to create and manage information assets to effectively deliver information, insights, and services to the public at the right time in the right format. Information assets need to be efficiently managed from creation and should be appropriately destroyed once their value has ceased.'
 url: '/'
 domain: 'Data and analytics'
 toc: ''
 content_top: true
 aga_code: 'CAP4'
-
+type: Capability
 ---
 
 

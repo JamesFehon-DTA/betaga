@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Entitlements'
-description: 'Entitlements refers to a set of systems and processes that evaluate and determine eligibility and entitlements for government services according to the specific circumstances of an individual or business.'
+description: 'A set of systems and processes that evaluate and determine eligibility and entitlements for government services according to the specific circumstances of an individual or business.'
 url: '/'
 domain: 'Government service delivery'
 toc: ''
 content_top: true
 aga_code: 'CAP27'
-
+type: Capability
 ---
 
 

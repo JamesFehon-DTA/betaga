@@ -3,15 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'End user computing'
-description: 'End User Computing refers to the supplying and managing of staff productivity enablers including fixed and mobile devices, standard operating environments, staff communication and intranet, and remote access.
-Objective
-An objective for this space will be finalised through the iterative development of the Australian Government Architecture.'
+description: 'Supplying and managing staff productivity enablers including fixed and mobile devices, standard operating environments, staff communication and intranet, and remote access.'
 url: '/'
 domain: 'Staff experience'
 toc: ''
 content_top: true
 aga_code: 'CAP14'
-
+type: Capability
 ---
 
 

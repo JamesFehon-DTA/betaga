@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Identity management (individual)'
-description: 'Identity Management is a set of processes to manage the identification and authentication of individual users of government digital services. It includes identity proofing, and login.'
+description: 'A set of processes to manage the identification and authentication of individual users of government digital services. It includes identity proofing, and login.'
 url: '/'
 domain: 'Individual experience'
 toc: ''
 content_top: true
 aga_code: 'CAP17'
-
+type: Capability
 ---
 
 

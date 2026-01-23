@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Benefits management'
-description: 'Benefits Management is the identification, quantification, analysis, planning, tracking, realisation, and optimisation of benefits.'
+description: 'Principles to support agencies in adopting key tenets of good benefits management which will underpin government’s ability to effectively assure digital implementation.'
 url: '/'
 domain: 'Governance'
 toc: ''
 content_top: true
 aga_code: 'CAP2'
-
+type: Capability
 ---
 
 

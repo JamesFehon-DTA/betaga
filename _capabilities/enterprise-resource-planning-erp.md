@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Enterprise resource planning (ERP)'
-description: 'Enterprise resource planning (ERP) tools integrate and automate core business functions and allow organisations to manage corporate services.'
+description: 'Managing agency back-office services, including financial management, human resources, procurement services and reporting and travel and expense management.'
 url: '/'
 domain: 'Business reference'
 toc: ''
 content_top: true
 aga_code: 'CAP24'
-
+type: Capability
 ---
 
 

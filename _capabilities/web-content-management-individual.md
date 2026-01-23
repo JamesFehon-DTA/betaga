@@ -3,13 +3,13 @@ layout: capability
 style: 'ct-vertical-spacing--bottom ct-basic-content'
 
 title: 'Web content management (individual)'
-description: 'Web Content Management refers to the process of creating, managing, delivering, hosting, and publishing static digital content, generally as a public-facing website. The content may include text, documents, images, video, audio, and other digital assets related to government information.'
+description: 'Hosting and publishing static web content for individuals to access government information.'
 url: '/'
 domain: 'Individual experience'
 toc: ''
 content_top: true
 aga_code: 'CAP23'
-
+type: Capability
 ---
 
 
