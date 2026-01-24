@@ -1,0 +1,38 @@
+---
+layout: capability
+style: 'ct-vertical-spacing--bottom ct-basic-content'
+
+title: 'GovTech: government technology for the modern era'
+description: 'GovTech involves collaboration between governments, industries, academia, and internal innovators or ’intrapreneurs’ to co-create technology-driven solutions that address public sector challenges.'
+url: '/'
+domain: 'Governance'
+toc: ''
+content_top: true
+aga_code: 'CAP73'
+type: Capability
+---
+
+
+
+
+## Other government directions
+You may need to meet specific requirements within these whole-of-government resources. Check each one for how it might apply to your proposal, project or agency.
+
+
+* [GovTech designs ](/resource/govtech-designs)
+
+
+
+
+
+
+[View more resources](resources/ "GovTech: government technology for the modern era resources")
+
+## Connect with peers
+Connect with practitioners and experts across the Australian Public Service to share experience and ask questions.
+
+- ### Digital community
+Start a new thread in this GovTEAMS Official community
+
+- ### GovTech: government technology for the modern era community
+Start a new thread in this GovTEAMS Official community
