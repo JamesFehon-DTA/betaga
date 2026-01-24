@@ -4,7 +4,7 @@ permalink: '/search_data.json'
 robots: noindex
 ---
 
-{% assign search_items = site.capabilities | concat: site.pages | sort: "title" %}
+{% assign search_items = site.capabilities | concat: site.resources | concat: site.pages | sort: "title" %}
 [
   {% for item in search_items %}
     {% unless item.robots contains 'noindex' or item.site-search == false %}
