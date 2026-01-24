@@ -110,9 +110,12 @@ layout: main
               
             </section>
 
-            <aside class="ct-layout__sidebar_top_left">
-              {{page.toc}}
-            </aside>
+    <aside class="ct-layout__sidebar_top_left">
+      {% if page.toc != "auto_sticky_nested" %}
+        {{page.toc}}
+      {% endif %}
+      <!-- Auto-generated TOC will be inserted here by the script -->
+    </aside>
 
 <!--             <aside class="ct-layout__sidebar_top_right">
               {{ SIDEBAR_TOP_RIGHT }}
@@ -128,5 +131,9 @@ layout: main
           </div>
 
           <!-- <div >{{ content_bottom }}</div> -->
+
+      {% if page.toc == "auto_sticky_nested" %}
+      <script src="{{ '/js/toc-auto-generator.js' | relative_url }}"></script>
+      {% endif %}
 
         </main>

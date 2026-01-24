@@ -67,7 +67,7 @@ Entities should:
 
 ## Develop a content strategy
 
-The APSC’s Digital Profession provides reference materials for development of a content strategy: [Content Strategy Guide | Digital Profession](https://www.digitalprofession.gov.au/content-strategy)
+The APSC’s Digital Profession provides reference materials for development of a content strategy: [Content Strategy Guide \| Digital Profession](https://www.digitalprofession.gov.au/content-strategy)
 
 Entities should:
 
@@ -89,8 +89,8 @@ There are numerous CMS available, and each has its own unique user experience an
 Entities must implement a CMS with:
 
 * the ability to create, edit, revise, audit and publish content in line with [Archives Act 1983](https://www.naa.gov.au/information-management/disposing-information/retaining-managing-and-disposing-data-and-datasets)
-* the ability to have roles-based access control to minimise risk to both content administration and user access, in line with [identity management best practice](https://blueprint.asd.gov.au/design/platform/identity/roles/) and [Permissions | aga (digital.gov.au)](https://architecture.digital.gov.au/permissions)
-* committed ongoing support in the form of continuous security updates and patches. Refer to [Application Security Standard | aga (digital.gov.au)](https://architecture.digital.gov.au/application-security-standard).
+* the ability to have roles-based access control to minimise risk to both content administration and user access, in line with [identity management best practice](https://blueprint.asd.gov.au/design/platform/identity/roles/) and [Permissions \| aga (digital.gov.au)](https://architecture.digital.gov.au/permissions)
+* committed ongoing support in the form of continuous security updates and patches. Refer to [Application Security Standard \| aga (digital.gov.au)](https://architecture.digital.gov.au/application-security-standard).
 
 Entities should:
 
@@ -101,10 +101,10 @@ Entities should:
 * consider the functionality needed in the CMS workflow to support the roles involved in content management
 * consider content categorisation as a vital step in both mapping out the content and scaling the content management process.
 * conduct routine website audit and standardised inventory to effectively categorise entity’s content
-* use information architecture (IA) to help individuals and businesses navigate a website, making it clear where they are and how to find what they need, utilising resources such as [Improve your IA | Digital Profession](https://www.digitalprofession.gov.au/content-strategy/information-architecture)
+* use information architecture (IA) to help individuals and businesses navigate a website, making it clear where they are and how to find what they need, utilising resources such as [Improve your IA \| Digital Profession](https://www.digitalprofession.gov.au/content-strategy/information-architecture)
 * focus on developing a coherent taxonomy to organise content in a structured, hierarchical manner based on shared characteristics
 * consider CMS that can generate online traffic through search engine optimisation in accordance with [SEO guidelines](https://www.digitalprofession.gov.au/content-strategy/search-engine-optimisation)
-* implement content maintenance process to ensure continuous value for the user. [Content maintenance plan | Digital Profession](https://www.digitalprofession.gov.au/content-strategy/manage-content-requests/maintain-improve-content/maintain-plan).
+* implement content maintenance process to ensure continuous value for the user. [Content maintenance plan \| Digital Profession](https://www.digitalprofession.gov.au/content-strategy/manage-content-requests/maintain-improve-content/maintain-plan).
 
 ## Prioritise and enable integration and interoperability
 
@@ -140,7 +140,7 @@ Entities must:
 Entities should:
 
 * consider opportunities to utilise emerging technologies, such as AI, to improve content personalisation, SEO, long-form contents, or product descriptions
-* align to applicable guidance within [Artificial Intelligence (AI) | aga (digital.gov.au)](https://architecture.digital.gov.au/ai)
+* align to applicable guidance within [Artificial Intelligence (AI) \| aga (digital.gov.au)](https://architecture.digital.gov.au/ai)
 * apply [Australia’s 8 Artificial Intelligence (AI) Ethics Principles](https://www.industry.gov.au/publications/australias-artificial-intelligence-ethics-framework/australias-ai-ethics-principles) when curating content for citizens and businesses using AI
 * ensure AI inclusions are developed and used in a way that provides benefits while minimising the risk of negative impact to people, groups, and wider society
 * transparently identify where and how AI has been utilised at any point of end-to-end content management.

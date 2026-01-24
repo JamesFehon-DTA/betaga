@@ -36,7 +36,7 @@ ERP Finance capability enables Commonwealth entities to achieve multiple key out
 
 ## Enterprise Resource Planning (ERP) Finance standard statements
 
-The GovERP reuse assessment is part of the new APS ERP approach and it provides detail on all value streams and definitions - [Enterprise Resource Planning (ERP) | digital.gov.au](https://www.digital.gov.au/initiatives/enterprise-resource-planning).
+The GovERP reuse assessment is part of the new APS ERP approach and it provides detail on all value streams and definitions - [Enterprise Resource Planning (ERP) \| digital.gov.au](https://www.digital.gov.au/initiatives/enterprise-resource-planning).
 
 [Reusable components](https://www.digital.gov.au/initiatives/enterprise-resource-planning/erp-reuse-assessment) have been provided as part of this standard.
 

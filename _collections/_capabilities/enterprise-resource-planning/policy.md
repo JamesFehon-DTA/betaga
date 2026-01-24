@@ -31,7 +31,7 @@ type: 'AGA Policy'
 
 ### Align to the government’s APS ERP approach via the principles of Affordability, Choice, and Contestability
 
-In self-assessing individual ERP solution needs, entities are to align to the APS ERP approach and its objectives. Refer to the new [The new APS ERP approach | Department of Finance](https://www.finance.gov.au/government/new-aps-erp-approach).
+In self-assessing individual ERP solution needs, entities are to align to the APS ERP approach and its objectives. Refer to the new [The new APS ERP approach \| Department of Finance](https://www.finance.gov.au/government/new-aps-erp-approach).
 
 ### Notify the DTA of any ERP investment activities
 
@@ -47,7 +47,7 @@ With organisational complexity and specifics in mind, conduct work to align foll
 
 ### Determine if an existing entity ERP solution, or an ERP solution within a shared service offering, is suitable before implementing new instances
 
-In line with the [Digital and ICT Reuse Policy | Digital Transformation Agency (dta.gov.au)](https://www.dta.gov.au/our-projects/digital-and-ict-reuse-policy), entities are to assess existing shared service offerings, and potential for reuse of other solutions presently available in government, against their unique needs prior to commencing green fields implementations
+In line with the [Digital and ICT Reuse Policy \| Digital Transformation Agency (dta.gov.au)](https://www.dta.gov.au/our-projects/digital-and-ict-reuse-policy), entities are to assess existing shared service offerings, and potential for reuse of other solutions presently available in government, against their unique needs prior to commencing green fields implementations
 
 The Department of Finance will support smaller entities to understand ERP uplift requirements and assist in choosing cost-effective solutions. A smaller entity is defined as having around 800 or less ASL, and with straightforward (or less complex) ERP requirements.
 
