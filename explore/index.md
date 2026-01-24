@@ -42,11 +42,9 @@ site-search: false
             <span class="ct-text-icon__text">Search</span>
           </button>
         </div>
-
       </div>
     </div>
   </form>
-
               {{page.toc}}
               <div class="ct-theme-light">
                 <div class="container">

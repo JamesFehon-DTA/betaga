@@ -46,6 +46,8 @@ layout: main
     {% assign policy_tab_style = "ct-tabs__tab--selected" %}
   {% when 'AGA Standard', 'guide' %}
     {% assign standard_tab_style = "ct-tabs__tab--selected" %}
+  {% when 'Resources list' %}
+    {% assign resources_tab_style = "ct-tabs__tab--selected" %}
   {% else %}
 {% endcase %}
 
@@ -72,7 +74,7 @@ layout: main
                             </li>
                             <li class="ct-item-list__item">
                               <a
-                                class="ct-link ct-theme-light"
+                                class="ct-link ct-theme-light {{resources_tab_style}}"
                                 href="../resources"
                                 id="panel-2-tab"
                                 data-tabs-tab=""
