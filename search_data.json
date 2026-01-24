@@ -22,7 +22,8 @@ robots: noindex
       "description": {{ item.description | jsonify }},
       "url": {{ item.url | jsonify }},
       "domain": {{ item.domain | jsonify }},
-      "type": {{ item.type | default: "Page" | jsonify }},
+      "type": {{ item.type | default: "Page" | replace: "Design", "Resource" | jsonify }},
+      "subtype": {{ item.category | default: "" | jsonify }},
       "content": {{ item.content | strip_html | strip_newlines | normalize_whitespace | jsonify }}
     }{% unless forloop.last %},{% endunless %}
     {% endunless %}
