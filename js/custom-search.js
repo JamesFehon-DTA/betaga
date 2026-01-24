@@ -46,6 +46,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
 
 function renderSnippet(r) {
+const subtypeTag = r.subtype ? `><span class="ct-tag ct-theme-light ct-tag--primary">${r.subtype}</span>` : '';
   return `
     <div class="col-xxs-12">
       <div class="ct-snippet ct-theme-light">
@@ -68,6 +69,7 @@ function renderSnippet(r) {
                   <span class="ct-tag ct-theme-light ct-tag--primary">
                     ${r.type || ''}
                   </span>
+                  ${subtypeTag}
                 </li>
               </ul>
             </div>
