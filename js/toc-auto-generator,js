@@ -12,6 +12,9 @@
   const headings = mainContent.querySelectorAll('h2, h3');
   if (headings.length === 0) return;
 
+  const headingToLink = new Map();
+  const seenIds = new Set();
+
   // Create and insert the above-the-fold spacer as first child of .ct-layout__inner
   const spacer = document.createElement('div');
   spacer.className = 'above-the-fold-spacer';
@@ -21,18 +24,26 @@
   headings.forEach((heading, index) => {
     if (!heading.id) {
       const text = heading.textContent.trim();
-      const id = text
+      let id = text
         .toLowerCase()
         .replace(/[^a-z0-9]+/g, '-')
         .replace(/^-+|-+$/g, '');
-      heading.id = id || `heading-${index}`;
+      
+      // Handle empty or duplicate IDs
+      if (!id || seenIds.has(id)) {
+        id = `heading-${index}`;
+      }
+      heading.id = id;
     }
+    seenIds.add(heading.id);
   });
 
   // Build TOC HTML structure
   const tocWrapper = document.createElement('div');
   tocWrapper.className = 'ct-table-of-contents ct-table-of-contents--sticky ct-theme-light ct-table-of-contents--position-before ct-vertical-spacing--top';
   tocWrapper.style.maxWidth = '100%';
+  tocWrapper.setAttribute('role', 'navigation');
+  tocWrapper.setAttribute('aria-label', 'In this policy');
   
   const tocTitle = document.createElement('h2');
   tocTitle.className = 'ct-table-of-contents__title';
@@ -41,7 +52,6 @@
 
   const topList = document.createElement('ul');
   topList.className = 'ct-table-of-contents__links';
-  topList.setAttribute('uk-scrollspy-nav', 'closest: li; scroll: true; cls: is-active;');
   
   let currentH2Item = null;
   let currentNestedList = null;
@@ -55,6 +65,9 @@
     link.className = 'ct-table-of-contents__link';
     link.href = `#${heading.id}`;
     link.textContent = heading.textContent.trim();
+    
+    // Store link reference
+    headingToLink.set(heading.id, link);
     
     listItem.appendChild(link);
 
@@ -80,6 +93,12 @@
   // Add CSS
   const style = document.createElement('style');
   style.textContent = `
+    /* Scroll offset for smooth scroll */
+    .ct-layout__main h2,
+    .ct-layout__main h3 {
+      scroll-margin-top: 2rem;
+    }
+
     /* Grid layout for above-the-fold spacing within .ct-layout__inner */
     .ct-layout__inner[data-masonry="true"] {
       display: grid;
@@ -101,12 +120,14 @@
     }
 
     /* Sidebar positioning - overlays row 1, allowing it to start at top */
-    .ct-layout--no-top-right.ct-layout--no-bottom-right > .ct-layout__inner > .ct-layout__sidebar_top_left {
-        grid-column-start: 1;
-        grid-row-start: 1 !important;
-        align-self: start;
-        position: sticky;
-        top: 0;
+    @media (min-width: 992px) {
+      .ct-layout--no-top-right.ct-layout--no-bottom-right > .ct-layout__inner > .ct-layout__sidebar_top_left {
+          position: sticky;
+          top: 0;
+          height: fit-content;
+          max-height: 100vh;
+          overflow-y: auto;
+       }
     }
 
     /* Bottom left sidebar if present */
@@ -209,10 +230,24 @@
       const targetElement = document.getElementById(targetId);
       
       if (targetElement) {
+        // Set active link immediately on click
+        tocLinks.forEach(l => {
+          l.classList.remove('is-active');
+          l.removeAttribute('aria-current');
+        });
+        link.classList.add('is-active');
+        link.setAttribute('aria-current', 'page');
+        currentActiveId = targetId;
+        
         targetElement.scrollIntoView({ 
           behavior: 'smooth',
           block: 'start'
         });
+        
+        // Move focus to heading after scroll
+        setTimeout(() => {
+          targetElement.focus({ preventScroll: true });
+        }, 100);
         
         // Update URL without jumping
         history.pushState(null, '', `#${targetId}`);
@@ -220,38 +255,50 @@
     });
   });
 
-  // Build a map of heading IDs to their corresponding links
-  const headingToLink = new Map();
-  tocLinks.forEach(link => {
-    const href = link.getAttribute('href');
-    if (href && href.startsWith('#')) {
-      const targetId = href.substring(1);
-      headingToLink.set(targetId, link);
+  // Track which heading is currently active
+  let currentActiveId = null;
+
+  // Update active link based on heading position
+  function updateActiveLink() {
+    const scrollPos = window.scrollY + window.innerHeight * 0.3;
+    let newActiveId = null;
+
+    for (const heading of headings) {
+      if (heading.offsetTop <= scrollPos) {
+        newActiveId = heading.id;
+      }
     }
-  });
 
-  // Track currently visible headings
-  const visibleHeadings = new Map();
-
-  // Create the observer
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach(entry => {
-        const id = entry.target.id;
-        
-        if (entry.isIntersecting) {
-          visibleHeadings.set(id, entry.boundingClientRect.top);
-        } else {
-          visibleHeadings.delete(id);
-        }
+    // Only update DOM if active heading changed (prevents unnecessary reflows)
+    if (newActiveId !== currentActiveId) {
+      tocLinks.forEach(link => {
+        link.classList.remove('is-active');
+        link.removeAttribute('aria-current');
       });
 
+      if (newActiveId) {
+        const activeLink = headingToLink.get(newActiveId);
+        if (activeLink) {
+          activeLink.classList.add('is-active');
+          activeLink.setAttribute('aria-current', 'page');
+        }
+      }
+
+      currentActiveId = newActiveId;
+    }
+  }
+
+  // Use Intersection Observer with cleanup to avoid memory issues
+  const observerOptions = {
+    rootMargin: '-10% 0px -70% 0px',
+    threshold: [0, 0.5, 1]
+  };
+
+  const observer = new IntersectionObserver(
+    () => {
       updateActiveLink();
     },
-    {
-      rootMargin: '-10% 0px -70% 0px',
-      threshold: [0, 0.5, 1]
-    }
+    observerOptions
   );
 
   // Observe all headings
@@ -259,30 +306,13 @@
     observer.observe(heading);
   });
 
-  // Update which link is active
-  function updateActiveLink() {
-    tocLinks.forEach(link => link.classList.remove('is-active'));
-
-    if (visibleHeadings.size === 0) return;
-
-    let topmostId = null;
-    let topmostPosition = Infinity;
-
-    visibleHeadings.forEach((position, id) => {
-      if (position < topmostPosition) {
-        topmostPosition = position;
-        topmostId = id;
-      }
-    });
-
-    if (topmostId) {
-      const activeLink = headingToLink.get(topmostId);
-      if (activeLink) {
-        activeLink.classList.add('is-active');
-      }
-    }
-  }
-
   // Initialize on page load
   updateActiveLink();
+
+  // Cleanup on page unload
+  window.addEventListener('unload', () => {
+    observer.disconnect();
+    headingToLink.clear();
+    seenIds.clear();
+  });
 })();
