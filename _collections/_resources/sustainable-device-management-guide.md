@@ -229,8 +229,8 @@ By choosing an organisation with a comprehensive and ethical approach, agencies 
 
 **Resources**
 
-* [Corporate partnerships and charities | ACNC](https://www.acnc.gov.au/tools/guides/corporate-partnerships-and-charities)
-* [Governance Toolkit: Working with partners | ACNC](https://www.acnc.gov.au/for-charities/manage-your-charity/governance-hub/governance-toolkit/governance-toolkit-working-partners)
+* [Corporate partnerships and charities \| ACNC](https://www.acnc.gov.au/tools/guides/corporate-partnerships-and-charities)
+* [Governance Toolkit: Working with partners \| ACNC](https://www.acnc.gov.au/for-charities/manage-your-charity/governance-hub/governance-toolkit/governance-toolkit-working-partners)
 * [PSPF Information Sharing](https://www.protectivesecurity.gov.au/publications-library/pspf-annual-release)
 
 ## Meet reporting requirements

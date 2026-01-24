@@ -258,7 +258,7 @@ People responsible for the different phases of the AI system lifecycle should be
 * [ISO/IEC 38507:2022 – Information technology — Governance of IT — Governance implications of the use of artificial intelligence by organizations](https://www.iso.org/obp/ui/#iso:std:iso-iec:38507:ed-1:v1:en)
 * [ISO/IEC TR 24027:2021 – Artificial intelligence (AI) — Bias in AI systems and AI aided decision making](https://www.iso.org/obp/ui/#iso:std:iso-iec:tr:24027:ed-1:v1:en)
 * ISO/IEC CD 5259 – Artificial intelligence – Data quality for analytics and machine learning (ML)
-* [Rapid Response Information Report: Generative AI | Chief Scientist](https://www.chiefscientist.gov.au/GenerativeAI)
+* [Rapid Response Information Report: Generative AI \| Chief Scientist](https://www.chiefscientist.gov.au/GenerativeAI)
 
 
 

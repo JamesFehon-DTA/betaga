@@ -34,7 +34,7 @@ Entities must:
 
 Entities should:
 
-* abide by the principles outlined in [Guiding principles for a global quantum ecosystem informed by science | Department of Industry Science and Resources](https://www.industry.gov.au/publications/guiding-principles-global-quantum-ecosystem-informed-science)
+* abide by the principles outlined in [Guiding principles for a global quantum ecosystem informed by science \| Department of Industry Science and Resources](https://www.industry.gov.au/publications/guiding-principles-global-quantum-ecosystem-informed-science)
 * maintain awareness of other relevant guidelines, including standards and frameworks, as they are developed across government and in the academic sector.
 
 ## Understand the evolving Commonwealth quantum computing technology environment
