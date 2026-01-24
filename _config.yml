@@ -24,10 +24,14 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/betaga" # the subpath of your site, e.g. /blog
 url: "https://jamesfehon-dta.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
+collections_dir: _collections
 collections:
   capabilities:
     output: true
     permalink: /capability/:path/
+  resources:
+    output: true
+    permalink: /resource/:path/
 
 # plugins:
 #   - jekyll-lunr-js-custom-search
