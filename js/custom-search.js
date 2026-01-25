@@ -1,11 +1,7 @@
----
-layout: null
-robots: noindex
----
 async function loadPrebuilt() {
   const [idxRes, docsRes] = await Promise.all([
-  fetch('{{ "search_index.json" | relative_url }}'),
-  fetch('{{ "search_docs.json" | relative_url }}')
+  fetch(search_index),
+  fetch(search_docs)
   ]);
 
   const idxJson = await idxRes.json();

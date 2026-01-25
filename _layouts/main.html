@@ -15,6 +15,10 @@
     <link rel="stylesheet" media="all" href="{{ '/civictheme.variables.css' | relative_url }}">
     
     <script src="{{site.baseurl}}/js/lunr.js"></script>
+    <script>
+      var searchIndex = "{{ 'search_index.json' | relative_url }}";
+      var searchDocs =  "{{ 'search_docs.json' | relative_url }}";
+    </script>
     <script src="{{site.baseurl}}/js/custom-search.js"></script>
 
   </head>
