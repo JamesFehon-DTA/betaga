@@ -42,6 +42,7 @@
   const tocWrapper = document.createElement('div');
   tocWrapper.className = 'ct-table-of-contents ct-table-of-contents--sticky ct-theme-light ct-table-of-contents--position-before ct-vertical-spacing--top';
   tocWrapper.style.maxWidth = '100%';
+  tocWrapper.style.margin= '2rem 0 0';
   tocWrapper.setAttribute('role', 'navigation');
   tocWrapper.setAttribute('aria-label', 'In this policy');
   
@@ -114,10 +115,13 @@
     }
 
     /* Override existing grid positioning with higher specificity */
-    .ct-layout--no-top-right.ct-layout--no-bottom-right > .ct-layout__inner > .ct-layout__main {
-      grid-row-start: 1 !important;
-      align-self: start;
+    @media (min-width: 992px) {
+      .ct-layout--no-top-right.ct-layout--no-bottom-right > .ct-layout__inner > .ct-layout__main {
+        grid-row-start: 1 !important;
+        align-self: start;
+        }
     }
+
 
     /* Sidebar positioning - overlays row 1, allowing it to start at top */
     @media (min-width: 992px) {
