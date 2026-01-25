@@ -1,7 +1,7 @@
 async function loadPrebuilt() {
   const [idxRes, docsRes] = await Promise.all([
-  fetch(search_index),
-  fetch(search_docs)
+  fetch(searchIndex),
+  fetch(searchDocs)
   ]);
 
   const idxJson = await idxRes.json();
