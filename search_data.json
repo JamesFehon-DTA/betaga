@@ -2,10 +2,10 @@
 layout: null
 permalink: '/assets/search/search_data.json'
 robots: noindex
+site-search: false
 ---
-
-{% assign search_items = site.capabilities | concat: site.resources | concat: site.pages | sort: "title" %}
 [
+  {%- assign search_items = site.capabilities | concat: site.resources | concat: site.pages | sort: "title" -%}
   {% for item in search_items %}
     {% unless item.robots contains 'noindex' or item.site-search == false %}
     {
