@@ -17,46 +17,69 @@
     <script src="{{site.baseurl}}/assets/search/lunr.js"></script>
 <script src="{{site.baseurl}}/assets/search/lunr.js"></script>
 
+<script src="{{site.baseurl}}/assets/search/lunr.js"></script>
+
 <script>
-  // Config for template URL generation
+  // Config for template URL generation (processed by Jekyll)
   const searchIndex = "{{ 'assets/search/search_index.json' | relative_url }}";
-  const searchDocs = "{{ 'assets/search/search_docs.json' | relative_url }}";
+  const searchDocs  = "{{ 'assets/search/search_docs.json'  | relative_url }}";
 </script>
 
 <script>
 (function() {
   'use strict';
-  
-  if (!window.searchPrefetchInitialized) {
-    window.searchPrefetchInitialized = true;
-    
-    document.addEventListener('DOMContentLoaded', () => {
-      const searchInput = document.getElementById('search-form');
-      if (!searchInput) return;
-      
-      searchInput.addEventListener('focus', () => {
-        if (!window.searchEngine && !window.__searchPrefetchData) {
-          console.log('Prefetching search data...');
-          
-          Promise.all([
-            fetch(searchIndex).then(r => r.json()),
-            fetch(searchDocs).then(r => r.json())
-          ])
-          .then(([index, docs]) => {
-            window.__searchPrefetchData = { index, docs };
-            console.log('Prefetch complete');
-          })
-          .catch(err => {
-            console.error('Prefetch failed:', err);
-          });
-        }
-      }, { once: true });
-    });
-  }
+
+  // Page-scoped prefetch guard
+  if (document.__searchPrefetchInitialized) return;
+  document.__searchPrefetchInitialized = true;
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const searchInput = document.getElementById('search-form');
+    if (!searchInput) return;
+
+    searchInput.addEventListener('focus', () => {
+      // Avoid duplicating fetch if loader already started
+      const loaderScript = document.getElementById('custom-search-script');
+      if (loaderScript && loaderScript.dataset.loaderStarted === '1') return;
+
+      // Only prefetch once per page load
+      if (document.__searchPrefetchDone) return;
+      document.__searchPrefetchDone = true;
+
+      console.log('Prefetching search data (page-scoped)...');
+
+      Promise.all([
+        fetch(searchIndex).then(r => {
+          if (!r.ok) throw new Error('Failed to fetch search index');
+          return r.json();
+        }),
+        fetch(searchDocs).then(r => {
+          if (!r.ok) throw new Error('Failed to fetch search docs');
+          return r.json();
+        })
+      ])
+      .then(([index, docs]) => {
+        // Dispatch prefetch result via CustomEvent; external script listens for this.
+        document.dispatchEvent(new CustomEvent('searchPrefetch', {
+          detail: { index, docs }
+        }));
+        console.log('Prefetch complete (dispatched searchPrefetch event)');
+      })
+      .catch(err => {
+        console.error('Prefetch failed:', err);
+      });
+    }, { once: true });
+  });
 })();
 </script>
 
-<script src="{{site.baseurl}}/assets/search/custom-search.js"></script>
+<!-- Pass asset paths to the external script via data-* attributes -->
+<script id="custom-search-script"
+        src="{{site.baseurl}}/assets/search/custom-search.js"
+        data-index="{{ 'assets/search/search_index.json' | relative_url }}"
+        data-docs="{{ 'assets/search/search_docs.json'  | relative_url }}">
+</script>
+
 
   </head>
   <body class="path-frontpage page-node-type-civictheme-page">
