@@ -1,0 +1,17 @@
+---
+layout: null
+permalink: '/assets/search/content_titles-capabilities.json'
+robots: noindex
+site-search: false
+---
+{% comment %} AI capabilities may need " (AI)" added?
+# Scope should be instruments and AGA guidance? ( removed | concat: site.resources)
+# Needs a new 'topic' level :D
+{%- endcomment -%}{%- capture suggested_items_list -%}{%- assign item_titles = site.capabilities | where: "type","Capability"  -%}
+
+{% for item in item_titles %}{% unless item.robots contains 'noindex' or item.type contains 'AGA Policy' or item.site-search == false or item.name == "" %}  {{ item.title | replace: '(individual)','' | jsonify }}{% unless forloop.last %},
+
+{%	 endunless %}{% endunless %}{% endfor %}{% endcapture %}
+[
+{{suggested_items_list}}
+]
