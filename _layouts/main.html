@@ -15,15 +15,18 @@
     <link rel="stylesheet" media="all" href="{{ '/assets/civictheme.variables.css' | relative_url }}">
     
     <script src="{{site.baseurl}}/assets/search/lunr.js"></script>
+<script src="{{site.baseurl}}/assets/search/lunr.js"></script>
+
 <script>
-  var searchIndex = "{{ 'assets/search/search_index.json' | relative_url }}";
-  var searchDocs = "{{ 'assets/search/search_docs.json' | relative_url }}";
-  var searchIndexData = null;
-  var searchDocsData = null;
+  // Config for template URL generation
+  const searchIndex = "{{ 'assets/search/search_index.json' | relative_url }}";
+  const searchDocs = "{{ 'assets/search/search_docs.json' | relative_url }}";
 </script>
 
 <script>
-  // Use a global flag on window to prevent multiple fetches
+(function() {
+  'use strict';
+  
   if (!window.searchPrefetchInitialized) {
     window.searchPrefetchInitialized = true;
     
@@ -31,33 +34,26 @@
       const searchInput = document.getElementById('search-form');
       if (!searchInput) return;
       
-      // Use once option to ensure event only fires once
       searchInput.addEventListener('focus', () => {
-        if (!window.searchDataLoaded && !window.searchDataLoading) {
-          window.searchDataLoading = true;
-          console.log('Starting fetch...');
+        if (!window.searchEngine && !window.__searchPrefetchData) {
+          console.log('Prefetching search data...');
           
           Promise.all([
             fetch(searchIndex).then(r => r.json()),
             fetch(searchDocs).then(r => r.json())
           ])
           .then(([index, docs]) => {
-            searchIndexData = index;
-            searchDocsData = docs;
-            window.searchDataLoaded = true;
-            window.searchDataLoading = false;
-            console.log('Search data cached');
+            window.__searchPrefetchData = { index, docs };
+            console.log('Prefetch complete');
           })
           .catch(err => {
-            console.error('Cache error:', err);
-            window.searchDataLoading = false;
+            console.error('Prefetch failed:', err);
           });
-        } else {
-          console.log('Data already loaded or loading');
         }
-      }, { once: true }); // ← This ensures the listener only fires once!
+      }, { once: true });
     });
   }
+})();
 </script>
 
 <script src="{{site.baseurl}}/assets/search/custom-search.js"></script>
