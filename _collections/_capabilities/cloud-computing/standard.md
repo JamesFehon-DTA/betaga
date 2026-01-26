@@ -11,10 +11,6 @@ aga_code: 'STA64'
 type: 'AGA Standard'
 ---
 
-The [Whole-of-government cloud computing policy](https://www.digital.gov.au/cloud-policy) will come into effect on 1 July 2026.  
-Agencies should begin preparing for its implementation.   
-**Read the new policy on** [**digital.gov.au**](https://www.digital.gov.au/cloud-policy).
-
 Cloud computing provides a service for government, underpinned by a dynamically growing marketplace, which can increase the agility, flexibility, and speed of delivery for digital services. It removes the big upfront investments in technology to enable scaling up or down quickly. This provides much needed flexibility and the ability to respond to changing demands. It has the potential to enhance collaboration, limit the duplication of solutions and reduce maintenance effort. This allows entities to refocus that effort into improving digital service delivery.
 
 It is critical this standard be considered alongside those of complementary capabilities:
