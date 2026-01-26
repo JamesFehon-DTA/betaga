@@ -33,6 +33,13 @@ collections:
     output: true
     permalink: /resource/:path/
 
+defaults:
+  - scope:
+      path: "assets" # Folder name
+    values:
+      robots: noindex
+      site-search: false
+
 # plugins:
 #   - jekyll-lunr-js-custom-search
 
