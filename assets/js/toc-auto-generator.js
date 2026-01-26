@@ -130,8 +130,8 @@
           top: 0;
           height: fit-content;
           max-height: 100vh;
-          overflow-y: auto;
-       }
+          /* overflow-y: auto; */
+       
     }
 
     /* Bottom left sidebar if present */
@@ -319,4 +319,5 @@
     headingToLink.clear();
     seenIds.clear();
   });
+
 })();
