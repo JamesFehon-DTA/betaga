@@ -332,8 +332,17 @@ input[type="reset"] {
 
 /* Mobile navigation trigger - reduce padding */
 .ct-mobile-navigation-trigger {
-  padding: 0rem !important;
+    padding: 0rem !important;
   border: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+@media (max-width: 991px) {
+  .ct-mobile-navigation-trigger {
+    background-color: transparent !important;
+    background-image: none !important;
+  }
 }
 
 button:hover,
