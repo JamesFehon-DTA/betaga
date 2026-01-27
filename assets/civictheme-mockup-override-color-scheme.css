@@ -160,6 +160,56 @@ iframe {
   filter: none !important;
 }
 
+/* Logo inversion based on color-scheme preference */
+@media (prefers-color-scheme: light) {
+  .ct-logo img,
+  .ct-logo .ct-logo__image {
+    filter: none !important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .ct-logo img,
+  .ct-logo .ct-logo__image {
+    filter: invert(1) !important;
+  }
+  
+  /* Don't invert DGA Global theme logos (footer) */
+  .ct-logo .ct-logo__image.ct-theme-dga-global {
+    filter: none !important;
+  }
+}
+
+/* Logo stripe as spacer - show on desktop only */
+.ct-logo__stripe {
+  display: none !important;
+}
+
+@media (min-width: 992px) {
+  .ct-logo__stripe {
+    display: block !important;
+    width: 1px !important;
+    background-color: CanvasText !important;
+  }
+  
+  /* Use theme spacing if available, otherwise fallback */
+  .ct-theme-light .ct-logo__stripe {
+    margin: 0 var(--ct-logo-stripe-spacing, 1rem) !important;
+    height: var(--ct-logo-image-height-max-desktop, 2.5rem) !important;
+  }
+  
+  .ct-theme-dark .ct-logo__stripe {
+    margin: 0 var(--ct-logo-stripe-spacing, 1rem) !important;
+    height: var(--ct-logo-image-height-max-desktop, 2.5rem) !important;
+  }
+  
+  /* Fallback for no theme class */
+  .ct-logo__stripe {
+    margin: 0 1rem !important;
+    height: 2.5rem !important;
+  }
+}
+
 /* =============================================================================
    REMOVE DECORATIVE BORDER RADIUS FROM COMPONENTS
    ============================================================================= */
@@ -267,16 +317,29 @@ button,
 input[type="button"],
 input[type="submit"],
 input[type="reset"] {
-  color: ButtonText;
-  background-color: ButtonFace;
-  border: 2px solid ButtonBorder !important;
+  border: 2px solid CanvasText !important;
+  padding: 0.8125rem 1rem !important;
+  box-sizing: border-box !important;
+}
+
+/* Inline filter button - ensure it matches input height */
+.ct-inline-filter__submit-button {
+  padding: 0.8125rem 1rem !important;
+  box-sizing: border-box !important;
+  height: auto !important;
+  line-height: normal !important;
+}
+
+/* Mobile navigation trigger - reduce padding */
+.ct-mobile-navigation-trigger {
+  padding: 0rem !important;
+  border: 0 !important;
 }
 
 button:hover,
 .ct-button:hover,
 [role="button"]:hover {
-  background-color: ButtonFace;
-  border-color: ButtonText !important;
+  border-color: CanvasText !important;
 }
 
 button:disabled,
@@ -444,6 +507,20 @@ input[type="radio"] {
 .ct-side-navigation .ct-link.active,
 .ct-tabs .ct-tab.active {
   border-bottom: 3px solid CanvasText !important;
+}
+
+/* Fix mobile navigation button padding */
+.ct-mobile-navigation button,
+.ct-mobile-navigation .ct-button {
+  padding: 0.5rem 1rem !important;
+}
+
+@media (max-width: 767px) {
+  .ct-mobile-navigation button,
+  .ct-mobile-navigation .ct-button,
+  [data-component="mobile-navigation"] button {
+    padding: 0.5rem 1rem !important;
+  }
 }
 
 /* =============================================================================
