@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'einvoicing'
 title: 'eInvoicing'
 url: '/'
-toc: ''
+toc: 'auto_sticky_nested'
 content_top: true
 aga_code: 'STA58'
 type: 'AGA Standard'

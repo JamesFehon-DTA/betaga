@@ -1,0 +1,635 @@
+/**
+ * CivicTheme Accessibility Override Stylesheet - Color Scheme Version
+ * 
+ * This stylesheet removes visual design flourishes while maintaining
+ * WCAG 2.1 AA accessibility compliance, using the color-scheme property
+ * to let the browser handle color adaptation based on user preferences.
+ * 
+ * Key features:
+ * - Uses color-scheme: light dark for automatic theme switching
+ * - Removes all border-radius properties
+ * - Removes all box-shadow and text-shadow properties
+ * - Relies on system colors for maximum compatibility
+ * - Preserves all focus indicators for keyboard navigation
+ * - Maintains clear visual hierarchy
+ * - Keeps interactive element affordances
+ */
+
+/* =============================================================================
+   COLOR SCHEME DECLARATION
+   ============================================================================= */
+
+:root {
+  /* Enable automatic light/dark mode based on user preference */
+  color-scheme: light dark;
+}
+
+/* Apply to specific elements that should respect system preferences */
+html,
+body,
+input,
+textarea,
+select,
+button {
+  color-scheme: light dark;
+}
+
+/* =============================================================================
+   SYSTEM COLOR PALETTE
+   ============================================================================= */
+
+:root {
+  /* Use system colors that automatically adapt to light/dark mode */
+  
+  /* Text colors */
+  --text-primary: CanvasText;
+  --text-secondary: CanvasText;
+  
+  /* Background colors */
+  --bg-primary: Canvas;
+  --bg-secondary: Canvas;
+  
+  /* Interactive colors */
+  --interactive-default: LinkText;
+  --interactive-hover: LinkText;
+  --interactive-active: ActiveText;
+  --interactive-visited: VisitedText;
+  
+  /* Button colors */
+  --button-text: ButtonText;
+  --button-bg: ButtonFace;
+  --button-border: ButtonBorder;
+  
+  /* Focus indicator */
+  --focus-outline: Highlight;
+  
+  /* Status colors - using semantic colors that work in both modes */
+  --color-error: #d32f2f;
+  --color-warning: #f57c00;
+  --color-success: #388e3c;
+  --color-info: #1976d2;
+  
+  /* Borders */
+  --border-color: CanvasText;
+  --border-color-subtle: GrayText;
+}
+
+/* Dark mode adjustments for status colors */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-error: #ef5350;
+    --color-warning: #ff9800;
+    --color-success: #66bb6a;
+    --color-info: #42a5f5;
+  }
+}
+
+/* Override CivicTheme colors with system colors */
+:root {
+  /* Light theme */
+  --ct-color-light-heading: var(--text-primary) !important;
+  --ct-color-light-body: var(--text-primary) !important;
+  --ct-color-light-background-light: var(--bg-primary) !important;
+  --ct-color-light-background: var(--bg-secondary) !important;
+  --ct-color-light-border: var(--border-color) !important;
+  --ct-color-light-border-light: var(--border-color-subtle) !important;
+  --ct-color-light-interaction-background: var(--interactive-default) !important;
+  --ct-color-light-interaction-text: var(--bg-primary) !important;
+  --ct-color-light-interaction-hover-background: var(--interactive-hover) !important;
+  --ct-color-light-interaction-focus: var(--focus-outline) !important;
+  
+  /* Dark theme */
+  --ct-color-dark-heading: var(--text-primary) !important;
+  --ct-color-dark-body: var(--text-primary) !important;
+  --ct-color-dark-background: var(--bg-primary) !important;
+  --ct-color-dark-background-light: var(--bg-secondary) !important;
+  --ct-color-dark-border: var(--border-color) !important;
+  --ct-color-dark-border-light: var(--border-color-subtle) !important;
+  --ct-color-dark-interaction-background: var(--interactive-default) !important;
+  --ct-color-dark-interaction-text: var(--bg-primary) !important;
+  --ct-color-dark-interaction-hover-background: var(--interactive-hover) !important;
+  --ct-color-dark-interaction-focus: var(--focus-outline) !important;
+  
+  /* Status colors */
+  --ct-color-light-error: var(--color-error) !important;
+  --ct-color-light-warning: var(--color-warning) !important;
+  --ct-color-light-success: var(--color-success) !important;
+  --ct-color-light-information: var(--color-info) !important;
+  
+  --ct-color-dark-error: var(--color-error) !important;
+  --ct-color-dark-warning: var(--color-warning) !important;
+  --ct-color-dark-success: var(--color-success) !important;
+  --ct-color-dark-information: var(--color-info) !important;
+}
+
+/* =============================================================================
+   BASE STYLES WITH COLOR-SCHEME
+   ============================================================================= */
+
+body {
+  background-color: Canvas;
+  color: CanvasText;
+}
+
+/* =============================================================================
+   RESET ALL BORDER RADIUS
+   ============================================================================= */
+
+*,
+*::before,
+*::after {
+  border-radius: 0 !important;
+}
+
+/* =============================================================================
+   REMOVE ALL SHADOWS
+   ============================================================================= */
+
+*,
+*::before,
+*::after {
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+/* Remove filter-based shadows */
+img,
+svg,
+video,
+iframe {
+  filter: none !important;
+}
+
+/* =============================================================================
+   REMOVE DECORATIVE BORDER RADIUS FROM COMPONENTS
+   ============================================================================= */
+
+/* Buttons */
+.ct-button,
+.ct-button--primary,
+.ct-button--secondary,
+.ct-button--tertiary {
+  border-radius: 0 !important;
+}
+
+/* Chips and tags */
+.ct-chip,
+.ct-tag {
+  border-radius: 0 !important;
+}
+
+/* Form elements */
+.ct-input,
+.ct-textarea,
+.ct-select,
+.ct-checkbox,
+.ct-radio,
+.ct-fieldset {
+  border-radius: 0 !important;
+}
+
+/* Cards */
+.ct-event-card,
+.ct-navigation-card,
+.ct-promo-card,
+.ct-publication-card,
+.ct-service-card,
+.ct-subject-card,
+.ct-fast-fact-card {
+  border-radius: 0 !important;
+}
+
+/* Messages and alerts */
+.ct-message,
+.ct-alert,
+.ct-field-message {
+  border-radius: 0 !important;
+}
+
+/* Navigation elements */
+.ct-tabs-link,
+.ct-navigation-dropdown,
+.ct-side-navigation-link {
+  border-radius: 0 !important;
+}
+
+/* Content blocks */
+.ct-accordion,
+.ct-accordion-button,
+.ct-accordion-header,
+.ct-accordion-item,
+.ct-callout,
+.ct-next-step,
+.ct-attachment,
+.ct-basic-content blockquote {
+  border-radius: 0 !important;
+}
+
+/* Slider and campaign */
+.ct-slider,
+.ct-campaign-image,
+.ct-figure {
+  border-radius: 0 !important;
+}
+
+/* Tooltip and popover */
+.ct-tooltip-description,
+.ct-popover-description {
+  border-radius: 0 !important;
+}
+
+/* =============================================================================
+   INTERACTIVE ELEMENTS WITH SYSTEM COLORS
+   ============================================================================= */
+
+/* Links */
+a {
+  color: LinkText;
+  text-decoration: underline !important;
+}
+
+a:visited {
+  color: VisitedText;
+}
+
+a:hover {
+  color: LinkText;
+}
+
+a:active {
+  color: ActiveText;
+}
+
+/* Buttons */
+button,
+.ct-button,
+[role="button"],
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  color: ButtonText;
+  background-color: ButtonFace;
+  border: 2px solid ButtonBorder !important;
+}
+
+button:hover,
+.ct-button:hover,
+[role="button"]:hover {
+  background-color: ButtonFace;
+  border-color: ButtonText !important;
+}
+
+button:disabled,
+.ct-button:disabled,
+[role="button"]:disabled {
+  color: GrayText;
+  border-color: GrayText !important;
+}
+
+/* Form controls */
+input:not([type="checkbox"]):not([type="radio"]),
+textarea,
+select {
+  color: FieldText;
+  background-color: Field;
+  border: 2px solid FieldText !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 3px solid Highlight !important;
+  outline-offset: 2px !important;
+}
+
+/* Checkboxes and radio buttons */
+input[type="checkbox"],
+input[type="radio"] {
+  accent-color: LinkText;
+  border: 2px solid FieldText !important;
+}
+
+/* =============================================================================
+   MAINTAIN ACCESSIBILITY - FOCUS INDICATORS
+   ============================================================================= */
+
+/* Universal focus indicator using system highlight color */
+*:focus-visible {
+  outline: 3px solid Highlight !important;
+  outline-offset: 2px !important;
+}
+
+/* =============================================================================
+   STATUS COLORS WITH COLOR-SCHEME AWARENESS
+   ============================================================================= */
+
+/* Error states */
+.ct-input--is-invalid,
+.ct-checkbox--is-invalid,
+.ct-radio--is-invalid,
+.ct-field-message--error,
+.ct-message--error,
+.ct-alert--error {
+  border-color: var(--color-error) !important;
+}
+
+/* Success states */
+.ct-field-message--success,
+.ct-message--success,
+.ct-alert--success {
+  border-color: var(--color-success) !important;
+}
+
+/* Warning states */
+.ct-field-message--warning,
+.ct-message--warning,
+.ct-alert--warning {
+  border-color: var(--color-warning) !important;
+}
+
+/* Information states */
+.ct-field-message--information,
+.ct-message--information,
+.ct-alert--information {
+  border-color: var(--color-info) !important;
+}
+
+/* =============================================================================
+   REMOVE DECORATIVE BACKGROUNDS
+   ============================================================================= */
+
+/* Simplify gradient backgrounds to solid colors */
+[style*="gradient"] {
+  background-image: none !important;
+}
+
+/* Remove background blend modes */
+.ct-background,
+[class*="ct-background--"] {
+  background-blend-mode: normal !important;
+}
+
+/* =============================================================================
+   REMOVE DECORATIVE IMAGE EFFECTS
+   ============================================================================= */
+
+/* Remove clip paths on decorative elements */
+.ct-banner--decorative,
+.ct-banner--featured,
+.ct-campaign-image {
+  clip-path: none !important;
+}
+
+/* Remove opacity effects on decorative images */
+.ct-subject-card img,
+.ct-navigation-card img {
+  opacity: 1 !important;
+}
+
+/* =============================================================================
+   SIMPLIFY CARD DECORATIONS
+   ============================================================================= */
+
+/* Remove stripe decorations but maintain borders */
+.ct-event-card::before,
+.ct-promo-card::before,
+.ct-service-card::before,
+.ct-fast-fact-card::before,
+.ct-callout::before,
+.ct-next-step::before,
+.ct-accordion::before {
+  display: none !important;
+}
+
+/* Maintain clear card borders */
+.ct-event-card,
+.ct-navigation-card,
+.ct-promo-card,
+.ct-publication-card,
+.ct-service-card,
+.ct-subject-card,
+.ct-fast-fact-card {
+  border: 2px solid CanvasText !important;
+}
+
+/* =============================================================================
+   REMOVE DECORATIVE ANIMATIONS
+   ============================================================================= */
+
+/* Remove transitions for purely decorative effects */
+* {
+  transition: none !important;
+  animation: none !important;
+}
+
+/* Maintain transitions for accessibility (focus, state changes) */
+*:focus,
+*:focus-visible {
+  transition: outline 0.1s ease !important;
+}
+
+/* =============================================================================
+   SIMPLIFY NAVIGATION INDICATORS
+   ============================================================================= */
+
+/* Remove decorative hover effects on navigation */
+.ct-navigation .ct-link:hover,
+.ct-side-navigation .ct-link:hover,
+.ct-mobile-navigation .ct-link:hover {
+  background-image: none !important;
+}
+
+/* Maintain clear active state indicators */
+.ct-navigation .ct-link.active,
+.ct-side-navigation .ct-link.active,
+.ct-tabs .ct-tab.active {
+  border-bottom: 3px solid CanvasText !important;
+}
+
+/* =============================================================================
+   PRINT STYLES
+   ============================================================================= */
+
+@media print {
+  * {
+    color-scheme: light;
+    background: white !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  
+  a {
+    text-decoration: underline !important;
+    color: black !important;
+  }
+  
+  /* Show href after links */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  
+  /* Don't show href for internal links */
+  a[href^="#"]:after,
+  a[href^="/"]:after {
+    content: "";
+  }
+}
+
+/* =============================================================================
+   FORCED COLORS MODE (HIGH CONTRAST MODE)
+   ============================================================================= */
+
+/* When user has high contrast mode enabled, respect it completely */
+@media (forced-colors: active) {
+  * {
+    border-color: CanvasText !important;
+    color: CanvasText !important;
+    background-color: Canvas !important;
+  }
+  
+  a {
+    color: LinkText !important;
+  }
+  
+  a:visited {
+    color: VisitedText !important;
+  }
+  
+  button,
+  [role="button"] {
+    border-color: ButtonBorder !important;
+    color: ButtonText !important;
+    background-color: ButtonFace !important;
+  }
+  
+  *:focus-visible {
+    outline-color: Highlight !important;
+  }
+  
+  /* Status indicators in forced colors mode */
+  .ct-input--is-invalid,
+  .ct-field-message--error,
+  .ct-message--error {
+    border-color: CanvasText !important;
+  }
+}
+
+/* =============================================================================
+   REDUCED MOTION
+   ============================================================================= */
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* =============================================================================
+   LIGHT MODE SPECIFIC ADJUSTMENTS
+   ============================================================================= */
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* Fine-tune light mode if needed */
+    --bg-secondary: #f5f5f5;
+  }
+  
+  /* Ensure sufficient contrast for status colors in light mode */
+  .ct-field-message--error,
+  .ct-message--error,
+  .ct-alert--error {
+    background-color: #ffebee;
+  }
+  
+  .ct-field-message--success,
+  .ct-message--success,
+  .ct-alert--success {
+    background-color: #e8f5e9;
+  }
+  
+  .ct-field-message--warning,
+  .ct-message--warning,
+  .ct-alert--warning {
+    background-color: #fff3e0;
+  }
+  
+  .ct-field-message--information,
+  .ct-message--information,
+  .ct-alert--information {
+    background-color: #e3f2fd;
+  }
+}
+
+/* =============================================================================
+   DARK MODE SPECIFIC ADJUSTMENTS
+   ============================================================================= */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Fine-tune dark mode if needed */
+    --bg-secondary: #1e1e1e;
+  }
+  
+  /* Ensure sufficient contrast for status colors in dark mode */
+  .ct-field-message--error,
+  .ct-message--error,
+  .ct-alert--error {
+    background-color: #3d1e1e;
+  }
+  
+  .ct-field-message--success,
+  .ct-message--success,
+  .ct-alert--success {
+    background-color: #1e3d1e;
+  }
+  
+  .ct-field-message--warning,
+  .ct-message--warning,
+  .ct-alert--warning {
+    background-color: #3d2e1e;
+  }
+  
+  .ct-field-message--information,
+  .ct-message--information,
+  .ct-alert--information {
+    background-color: #1e2e3d;
+  }
+}
+
+/* =============================================================================
+   CONTRAST PREFERENCE
+   ============================================================================= */
+
+/* Enhanced contrast for users who prefer more contrast */
+@media (prefers-contrast: more) {
+  * {
+    border-width: 3px !important;
+  }
+  
+  *:focus-visible {
+    outline-width: 4px !important;
+  }
+  
+  /* Increase text weight for better visibility */
+  body {
+    font-weight: 500;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+  }
+}
+
+/* Reduced contrast for users who prefer less contrast */
+@media (prefers-contrast: less) {
+  * {
+    border-color: GrayText !important;
+  }
+}
