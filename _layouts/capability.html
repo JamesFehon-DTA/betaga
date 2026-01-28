@@ -69,6 +69,7 @@ layout: main
           class="ct-table-of-contents ct-theme-light ct-table-of-contents--position-before"
         >
           <h2 class="ct-table-of-contents__title">On this page</h2>
+          
           <ul class="ct-table-of-contents__links">
             <li class="ct-table-of-contents__link-item">
               <a class="ct-table-of-contents__link" href="#access-aga-guidance">Access AGA guidance</a>
@@ -77,7 +78,10 @@ layout: main
               <a class="ct-table-of-contents__link" href="#check-your-obligations">Check your obligations</a>
             </li>
             <li class="ct-table-of-contents__link-item">
-              <a class="ct-table-of-contents__link" href="#explore-einvoicing-resources">Explore {% if page.title contains "eInvoicing" or page.title contains "AI" %}
+              <a class="ct-table-of-contents__link" href="#other-government-directions">Other government directions</a>
+            </li>
+            <li class="ct-table-of-contents__link-item">
+              <a class="ct-table-of-contents__link" href="#other-government-directions">Explore {% if page.title contains "eInvoicing" or page.title contains "AI" %}
 
               {{ page.title | slice: 0, 1 | downcase }}{{ page.title | slice: 1, page.title.size }}
 
@@ -99,7 +103,7 @@ layout: main
                     <div class="col-xxs-12">
 
 
-                      <h2>Access AGA guidance</h2>
+                      <h2 id="access-aga-guidance">Access AGA guidance</h2>
                       <p>Use the {{page.title}} policy and standard to build and manage this capability in your agency.</p>
 
                       <ul>
@@ -107,7 +111,7 @@ layout: main
                         <li>View the <a href="standard/" title="{{page.title}} standard">standard</a></li>
                       </ul>
 
-                      <h2>Check your obligations</h2>
+                      <h2 id="check-your-obligations">Check your obligations</h2>
                       <p>Before starting any digital project, make sure you:</p>
                       <ul>
                         <li>understand the <a href="{{'/use/prepare/policies/' | relative_url }}">mandatory obligations for digital investments</a></li>
