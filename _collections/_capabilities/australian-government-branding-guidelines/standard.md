@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'australian-government-branding-guidelines'
 title: 'Australian Government branding guidelines'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA9'
 type: 'AGA Standard'

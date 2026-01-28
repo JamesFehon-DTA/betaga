@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'grant-management'
 title: 'Grant management'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA36'
 type: 'AGA Standard'

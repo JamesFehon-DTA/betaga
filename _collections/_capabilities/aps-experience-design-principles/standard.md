@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'aps-experience-design-principles'
 title: 'APS Experience Design Principles'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA63'
 type: 'AGA Standard'

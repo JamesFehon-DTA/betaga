@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'permissions'
 title: 'Permissions'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA53'
 type: 'AGA Standard'

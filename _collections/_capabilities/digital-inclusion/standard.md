@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'digital-inclusion'
 title: 'Digital inclusion'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA46'
 type: 'AGA Standard'

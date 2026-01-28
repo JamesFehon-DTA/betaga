@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'case-management'
 title: 'Case management '
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA35'
 type: 'AGA Standard'

@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'enterprise-resource-planning-procurement'
 title: 'Enterprise resource planning (ERP) procurement'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA44'
 type: 'AGA Standard'

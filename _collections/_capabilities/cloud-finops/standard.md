@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'cloud-finops'
 title: 'Cloud FinOps'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA40'
 type: 'AGA Standard'

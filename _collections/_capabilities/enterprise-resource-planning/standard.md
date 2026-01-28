@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'enterprise-resource-planning'
 title: 'Enterprise resource planning (ERP)'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA33'
 type: 'AGA Standard'

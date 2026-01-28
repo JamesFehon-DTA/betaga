@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'business-intelligence-analytics'
 title: 'Business Intelligence Analytics'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA69'
 type: 'AGA Standard'

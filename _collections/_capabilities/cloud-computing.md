@@ -13,10 +13,11 @@ type: Capability
 ---
 
 
+
+
 ## Other government directions
 You may need to meet specific requirements within these whole-of-government resources. Check each one for how it might apply to your proposal, project or agency.
 
-* [Whole-of-government cloud computing policy](https://www.digital.gov.au/cloud-policy)
 
 * [Blueprint for secure cloud](/resource/blueprint-for-secure-cloud)
 

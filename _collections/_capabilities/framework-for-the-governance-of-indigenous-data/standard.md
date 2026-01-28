@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'framework-for-the-governance-of-indigenous-data'
 title: 'Framework for the governance of Indigenous data'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA49'
 type: 'AGA Standard'

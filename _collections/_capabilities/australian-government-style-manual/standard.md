@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'australian-government-style-manual'
 title: 'Australian Government Style Manual'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA28'
 type: 'AGA Standard'

@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'digital-sourcing-framework'
 title: 'Digital sourcing framework'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA23'
 type: 'AGA Standard'

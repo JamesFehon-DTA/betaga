@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'enterprise-resource-planning-human-capital-management'
 title: 'Enterprise resource planning (ERP) human capital management (HCM)'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA43'
 type: 'AGA Standard'

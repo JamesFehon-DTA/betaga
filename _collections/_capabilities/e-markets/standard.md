@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'e-markets'
 title: 'E-markets'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA38'
 type: 'AGA Standard'
@@ -84,7 +84,7 @@ Australian product safety laws apply to e-markets and at every stage of the supp
 
 It is businesses’ responsibility to understand Australian product safety laws and make sure they sell safe, compliant products. These obligations have been summarised by the Australian Competition and Consumer Commission.
 
-*See:* [*Selling online \| Product Safety Australia*](https://www.productsafety.gov.au/product-safety-laws/compliance/selling-online).
+*See:* [*Selling online | Product Safety Australia*](https://www.productsafety.gov.au/product-safety-laws/compliance/selling-online).
 
 ## Address data and information privacy and legislative requirements
 

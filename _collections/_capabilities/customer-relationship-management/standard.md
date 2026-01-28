@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'customer-relationship-management'
 title: 'Customer Relationship Management'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA59'
 type: 'AGA Standard'
@@ -91,8 +91,8 @@ Entities should:
 A series of extended CRM considerations includes:
 
 * **Automation of engagements:** Can the solution automate customer engagements, either directly or through integration with other systems?
-* **Case management:** Does the solution include case management functionality or integrate with case management systems? [Case Management \| aga (digital.gov.au)](https://architecture.digital.gov.au/case-management)
-* **Collaboration:** Does the solution enable employee collaboration within a workflow to seamlessly deliver services to customers? [Collaboration and Sharing \| aga (digital.gov.au)](https://architecture.digital.gov.au/collaboration-and-sharing)
+* **Case management:** Does the solution include case management functionality or integrate with case management systems? [Case Management | aga (digital.gov.au)](https://architecture.digital.gov.au/case-management)
+* **Collaboration:** Does the solution enable employee collaboration within a workflow to seamlessly deliver services to customers? [Collaboration and Sharing | aga (digital.gov.au)](https://architecture.digital.gov.au/collaboration-and-sharing)
 * **Modularity:** Can the solution operate as an independent component while also integrating seamlessly into the broader business process?
 * **Digital engagement:** Does the solution support a range of digital engagement channels?
 * **Low-code development:** Does the solution support simplified development, allowing effort to be placed on building business processes, and/or one step deployment?

@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'information-asset-management'
 title: 'Information asset management'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA41'
 type: 'AGA Standard'

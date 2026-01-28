@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'information-asset-security'
 title: 'Information Asset Security'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA52'
 type: 'AGA Standard'

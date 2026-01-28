@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'trusted-digital-identity-framework'
 title: 'Trusted Digital Identity Framework (TDIF)'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA7'
 type: 'AGA Standard'

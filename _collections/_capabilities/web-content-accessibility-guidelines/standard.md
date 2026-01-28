@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'web-content-accessibility-guidelines'
 title: 'Web Content Accessibility Guidelines (WCAG)'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA10'
 type: 'AGA Standard'

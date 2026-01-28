@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'hosting-certification-framework'
 title: 'Hosting certification framework'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA26'
 type: 'AGA Standard'

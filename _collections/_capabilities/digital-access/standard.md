@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'digital-access'
 title: 'Digital access'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA48'
 type: 'AGA Standard'

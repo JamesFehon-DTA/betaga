@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'whole-of-government-brand-architecture'
 title: 'Whole-of-government brand architecture'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA18'
 type: 'AGA Standard'

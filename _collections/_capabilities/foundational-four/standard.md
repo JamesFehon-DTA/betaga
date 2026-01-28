@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'foundational-four'
 title: 'Foundational Four'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA12'
 type: 'AGA Standard'

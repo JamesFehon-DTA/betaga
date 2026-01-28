@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'application-programming-interfaces'
 title: 'Application programming interfaces (APIs)'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA37'
 type: 'AGA Standard'

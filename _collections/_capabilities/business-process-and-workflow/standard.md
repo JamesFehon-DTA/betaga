@@ -5,7 +5,7 @@ description_from_parent: true
 parent_path: 'business-process-and-workflow'
 title: 'Business process and workflow'
 url: '/'
-toc: ''
+toc: 'toc-util'
 content_top: true
 aga_code: 'STA34'
 type: 'AGA Standard'

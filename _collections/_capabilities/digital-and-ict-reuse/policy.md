@@ -5,21 +5,7 @@ description_from_parent: true
 parent_path: 'digital-and-ict-reuse'
 title: 'Digital and ICT Reuse'
 url: '/'
-toc: '
-        <div
-          class="ct-table-of-contents ct-theme-light ct-table-of-contents--position-before ct-vertical-spacing--top"
-        style="max-width:100%">
-          <h2 class="ct-table-of-contents__title">In this policy</h2>
-          <ul class="ct-table-of-contents__links">
-            <li class="ct-table-of-contents__link-item">
-              <a class="ct-table-of-contents__link" href="#applicability">Applicability</a>
-            </li>
-            <li class="ct-table-of-contents__link-item">
-              <a class="ct-table-of-contents__link" href="#requirements">Requirements</a>
-            </li>
-            </ul>
-        </div>
-'
+toc: 'toc-util'
 content_top: true
 aga_code: 'POL18'
 type: 'AGA Policy'
