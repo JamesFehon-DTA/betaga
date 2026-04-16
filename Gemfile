@@ -34,5 +34,7 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # gem "jekyll-lunr-js-custom-search", :git => "https://github.com/dnoneill/jekyll-lunr-js-custom-search"
 
-gem 'execjs'
-gem 'nokogiri', '>= 1.19.2'
+gem "execjs"
+gem "nokogiri", ">= 1.19.2"
+
+gem "addressable", ">= 2.8.8"
