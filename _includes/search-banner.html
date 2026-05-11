@@ -72,22 +72,57 @@
 
 <link rel="stylesheet" href="{{ '/assets/accessible-autocomplete.min.css' | relative_url }}">
 <style>
-  .autocomplete-wrapper .autocomplete__input {
-    height: 3rem;
-    padding: 1rem;
-    border-radius: var(--ct-textfield-border-radius) 0 0 var(--ct-textfield-border-radius);
+  .autocomplete__hint,
+  .autocomplete__input {
+    -webkit-appearance: none;
+    appearance: none;
+    border: 2px solid #0b0c0c;
+    border-radius: 0;
+    box-sizing: border-box;
+    height: 2.5rem;
+    line-height: 1.25;
+    margin-bottom: 0;
+    width: 100%;
   }
-  .autocomplete-wrapper .autocomplete__option {
+
+  .autocomplete__input {
+    height: 3rem !important;
+    padding: 1rem !important;
+    border-radius: var(--ct-textfield-border-radius) 0 0 var(--ct-textfield-border-radius) !important;
+  }
+
+  .autocomplete__hint,
+  .autocomplete__option {
+    padding: 1rem !important;
+    appearance: none;
+    margin: 0;
+    font-size: var(--ct-typography-label-small-font-size);
+    line-height: var(--ct-typography-label-small-line-height);
+    font-family: var(--ct-typography-label-small-font-name);
+    font-weight: var(--ct-typography-label-small-font-weight);
+    letter-spacing: var(--ct-typography-label-small-letter-spacing);
+  }
+
+  .autocomplete__option--focused,
+  .autocomplete__option:hover {
+    background-color: var(--ct-button-light-primary-background-color);
+    border-color: var(--ct-button-light-primary-border-color);
+    color: var(--ct-button-light-primary-color);
+  }
+
+  .autocomplete__option {
     display: flex;
     align-items: baseline;
     gap: 0.5rem;
   }
+
   .autocomplete__type {
     font-size: 0.85em;
     opacity: 0.7;
     font-weight: normal;
     margin-left: auto;
   }
+
   .autocomplete__option--focused .autocomplete__type,
   .autocomplete__option:hover .autocomplete__type {
     opacity: 0.9;
@@ -97,50 +132,52 @@
 <script>
 (function () {
   'use strict';
-  document.addEventListener('DOMContentLoaded', function () {
-    var wrapper = document.querySelector('.search-banner .autocomplete-wrapper');
-    if (!wrapper || typeof accessibleAutocomplete === 'undefined') return;
 
-    fetch('{{ "/assets/search/content_titles.json" | relative_url }}')
-      .then(function (r) { if (!r.ok) throw new Error('titles fetch failed'); return r.json(); })
-      .then(function (items) {
-        accessibleAutocomplete({
-          element: wrapper,
-          id: 'search-form',
-          name: 'query',
-          minLength: 2,
-          confirmOnBlur: false,
-          autoselect: true,
-          displayMenu: 'overlay',
-          showNoOptionsFound: true,
-          inputClasses: 'ct-textfield ct-theme-light ct-field__control autocomplete__input',
-          source: function (query, populate) {
-            var q = query.toLowerCase();
-            populate(items.filter(function (it) {
-              return it.title.toLowerCase().indexOf(q) !== -1;
-            }).slice(0, 8));
-          },
-          templates: {
-            inputValue: function (item) { return item ? item.title : ''; },
-            suggestion: function (item) {
-              if (!item) return '';
-              var t = document.createElement('span'); t.textContent = item.title;
-              var b = document.createElement('span'); b.className = 'autocomplete__type'; b.textContent = item.type || '';
-              return t.outerHTML + b.outerHTML;
-            }
-          },
-          tNoResults: function () { return 'No matching topic suggestions. Try fewer or different words.'; },
-          tStatusNoResults: function () { return 'No matching results found.'; },
-          tStatusResults: function (results, query) {
-            return results.length + ' results available for "' + query + '". Use arrow keys to navigate.';
-          },
-          menuAttributes: { 'aria-labelledby': 'autocomplete-suggestions-heading' }
-        });
+  var wrapper = document.querySelector('.search-banner .autocomplete-wrapper');
+  if (!wrapper || typeof accessibleAutocomplete === 'undefined') return;
 
-        var input = wrapper.querySelector('#search-form');
-        if (input) input.setAttribute('type', 'search');
-      })
-      .catch(function (err) { console.error('search-banner autocomplete:', err); });
+  var items = [];
+
+  accessibleAutocomplete({
+    element: wrapper,
+    id: 'search-form',
+    name: 'query',
+    placeholder: 'Search for a topic, technology or requirement',
+    minLength: 2,
+    confirmOnBlur: false,
+    autoselect: true,
+    displayMenu: 'inline',
+    showNoOptionsFound: true,
+    inputClasses: 'ct-textfield ct-theme-light ct-field__control autocomplete__input',
+    source: function (query, populate) {
+      var q = query.toLowerCase();
+      populate(items.filter(function (it) {
+        return it.title.toLowerCase().indexOf(q) !== -1;
+      }).slice(0, 8));
+    },
+    templates: {
+      inputValue: function (item) { return item ? item.title : ''; },
+      suggestion: function (item) {
+        if (!item) return '';
+        var t = document.createElement('span'); t.textContent = item.title;
+        var b = document.createElement('span'); b.className = 'autocomplete__type'; b.textContent = item.type || '';
+        return t.outerHTML + b.outerHTML;
+      }
+    },
+    tNoResults: function () { return 'No matching topic suggestions. Try fewer or different words.'; },
+    tStatusNoResults: function () { return 'No matching results found.'; },
+    tStatusResults: function (results, query) {
+      return results.length + ' results available for "' + query + '". Use arrow keys to navigate.';
+    },
+    menuAttributes: { 'aria-labelledby': 'autocomplete-suggestions-heading' }
   });
+
+  var input = wrapper.querySelector('#search-form');
+  if (input) input.setAttribute('type', 'search');
+
+  fetch('{{ "/assets/search/content_titles.json" | relative_url }}')
+    .then(function (r) { if (!r.ok) throw new Error('titles fetch failed'); return r.json(); })
+    .then(function (data) { items = data; })
+    .catch(function (err) { console.error('search-banner autocomplete:', err); });
 })();
 </script>
