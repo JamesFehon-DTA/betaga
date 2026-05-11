@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <!-- <meta name="description" content="{{ metaDescription }}" /> -->
     
-    <link rel="shortlink" href="/" />
-    <link rel="canonical" href="/" />
+    <link rel="shortlink" href="{{ '/' | relative_url }}" />
+    <link rel="canonical" href="{{ page.url | absolute_url }}" />
     <meta name="MobileOptimized" content="width" />
     <meta name="HandheldFriendly" content="true" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -242,7 +242,7 @@
                                 <li class="ct-menu__item ct-menu__item--level-0">
                                   <a
                                     class="ct-link ct-theme-dga-global ct-menu__item__link"
-                                    href="/"
+                                    href="{{ '/' | relative_url }}"
                                     title="Privacy"
                                   >
                                     <span class="ct-text-icon__text">Privacy</span>
