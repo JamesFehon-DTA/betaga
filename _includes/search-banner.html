@@ -42,16 +42,10 @@
             Search
           </label>
 
-          <div class="ct-field__wrapper autocomplete-wrapper">
-            <input
-              type="search"
-              autocomplete="off"
-              class="ct-textfield ct-theme-light ct-field__control autocomplete__input"
-              name="query"
-              id="search-form"
-              placeholder="Search for a topic, technology or requirement">
-              <ul class="autocomplete__menu autocomplete__menu--hidden" role="listbox"></ul>
-          </div>
+          <h2 class="ct-visually-hidden" id="autocomplete-suggestions-heading">
+            Suggested results
+          </h2>
+          <div class="ct-field__wrapper autocomplete-wrapper"></div>
         </div>
 
         <div class="ct-inline-filter__actions">
@@ -76,3 +70,77 @@
   </div>
 </div>
 
+<link rel="stylesheet" href="{{ '/assets/accessible-autocomplete.min.css' | relative_url }}">
+<style>
+  .autocomplete-wrapper .autocomplete__input {
+    height: 3rem;
+    padding: 1rem;
+    border-radius: var(--ct-textfield-border-radius) 0 0 var(--ct-textfield-border-radius);
+  }
+  .autocomplete-wrapper .autocomplete__option {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+  .autocomplete__type {
+    font-size: 0.85em;
+    opacity: 0.7;
+    font-weight: normal;
+    margin-left: auto;
+  }
+  .autocomplete__option--focused .autocomplete__type,
+  .autocomplete__option:hover .autocomplete__type {
+    opacity: 0.9;
+  }
+</style>
+<script src="{{ '/assets/accessible-autocomplete.min.js' | relative_url }}"></script>
+<script>
+(function () {
+  'use strict';
+  document.addEventListener('DOMContentLoaded', function () {
+    var wrapper = document.querySelector('.search-banner .autocomplete-wrapper');
+    if (!wrapper || typeof accessibleAutocomplete === 'undefined') return;
+
+    fetch('{{ "/assets/search/content_titles.json" | relative_url }}')
+      .then(function (r) { if (!r.ok) throw new Error('titles fetch failed'); return r.json(); })
+      .then(function (items) {
+        accessibleAutocomplete({
+          element: wrapper,
+          id: 'search-form',
+          name: 'query',
+          minLength: 2,
+          confirmOnBlur: false,
+          autoselect: true,
+          displayMenu: 'overlay',
+          showNoOptionsFound: true,
+          inputClasses: 'ct-textfield ct-theme-light ct-field__control autocomplete__input',
+          source: function (query, populate) {
+            var q = query.toLowerCase();
+            populate(items.filter(function (it) {
+              return it.title.toLowerCase().indexOf(q) !== -1;
+            }).slice(0, 8));
+          },
+          templates: {
+            inputValue: function (item) { return item ? item.title : ''; },
+            suggestion: function (item) {
+              if (!item) return '';
+              var t = document.createElement('span'); t.textContent = item.title;
+              var b = document.createElement('span'); b.className = 'autocomplete__type'; b.textContent = item.type || '';
+              return t.outerHTML + b.outerHTML;
+            }
+          },
+          tNoResults: function () { return 'No matching topic suggestions. Try fewer or different words.'; },
+          tStatusNoResults: function () { return 'No matching results found.'; },
+          tStatusResults: function (results, query) {
+            return results.length + ' results available for "' + query + '". Use arrow keys to navigate.';
+          },
+          menuAttributes: { 'aria-labelledby': 'autocomplete-suggestions-heading' }
+        });
+
+        var input = wrapper.querySelector('#search-form');
+        if (input) input.setAttribute('type', 'search');
+      })
+      .catch(function (err) { console.error('search-banner autocomplete:', err); });
+  });
+})();
+</script>
