@@ -19,9 +19,9 @@ type: Capability
 You may need to meet specific requirements within these whole-of-government resources. Check each one for how it might apply to your proposal, project or agency.
 
 
-* [Essential Eight](/resource/essential-eight)
+* [Essential Eight]({{ '/resource/essential-eight' | relative_url }})
 
-* [Gatekeeper Public Key Infrastructure Framework](/resource/gatekeeper-public-key-infrastructure-framework)
+* [Gatekeeper Public Key Infrastructure Framework]({{ '/resource/gatekeeper-public-key-infrastructure-framework' | relative_url }})
 
 
 

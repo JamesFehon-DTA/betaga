@@ -19,13 +19,13 @@ type: Capability
 You may need to meet specific requirements within these whole-of-government resources. Check each one for how it might apply to your proposal, project or agency.
 
 
-* [Blockchain case study: Australian Taxation Office luxury car tax compliance](/resource/blockchain-case-study-australian-taxation-office-luxury-car-tax-compliance)
+* [Blockchain case study: Australian Taxation Office luxury car tax compliance]({{ '/resource/blockchain-case-study-australian-taxation-office-luxury-car-tax-compliance' | relative_url }})
 
-* [Blockchain case study: Commonwealth Bank and the NDIS](/resource/blockchain-case-study-commonwealth-bank-and-the-ndis)
+* [Blockchain case study: Commonwealth Bank and the NDIS]({{ '/resource/blockchain-case-study-commonwealth-bank-and-the-ndis' | relative_url }})
 
-* [Blockchain overview: Australian Government guide](/resource/blockchain-overview-australian-government-guide)
+* [Blockchain overview: Australian Government guide]({{ '/resource/blockchain-overview-australian-government-guide' | relative_url }})
 
-* [Do you need blockchain?](/resource/do-you-need-blockchain)
+* [Do you need blockchain?]({{ '/resource/do-you-need-blockchain' | relative_url }})
 
 
 

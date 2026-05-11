@@ -19,7 +19,7 @@ type: Capability
 You may need to meet specific requirements within these whole-of-government resources. Check each one for how it might apply to your proposal, project or agency.
 
 
-* [Benefits management guides and tools](/resource/benefits-management-guides-and-tools)
+* [Benefits management guides and tools]({{ '/resource/benefits-management-guides-and-tools' | relative_url }})
 
 
 

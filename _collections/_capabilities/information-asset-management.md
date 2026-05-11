@@ -19,11 +19,11 @@ type: Capability
 You may need to meet specific requirements within these whole-of-government resources. Check each one for how it might apply to your proposal, project or agency.
 
 
-* [Big data, timely insights: phase 2](/resource/big-data-timely-insights-phase-2)
+* [Big data, timely insights: phase 2]({{ '/resource/big-data-timely-insights-phase-2' | relative_url }})
 
-* [National electric vehicle infrastructure mapping tool](/resource/national-electric-vehicle-infrastructure-mapping-tool)
+* [National electric vehicle infrastructure mapping tool]({{ '/resource/national-electric-vehicle-infrastructure-mapping-tool' | relative_url }})
 
-* [NationalMap](/resource/nationalmap)
+* [NationalMap]({{ '/resource/nationalmap' | relative_url }})
 
 
 

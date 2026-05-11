@@ -19,13 +19,13 @@ type: Capability
 You may need to meet specific requirements within these whole-of-government resources. Check each one for how it might apply to your proposal, project or agency.
 
 
-* [Government enterprise resource planning (GovERP)](/resource/government-enterprise-resource-planning)
+* [Government enterprise resource planning (GovERP)]({{ '/resource/government-enterprise-resource-planning' | relative_url }})
 
-* [GovERP finance solution](/resource/goverp-finance-solution)
+* [GovERP finance solution]({{ '/resource/goverp-finance-solution' | relative_url }})
 
-* [GovERP hire-to-retire (H2R) solution](/resource/goverp-hire-to-retire-solution)
+* [GovERP hire-to-retire (H2R) solution]({{ '/resource/goverp-hire-to-retire-solution' | relative_url }})
 
-* [GovERP procure-to-pay (P2P) solution](/resource/goverp-procure-to-pay-solution)
+* [GovERP procure-to-pay (P2P) solution]({{ '/resource/goverp-procure-to-pay-solution' | relative_url }})
 
 
 

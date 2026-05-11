@@ -19,9 +19,9 @@ type: Capability
 You may need to meet specific requirements within these whole-of-government resources. Check each one for how it might apply to your proposal, project or agency.
 
 
-* [APS Experience Design Principles Handbook](/resource/aps-experience-design-principles-handbook)
+* [APS Experience Design Principles Handbook]({{ '/resource/aps-experience-design-principles-handbook' | relative_url }})
 
-* [Digital service standard v2.0 guides and tools](/resource/digital-service-standard-v20-guides-and-tools)
+* [Digital service standard v2.0 guides and tools]({{ '/resource/digital-service-standard-v20-guides-and-tools' | relative_url }})
 
 
 

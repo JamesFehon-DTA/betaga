@@ -19,17 +19,17 @@ type: Capability
 You may need to meet specific requirements within these whole-of-government resources. Check each one for how it might apply to your proposal, project or agency.
 
 
-* [Digital Service Standard v1.0 guides and tools](/resource/digital-service-standard-v10-guides-and-tools)
+* [Digital Service Standard v1.0 guides and tools]({{ '/resource/digital-service-standard-v10-guides-and-tools' | relative_url }})
 
-* [Digital service standard v2.0 guides and tools](/resource/digital-service-standard-v20-guides-and-tools)
+* [Digital service standard v2.0 guides and tools]({{ '/resource/digital-service-standard-v20-guides-and-tools' | relative_url }})
 
-* [DTA Pilot - Tell Us Once](/resource/dta-pilot-tell-us-once)
+* [DTA Pilot - Tell Us Once]({{ '/resource/dta-pilot-tell-us-once' | relative_url }})
 
-* [Express Plus Medicare mobile app](/resource/express-plus-medicare-mobile-app)
+* [Express Plus Medicare mobile app]({{ '/resource/express-plus-medicare-mobile-app' | relative_url }})
 
-* [National disability insurance scheme participant portals](/resource/national-disability-insurance-scheme-participant-portals)
+* [National disability insurance scheme participant portals]({{ '/resource/national-disability-insurance-scheme-participant-portals' | relative_url }})
 
-* [National redress scheme logins](/resource/national-redress-scheme-logins)
+* [National redress scheme logins]({{ '/resource/national-redress-scheme-logins' | relative_url }})
 
 
 

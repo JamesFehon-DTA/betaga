@@ -19,11 +19,11 @@ type: Capability
 You may need to meet specific requirements within these whole-of-government resources. Check each one for how it might apply to your proposal, project or agency.
 
 
-* [Adoption of Artificial Intelligence in the Public Sector](/resource/adoption-of-artificial-intelligence-in-the-public-sector)
+* [Adoption of Artificial Intelligence in the Public Sector]({{ '/resource/adoption-of-artificial-intelligence-in-the-public-sector' | relative_url }})
 
-* [Evaluation of the whole-of-government trial of Microsoft 365 Copilot ](/resource/evaluation-of-the-whole-of-government-trial-of-microsoft-365-copilot)
+* [Evaluation of the whole-of-government trial of Microsoft 365 Copilot ]({{ '/resource/evaluation-of-the-whole-of-government-trial-of-microsoft-365-copilot' | relative_url }})
 
-* [NSW artificial intelligence assessment framework](/resource/nsw-artificial-intelligence-assessment-framework)
+* [NSW artificial intelligence assessment framework]({{ '/resource/nsw-artificial-intelligence-assessment-framework' | relative_url }})
 
 
 

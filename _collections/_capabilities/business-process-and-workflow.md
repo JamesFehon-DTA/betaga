@@ -19,9 +19,9 @@ type: Capability
 You may need to meet specific requirements within these whole-of-government resources. Check each one for how it might apply to your proposal, project or agency.
 
 
-* [Australian Electoral Commission - Critical ICT Replacement (Indigo)](/resource/australian-electoral-commission-critical-ict-replacement)
+* [Australian Electoral Commission - Critical ICT Replacement (Indigo)]({{ '/resource/australian-electoral-commission-critical-ict-replacement' | relative_url }})
 
-* [Automated decision-making: better practice guide](/resource/automated-decision-making-better-practice-guide)
+* [Automated decision-making: better practice guide]({{ '/resource/automated-decision-making-better-practice-guide' | relative_url }})
 
 
 

@@ -19,15 +19,15 @@ type: Capability
 You may need to meet specific requirements within these whole-of-government resources. Check each one for how it might apply to your proposal, project or agency.
 
 
-* [Australian privacy principles guidelines](/resource/australian-privacy-principles-guidelines)
+* [Australian privacy principles guidelines]({{ '/resource/australian-privacy-principles-guidelines' | relative_url }})
 
-* [Gatekeeper Public Key Infrastructure Framework](/resource/gatekeeper-public-key-infrastructure-framework)
+* [Gatekeeper Public Key Infrastructure Framework]({{ '/resource/gatekeeper-public-key-infrastructure-framework' | relative_url }})
 
-* [Guide to developing an APP privacy policy](/resource/guide-to-developing-an-app-privacy-policy)
+* [Guide to developing an APP privacy policy]({{ '/resource/guide-to-developing-an-app-privacy-policy' | relative_url }})
 
-* [OAIC guide to undertaking privacy impact assessments and privacy impact assessment tool ](/resource/oaic-guide-to-undertaking-privacy-impact-assessments-and-privacy-impact-assessment-tool)
+* [OAIC guide to undertaking privacy impact assessments and privacy impact assessment tool ]({{ '/resource/oaic-guide-to-undertaking-privacy-impact-assessments-and-privacy-impact-assessment-tool' | relative_url }})
 
-* [Privacy officer toolkit](/resource/privacy-officer-toolkit)
+* [Privacy officer toolkit]({{ '/resource/privacy-officer-toolkit' | relative_url }})
 
 
 

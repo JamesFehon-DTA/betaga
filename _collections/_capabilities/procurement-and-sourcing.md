@@ -19,9 +19,9 @@ type: Capability
 You may need to meet specific requirements within these whole-of-government resources. Check each one for how it might apply to your proposal, project or agency.
 
 
-* [Guidance for the standards for digital sourcing](/resource/guidance-for-the-standards-for-digital-sourcing)
+* [Guidance for the standards for digital sourcing]({{ '/resource/guidance-for-the-standards-for-digital-sourcing' | relative_url }})
 
-* [Sustainable device management guide](/resource/sustainable-device-management-guide)
+* [Sustainable device management guide]({{ '/resource/sustainable-device-management-guide' | relative_url }})
 
 
 

@@ -19,7 +19,7 @@ type: Capability
 You may need to meet specific requirements within these whole-of-government resources. Check each one for how it might apply to your proposal, project or agency.
 
 
-* [Digital twins](/resource/digital-twins)
+* [Digital twins]({{ '/resource/digital-twins' | relative_url }})
 
 
 

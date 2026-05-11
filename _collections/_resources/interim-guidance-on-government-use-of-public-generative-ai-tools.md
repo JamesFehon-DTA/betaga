@@ -19,7 +19,7 @@ This guidance will be iterative, with updates currently being considered. It is 
 
 Feedback from public consultation on the responsible use of AI in Australia will be used to inform consideration across government on appropriate regulatory and policy responses that may include future iterations of this guidance.
 
-[Click here to see the current guidance](/guidance-generative-ai). For previous versions of this guidance, see the change log table below.
+[Click here to see the current guidance]({{ '/guidance-generative-ai' | relative_url }}). For previous versions of this guidance, see the change log table below.
 
 ## Introduction for agencies
 
@@ -49,8 +49,8 @@ We also invite agencies to provide feedback on the value, applicability or relev
 
 | Version | Date | Status | Notes |
 | --- | --- | --- | --- |
-| [2.0](/guidance-generative-ai) | 22/11/2023 | Current | This update:   * updates the *introduction for agencies* section with additional discussion on commercial and in-house generative AI tools and clarifies the reporting recommendation as relating to an internal agency feedback/reporting mechanism * restructures the guidance to align more closely with Australia's AI Ethics Principles including the addition of new sections on human, societal and environmental wellbeing & fairness and human-centred values * removes Figure 1 (initial high-risk assessment) due to feedback about clarity and consistency * includes additional guidance under the accountability principle, including on the responsible use of AI-generated coding outputs (previously identified as high risk) * adds a new point to the *tactical guidance* on ongoing monitoring of tools or processes incorporating generative AI * adds a new use case example on using generative AI tools for basic data analysis on publicly-available data. |
-| [1.0](/guidance-generative-ai-202307) | 21/07/2023 | Superseded |  |
+| [2.0]({{ '/guidance-generative-ai' | relative_url }}) | 22/11/2023 | Current | This update:   * updates the *introduction for agencies* section with additional discussion on commercial and in-house generative AI tools and clarifies the reporting recommendation as relating to an internal agency feedback/reporting mechanism * restructures the guidance to align more closely with Australia's AI Ethics Principles including the addition of new sections on human, societal and environmental wellbeing & fairness and human-centred values * removes Figure 1 (initial high-risk assessment) due to feedback about clarity and consistency * includes additional guidance under the accountability principle, including on the responsible use of AI-generated coding outputs (previously identified as high risk) * adds a new point to the *tactical guidance* on ongoing monitoring of tools or processes incorporating generative AI * adds a new use case example on using generative AI tools for basic data analysis on publicly-available data. |
+| [1.0]({{ '/guidance-generative-ai-202307' | relative_url }}) | 21/07/2023 | Superseded |  |
 
 
 

@@ -19,7 +19,7 @@ type: Capability
 You may need to meet specific requirements within these whole-of-government resources. Check each one for how it might apply to your proposal, project or agency.
 
 
-* [Sustainable device management guide](/resource/sustainable-device-management-guide)
+* [Sustainable device management guide]({{ '/resource/sustainable-device-management-guide' | relative_url }})
 
 
 

@@ -19,9 +19,9 @@ type: Capability
 You may need to meet specific requirements within these whole-of-government resources. Check each one for how it might apply to your proposal, project or agency.
 
 
-* [Managing the risks of legacy ICT: executive guidance](/resource/managing-the-risks-of-legacy-ict-executive-guidance)
+* [Managing the risks of legacy ICT: executive guidance]({{ '/resource/managing-the-risks-of-legacy-ict-executive-guidance' | relative_url }})
 
-* [Managing the risks of legacy ICT: practitioner guidance](/resource/managing-the-risks-of-legacy-ict-practitioner-guidance)
+* [Managing the risks of legacy ICT: practitioner guidance]({{ '/resource/managing-the-risks-of-legacy-ict-practitioner-guidance' | relative_url }})
 
 
 
