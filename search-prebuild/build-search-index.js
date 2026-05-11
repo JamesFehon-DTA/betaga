@@ -27,8 +27,14 @@ const OUTPUT_FILENAME = {
 };
 
 const OUTPUT_PATHS = {
-  index: [`_site/${OUTPUT_FILENAME.index}`, OUTPUT_FILENAME.index],
-  docs:  [`_site/${OUTPUT_FILENAME.docs}`,  OUTPUT_FILENAME.docs]
+  index: [
+    `_site/assets/search/${OUTPUT_FILENAME.index}`,
+    `assets/search/${OUTPUT_FILENAME.index}`
+  ],
+  docs: [
+    `_site/assets/search/${OUTPUT_FILENAME.docs}`,
+    `assets/search/${OUTPUT_FILENAME.docs}`
+  ]
 };
 
 const DOC_BOOSTS = [
@@ -80,7 +86,7 @@ function stripHtml(html) {
  * ------------------------------------------------------------------
  */
 
-const raw = JSON.parse(fs.readFileSync('_site/search_data.json', 'utf8'));
+const raw = JSON.parse(fs.readFileSync('_site/assets/search/search_data.json', 'utf8'));
 
 /**
  * MAP DOCUMENTS
