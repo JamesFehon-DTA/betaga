@@ -7,11 +7,18 @@ site-search: false
 {% comment %} AI capabilities may need " (AI)" added?
 # Scope should be instruments and AGA guidance? ( removed | concat: site.resources)
 # Needs a new 'topic' level :D
-{%- endcomment -%}{%- capture suggested_items_list -%}{%- assign item_titles = site.capabilities | concat: site.pages -%}
-{%- assign suggested_items = item_titles | group_by: 'title' | sort: "name"  -%}
-{% for item in suggested_items %}{% unless item.robots contains 'noindex' or item.type contains 'AGA Policy' or item.site-search == false or item.name == "" %}  {{ item.name | jsonify }}{% unless forloop.last %},
-
-{%	 endunless %}{% endunless %}{% endfor %}{% endcapture %}
+# Type is normalised the same way as search_data.json:
+#   default "Page", "Design" -> "Resource".
+{%- endcomment -%}
+{%- assign suggested_items = site.capabilities | concat: site.pages | sort: "title" -%}
 [
-{{suggested_items_list}}
+{%- assign emitted_any = false -%}
+{%- for item in suggested_items -%}
+  {%- unless item.robots contains 'noindex' or item.type contains 'AGA Policy' or item.site-search == false or item.title == nil or item.title == "" -%}
+    {%- if emitted_any -%},{%- endif -%}
+    {%- assign emitted_any = true -%}
+    {%- assign item_type = item.type | default: "Page" | replace: "Design", "Resource" -%}
+    {"title": {{ item.title | jsonify }}, "type": {{ item_type | jsonify }}}
+  {%- endunless -%}
+{%- endfor %}
 ]
